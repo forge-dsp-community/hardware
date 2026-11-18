@@ -27,9 +27,25 @@ from placement import PLACE, KEEPOUT_B      # ref -> (x, y, rot, side) in board 
 b = pcbnew.CreateEmptyBoard()
 b.SetCopperLayerCount(4)
 pts = [(x * MIL, y * MIL) for x, y in OUTLINE]
-for (x1, y1), (x2, y2) in zip(pts, pts[1:] + pts[:1]):
+def seg(a, c):
     s = pcbnew.PCB_SHAPE(b); s.SetShape(pcbnew.SHAPE_T_SEGMENT); s.SetLayer(pcbnew.Edge_Cuts)
-    s.SetWidth(mm(0.05)); s.SetStart(V(x1, y1)); s.SetEnd(V(x2, y2)); b.Add(s)
+    s.SetWidth(mm(0.05)); s.SetStart(V(*a)); s.SetEnd(V(*c)); b.Add(s)
+def arc(a, m, c):
+    s = pcbnew.PCB_SHAPE(b); s.SetShape(pcbnew.SHAPE_T_ARC); s.SetLayer(pcbnew.Edge_Cuts)
+    s.SetWidth(mm(0.05)); s.SetArcGeometry(V(*a), V(*m), V(*c)); b.Add(s)
+# PORT: cut-out open to the bottom edge above X-PDI of the base board, so a 2x3 Dupont plug
+# fits on the header with this board mounted (housing ~7.6 x 5.1 mm around 22.42/35.31)
+NX0, NX1, NY, R = 18.1, 26.7, 32.5, 0.5
+k = math.sqrt(0.5) * R
+for (x1, y1), (x2, y2) in zip(pts, pts[1:] + pts[:1]):
+    if y1 == y2 == 1500 * MIL and x1 > NX1 and x2 < NX0:          # bottom edge, right to left
+        seg((x1, y1), (NX1, y1)); seg((NX1, y1), (NX1, NY + R))
+        arc((NX1, NY + R), (NX1 - R + k, NY + R - k), (NX1 - R, NY))
+        seg((NX1 - R, NY), (NX0 + R, NY))
+        arc((NX0 + R, NY), (NX0 + R - k, NY + R - k), (NX0, NY + R))
+        seg((NX0, NY + R), (NX0, y1)); seg((NX0, y1), (x2, y2))
+    else:
+        seg((x1, y1), (x2, y2))
 
 # rule area above X-PDI of the base board: no footprints on the bottom side
 ka = pcbnew.ZONE(b); ka.SetIsRuleArea(True); ka.SetLayer(pcbnew.B_Cu)
