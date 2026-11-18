@@ -81,10 +81,10 @@ BOARD = [(-1, -1), (65, -1), (65, 40), (-1, 40)]
 ZONES = [
     ('GND', 'In1_Cu', 0, BOARD),
     ('+3V3', 'In2_Cu', 0, BOARD),
-    # XMOS.3V3: around the XMOS (vias of the 3.3 V pins sit outside the pad rows) and along the top
-    # edge to the LDO IC109/C23 (x 30-36)
-    ('XMOS.3V3', 'In2_Cu', 1, [(-1, -1), (37.4, -1), (37.4, 6.2), (22.9, 6.2), (22.9, 27.0), (-1, 27.0)]),
-    # XMOS.1V0: under the chip (vias of the 1.0 V pins sit inside the pad rows) and a band to the
-    # output of the buck converter (L1/C27 at x 35-38, y 15-18)
-    ('XMOS.1V0', 'In2_Cu', 2, [(9.4, 9.4), (18.3, 9.4), (18.3, 16.6), (39.0, 16.6), (39.0, 18.6), (18.3, 18.6), (18.3, 21.2), (9.4, 21.2)]),
+    # XMOS.3V3: around the XMOS (vias of the 3.3 V pins sit outside the pad rows), the clock section bottom
+    # left (IC112/IC113) and along the top edge to the LDO IC109/C23 (x 30-36)
+    ('XMOS.3V3', 'In2_Cu', 1, [(-1, -1), (37.4, -1), (37.4, 6.2), (22.9, 6.2), (22.9, 27.0), (18.0, 27.0), (18.0, 40), (-1, 40)]),
+    # XMOS.1V0: under the chip up to between the pad rows (1.0 V vias inside, 3.3 V vias outside) and a
+    # band at the height of pins 17-20 under IC103 to the buck converter (C26/RN104, L1/C27/R11)
+    ('XMOS.1V0', 'In2_Cu', 2, [(7.9, 9.3), (39.6, 9.3), (39.6, 21.2), (34.6, 21.2), (34.6, 13.4), (19.8, 13.4), (19.8, 21.3), (7.9, 21.3)]),
 ]

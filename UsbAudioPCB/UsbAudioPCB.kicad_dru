@@ -1,0 +1,11 @@
+(version 1)
+# microSD-Halter und Micro-USB sitzen mit ihren Schirmpads an der Platinenkante (Footprint des Herstellers)
+(rule "Steckverbinder an der Kante"
+	(condition "A.memberOfFootprint('X103') || A.memberOfFootprint('X105') || A.intersectsCourtyard('X103')")
+	(constraint edge_clearance (min 0mm))
+	(severity ignore))
+# Alps SKRTLAE010: Fixierstifte nah an den eigenen Pads (Footprint aus der KiCad-Bibliothek)
+(rule "Taster Fixierstifte"
+	(condition "A.memberOfFootprint('SW101') && B.memberOfFootprint('SW101')")
+	(constraint hole_clearance (min 0mm))
+	(severity ignore))
