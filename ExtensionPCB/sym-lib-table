@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "ExtensionPCB") (type "KiCad") (uri "${KIPRJMOD}/ExtensionPCB.kicad_sym") (options "") (descr "Projektsymbole"))
+)
