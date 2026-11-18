@@ -11,9 +11,9 @@ def at(ref, x, y, rot=0, side='B'): PLACE[ref] = (round(x, 3), round(y, 3), rot,
 at('X101', *px(404, 292), 180, 'B')          # pin 1 (square pad) of X-COM
 at('X104', *px(55, 424), 90, 'B')          # pin 1 of X-USBI2S
 at('X102', *px(506, 184), 90, 'F')         # USB B, pin 1; mouth at the top edge
-at('X105', px(547.5, 0)[0], 2.67, 180, 'B')   # micro USB, "PCB edge" line of the footprint on the board edge
+at('X105', px(547.5, 0)[0], 2.67, 0, 'B')   # micro USB, "PCB edge" line of the footprint on the board edge
 at('X103', px(360.5, 0)[0], 8.225, 180, 'F')  # microSD, card slot at the top edge
-at('SW101', px(470.5, 0)[0], 3.7, 180, 'B')   # side switch in the notch, actuator to the edge
+at('SW101', px(470.5, 0)[0], 3.7, 0, 'B')   # side switch in the notch, actuator to the edge
 at('X107', *px(113, 432), 0, 'B')          # U.FL 24.576 MHz (left, as in the silkscreen)
 at('X106', *px(180, 432), 0, 'B')          # U.FL 22.5792 MHz
 
