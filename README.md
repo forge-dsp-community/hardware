@@ -18,6 +18,6 @@ Belegung von X-EXT_AUDIO, X105 und EXT-SPDIF sowie die Versorgung stehen in
 
 ## 3D-Modelle
 
-Herstellermodelle (STEP) liegen nicht im Repo. Für die 3D-Ansicht der FFC-Buchse `FH12-16S-0.5SV` das Modell von
-Hirose laden und als `ExtensionPCB/Straddle.pretty/FH12-16S-0.5SV.stp` ablegen. Die übrigen Modelle kommen aus der
-KiCad-Bibliothek.
+`ExtensionPCB/Straddle.pretty/FH12-16S-0.5SV.stp` ist das 3D-Modell der FFC-Buchse FH12-16S-0.5SV von
+**Hirose Electric Co., Ltd.** (© Hirose, von [hirose.com](https://www.hirose.com/)). Es gelten die Nutzungsbedingungen
+von Hirose, nicht die Lizenz dieses Repos. Die übrigen Modelle kommen aus der KiCad-Bibliothek.
