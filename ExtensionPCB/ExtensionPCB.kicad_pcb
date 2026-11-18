@@ -34,6 +34,46 @@
 		(45 "User.4" user)
 	)
 	(setup
+		(stackup
+			(layer "F.SilkS"
+				(type "Top Silk Screen")
+			)
+			(layer "F.Paste"
+				(type "Top Solder Paste")
+			)
+			(layer "F.Mask"
+				(type "Top Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "F.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 1"
+				(type "core")
+				(thickness 1.51)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "B.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "B.Mask"
+				(type "Bottom Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "B.Paste"
+				(type "Bottom Solder Paste")
+			)
+			(layer "B.SilkS"
+				(type "Bottom Silk Screen")
+			)
+			(copper_finish "ENIG")
+			(dielectric_constraints no)
+			(edge_plating yes)
+		)
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting
@@ -2077,6 +2117,177 @@
 			)
 			(rotate
 				(xyz -90 -0 -90)
+			)
+		)
+	)
+	(gr_line
+		(start 107.5 78)
+		(end 108.75 78)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "67e0c255-375a-413a-b8ae-df2e3257dfd5")
+	)
+	(gr_line
+		(start 108.75 78)
+		(end 108.75 77)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "63efca45-e688-4e65-b784-a256432166bd")
+	)
+	(gr_line
+		(start 108.75 77)
+		(end 110 77)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "34a03366-f23c-4490-8451-98b4bf247bea")
+	)
+	(gr_line
+		(start 110 77)
+		(end 110 76)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "2820386d-ed84-4bf6-99d3-85a4ad7400bb")
+	)
+	(gr_line
+		(start 110 76)
+		(end 111.25 76)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "30bee7b2-7c62-498a-9f9e-f78b449cb87a")
+	)
+	(gr_line
+		(start 111.25 76)
+		(end 111.25 75)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "23028d48-f641-43a5-95f9-6a711326349a")
+	)
+	(gr_line
+		(start 111.25 75)
+		(end 112.5 75)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "4312c4e7-8e36-4430-ae8c-549f5a4fc862")
+	)
+	(gr_line
+		(start 112.5 75)
+		(end 112.5 74)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "b1f064b8-679e-469f-a4ca-3e2ec3670254")
+	)
+	(gr_line
+		(start 125 74)
+		(end 125 75)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "7df72d1c-e71e-4ebd-868d-a8670c7ce098")
+	)
+	(gr_line
+		(start 125 75)
+		(end 126.25 75)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "ebc69a02-dc3e-4094-a35d-f903a941c779")
+	)
+	(gr_line
+		(start 126.25 75)
+		(end 126.25 76)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "6d7db7b3-b06c-421b-9ac8-4196ec0807cb")
+	)
+	(gr_line
+		(start 126.25 76)
+		(end 127.5 76)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "987e14e4-116f-4e32-a168-da5759635b09")
+	)
+	(gr_line
+		(start 127.5 76)
+		(end 127.5 77)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "8eceef84-62b8-4fcf-8ddb-ef9095779d31")
+	)
+	(gr_line
+		(start 127.5 77)
+		(end 128.75 77)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "0a5204f5-483f-4666-8a07-b24cb51af350")
+	)
+	(gr_line
+		(start 128.75 77)
+		(end 128.75 78)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "3e3816ba-26ed-4364-a2f6-c809e925b13e")
+	)
+	(gr_line
+		(start 128.75 78)
+		(end 130 78)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "97527d62-7e0c-4126-9e88-7e1c4d1911fe")
+	)
+	(gr_text "KANTENMETALLISIERUNG / EDGE PLATING:\nnur Treppenkanten oben links und rechts (GND)"
+		(at 118.75 71.5 0)
+		(layer "Cmts.User")
+		(uuid "94aeb9cb-5877-471a-bde5-50b4e87b6595")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
 			)
 		)
 	)
