@@ -263,7 +263,7 @@
 		(layer "F.Cu")
 		(uuid "1ae5b877-b2b3-4326-a85f-915a051d8b58")
 		(at 125 78)
-		(descr "Loetfahne an der Fase fuer den Schirm der RJ45-Buchsen (Master/Slave) der Grundplatine, GND. B.Cu ohne Loetstopp bis zur Kante, F.Cu-Streifen entlang der Fase. Halbloch (castellated, 1,0 mm) in der Mitte der Fase: beim Fertiger Castellated Holes bestellen.")
+		(descr "Loetfahne an der Fase fuer den Schirm der RJ45-Buchsen (Master/Slave) der Grundplatine, GND. B.Cu ohne Loetstopp bis zur Kante, F.Cu-Streifen entlang der Fase. Halbloch (castellated, 1,5 mm) in der Mitte der Fase: beim Fertiger Castellated Holes bestellen.")
 		(tags "shield solder tab castellated edge")
 		(property "Reference" "J8"
 			(at 0 1.5 0)
@@ -360,8 +360,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 2.5 -2)
-			(size 1.6 1.6)
-			(drill 1)
+			(size 2.1 2.1)
+			(drill 1.5)
 			(property pad_prop_castellated)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
@@ -375,7 +375,7 @@
 		(layer "F.Cu")
 		(uuid "2b29f22f-30e0-418c-af04-a3a8636656a1")
 		(at 112.5 78)
-		(descr "Loetfahne an der Fase fuer den Schirm der RJ45-Buchsen (Master/Slave) der Grundplatine, GND. B.Cu ohne Loetstopp bis zur Kante, F.Cu-Streifen entlang der Fase. Halbloch (castellated, 1,0 mm) in der Mitte der Fase: beim Fertiger Castellated Holes bestellen.")
+		(descr "Loetfahne an der Fase fuer den Schirm der RJ45-Buchsen (Master/Slave) der Grundplatine, GND. B.Cu ohne Loetstopp bis zur Kante, F.Cu-Streifen entlang der Fase. Halbloch (castellated, 1,5 mm) in der Mitte der Fase: beim Fertiger Castellated Holes bestellen.")
 		(tags "shield solder tab castellated edge")
 		(property "Reference" "J7"
 			(at 0 1.5 0)
@@ -430,8 +430,8 @@
 		(duplicate_pad_numbers_are_jumpers no)
 		(pad "1" thru_hole circle
 			(at -2.5 -2)
-			(size 1.6 1.6)
-			(drill 1)
+			(size 2.1 2.1)
+			(drill 1.5)
 			(property pad_prop_castellated)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
