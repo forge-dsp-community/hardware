@@ -1,0 +1,6 @@
+(version 1)
+# MEC1 (Edge Mount): Anschlussbeine sitzen bis an die Platinenkante (Samtec-Footprint)
+(rule "MEC1 Kontakte an der Platinenkante"
+	(condition "A.memberOfFootprint('J2')")
+	(constraint edge_clearance (min 0mm))
+	(severity ignore))
