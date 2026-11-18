@@ -125,7 +125,7 @@ for it in range(400):
                     if sa != sb: continue
                     ox = min(ax1, bx1) - max(ax0, bx0) + GAP; oy = min(ay1, by1) - max(ay0, by0) + GAP
                     if ox <= 0 or oy <= 0: continue
-                    mv = rb if ra in FIXED else ra if rb in FIXED else (rb if hash(rb) % 2 else ra)
+                    mv = rb if ra in FIXED else ra if rb in FIXED else max(ra, rb)   # deterministic
                     other = ra if mv == rb else rb
                     sgnx = 1 if (fps[mv].GetPosition().x >= fps[other].GetPosition().x) else -1
                     sgny = 1 if (fps[mv].GetPosition().y >= fps[other].GetPosition().y) else -1
@@ -150,5 +150,10 @@ b.Save(f'{PROJ}.kicad_pcb')
 # no model for the ASE oscillator footprint in the KiCad library: same 3225 package as the crystals
 t = open(f'{PROJ}.kicad_pcb').read()
 t = t.replace('Oscillator.3dshapes/Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm.step', 'Crystal.3dshapes/Crystal_SMD_3225-4Pin_3.2x2.5mm.step')
+# pin headers X101/X104: plastic body on the top side, pins through the board down to the
+# base board (model turned over: rotate 180 about y, shifted by one pitch and the board thickness)
+import re as _re
+t = _re.sub(r'(\(model "[^"]*PinHeader_2x0[26]_P2\.54mm_Vertical\.step"\s*\(offset\s*\(xyz )[^)]*(\)\s*\)\s*\(scale\s*\(xyz [^)]*\)\s*\)\s*\(rotate\s*\(xyz )[^)]*',
+            r'\g<1>2.54 0 -1.6\g<2>0 -180 0', t)
 open(f'{PROJ}.kicad_pcb', 'w').write(t)
 print('saved', len(P), 'footprints')
