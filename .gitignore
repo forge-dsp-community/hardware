@@ -8,3 +8,4 @@ _autosave-*
 # Fertigungsausgaben gehören in Releases
 /gerber/
 /fab/
+__pycache__/
