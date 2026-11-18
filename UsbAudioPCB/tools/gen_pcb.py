@@ -71,6 +71,9 @@ for p in P:
     fp.SetFPID(pcbnew.LIB_ID(lib, name))
     fp.SetReference(p['ref']); fp.SetValue(p['val'])
     if p['lcsc']: fp.SetField('LCSC', p['lcsc'])
+    if p['ref'] == 'Q101':   # no model for the ASE footprint in the KiCad library: same 3225 package
+        for m in fp.Models():
+            m.m_Filename = '${KICAD10_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_3225-4Pin_3.2x2.5mm.step'
     b.Add(fp)
     for pad in fp.Pads():
         n = pad.GetNumber()
