@@ -14,8 +14,7 @@ CAN über MCP2515 ([firmware#73](https://github.com/forge-dsp-community/firmware
 ## Anschlüsse der Grundplatine
 
 Belegung von X-EXT_AUDIO, X105 und EXT-SPDIF sowie die Versorgung stehen in
-[#1](https://github.com/forge-dsp-community/hardware/issues/1); Lötjumper und optische Ports in
-[firmware/docs/hardware.md](https://github.com/forge-dsp-community/firmware/blob/main/docs/hardware.md).
+[#1](https://github.com/forge-dsp-community/hardware/issues/1).
 
 ## 3D-Modelle
 
