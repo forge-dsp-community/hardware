@@ -1,0 +1,13 @@
+# KiCad: Sperr- und Sicherungsdateien, lokale Ansicht, Cache
+*.lck
+*-backups/
+.history/
+*.kicad_prl
+fp-info-cache
+_autosave-*
+# Herstellermodelle (STEP) nicht weiterverteilen, Bezug siehe README
+*.stp
+*.step
+# Fertigungsausgaben gehören in Releases
+/gerber/
+/fab/
