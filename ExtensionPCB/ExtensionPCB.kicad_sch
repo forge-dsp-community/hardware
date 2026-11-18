@@ -3353,7 +3353,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "d4081b70-f2e2-4477-9683-94d974f814ad")
+		(uuid "838b90fc-a8f5-4775-80fb-4b9672a3ea16")
 		(property "Reference" "#PWR001"
 			(at 80.01 77.47 0)
 			(hide yes)
@@ -3391,7 +3391,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "2bca0d0b-4ae3-426e-b410-27365ee0fd06")
+			(uuid "433798c7-e393-4414-bd92-410e53151688")
 		)
 		(instances
 			(project "ExtensionPCB"
@@ -3412,7 +3412,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "55fbba8d-c85c-4f2d-b433-d9e72a163439")
+		(uuid "2bd383df-ba2e-4c02-8908-dbd50394a9f6")
 		(property "Reference" "#PWR002"
 			(at 92.71 77.47 0)
 			(hide yes)
@@ -3450,7 +3450,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "73872022-ad44-4ad2-b60b-fda2b9e55283")
+			(uuid "d6bbc7f6-8cc1-4f7f-8b86-34a689952cc2")
 		)
 		(instances
 			(project "ExtensionPCB"
@@ -3469,7 +3469,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "acd21707-e8a9-4f5f-aa38-4879af03a067")
+		(uuid "eb7babf2-45d2-46f7-ad6b-1fea4e0bbe04")
 	)
 	(label "~{RST.2.DEVICES}"
 		(at 92.71 80.01 0)
@@ -3479,7 +3479,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "3027454c-b427-4f0e-9860-ea2b27069cee")
+		(uuid "c819f7ba-3a70-44a4-9096-fa54db803d05")
 	)
 	(label "RTX.BT.RX"
 		(at 80.01 82.55 180)
@@ -3489,7 +3489,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "20f1b860-a38b-488d-9ec5-465ebeb8b136")
+		(uuid "9bed00c7-d4fb-4c2e-89f4-aa814cd0d20c")
 	)
 	(label "EXT.BT.ON_OFF"
 		(at 92.71 82.55 0)
@@ -3499,7 +3499,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "93a692ed-29dd-487c-bb3c-a03684d6bee3")
+		(uuid "3033b958-2bfb-410d-8c7a-84e216396c06")
 	)
 	(label "RTX.BT.TX"
 		(at 80.01 85.09 180)
@@ -3509,7 +3509,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "ef0131a0-c632-43df-97a2-1ab00836046d")
+		(uuid "151034f6-a312-4936-8a11-b625dffc6db5")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -3521,7 +3521,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "0f3fab91-3c5e-4997-8cb6-f312eb883855")
+		(uuid "86713260-653f-4715-ae25-b05106063bfd")
 		(property "Reference" "#PWR003"
 			(at 92.71 85.09 0)
 			(hide yes)
@@ -3559,7 +3559,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "6166bc82-849d-4a2f-a9dc-1353f32c8718")
+			(uuid "1e716963-91cb-426d-aae1-f9e455a06639")
 		)
 		(instances
 			(project "ExtensionPCB"
@@ -3578,7 +3578,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "6d4c6e56-67df-4cdb-922a-6400064dc045")
+		(uuid "df252814-3da9-4f68-9b0b-00d007c2ee08")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -3590,7 +3590,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "a7ae19a3-5e55-41b6-ae2a-3427e88d49c1")
+		(uuid "b59c1570-be30-4ccf-b6d0-7e1d7bc21740")
 		(property "Reference" "#PWR004"
 			(at 129.54 59.69 0)
 			(hide yes)
@@ -3628,7 +3628,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "1fa471ba-b2f6-416a-8ed8-64e1a84ab549")
+			(uuid "d567f581-5cb9-4ba6-b26b-39e78a44bc3c")
 		)
 		(instances
 			(project "ExtensionPCB"
@@ -3649,7 +3649,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "2de45ce6-ab52-4bf9-977f-68e935ad9a0f")
+		(uuid "a4cadaca-4520-4b23-8be7-4265fe3fa874")
 		(property "Reference" "#PWR005"
 			(at 144.78 63.5 0)
 			(hide yes)
@@ -3687,7 +3687,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "fd2277b6-343f-41b8-a0c2-757247728339")
+			(uuid "696a32f9-2dbc-4cce-b717-f6962577a956")
 		)
 		(instances
 			(project "ExtensionPCB"
@@ -3708,7 +3708,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "9d8c7d83-3c75-4e3a-97f8-3ce181a41e76")
+		(uuid "95e69f71-9e16-4f81-b6c2-c7454a6b91f7")
 		(property "Reference" "#PWR006"
 			(at 144.78 63.5 0)
 			(hide yes)
@@ -3747,7 +3747,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "0bae4a89-6291-4308-81a1-31f7c8bd2598")
+			(uuid "36e814eb-7b8c-449b-882a-a0413c2e936e")
 		)
 		(instances
 			(project "ExtensionPCB"
@@ -3768,7 +3768,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "4a44a9be-3b69-40d4-986c-22cc6e7fd27c")
+		(uuid "e651efd1-6fbb-4564-9450-42c4e080f402")
 		(property "Reference" "#PWR007"
 			(at 54.61 142.24 0)
 			(hide yes)
@@ -3806,7 +3806,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "ffc74070-ad34-4f15-bc81-65b0344102d6")
+			(uuid "7787b479-ac39-406d-9116-baa05c561200")
 		)
 		(instances
 			(project "ExtensionPCB"
@@ -3827,7 +3827,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "d962926d-09bb-4224-be0b-b1d3b6c11d9e")
+		(uuid "2f50e156-ea92-480f-a766-00590ce260af")
 		(property "Reference" "#PWR008"
 			(at 54.61 144.78 0)
 			(hide yes)
@@ -3865,7 +3865,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "6552d96d-087e-4418-b5ff-f69a7ba7ffb9")
+			(uuid "0d2f2941-92c8-4695-8a2b-bb9913f73045")
 		)
 		(instances
 			(project "ExtensionPCB"
@@ -3886,7 +3886,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "8208f1e5-4445-42fe-9642-5c707f470de4")
+		(uuid "a7ecab61-6103-4b75-a22d-167f47257b26")
 		(property "Reference" "#PWR009"
 			(at 54.61 147.32 0)
 			(hide yes)
@@ -3924,7 +3924,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "d9ab86a4-aba4-4a0b-b37c-aeeeef6c712f")
+			(uuid "38ce8c51-d8d0-4cc2-9301-d73713f45fab")
 		)
 		(instances
 			(project "ExtensionPCB"
@@ -3945,7 +3945,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "097d788e-642f-4c39-b94d-e3f8b85ad615")
+		(uuid "d5a7e5b8-a70d-4679-8454-6902b5ca2ba4")
 		(property "Reference" "#PWR010"
 			(at 54.61 149.86 0)
 			(hide yes)
@@ -3983,7 +3983,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "43790e1a-bf4f-47dc-bc84-bbb542da769c")
+			(uuid "42f180d3-7295-4705-b243-0c72367334f2")
 		)
 		(instances
 			(project "ExtensionPCB"
@@ -4004,7 +4004,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "fcc0214b-38e8-4154-8bbf-d20ffdeaee40")
+		(uuid "b35396af-eeb8-432b-a72d-02a79ffc9240")
 		(property "Reference" "#PWR011"
 			(at 54.61 152.4 0)
 			(hide yes)
@@ -4042,7 +4042,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "319ca6d8-d1d0-4847-9a56-2ebaeba4c41e")
+			(uuid "ca138dff-38ab-43f0-9526-5a86d144dc79")
 		)
 		(instances
 			(project "ExtensionPCB"
@@ -4063,7 +4063,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "4ce0d59f-32b7-4c7c-96af-ba7903e93aaa")
+		(uuid "2957fd59-4598-4306-a948-72c8626a50da")
 		(property "Reference" "#PWR012"
 			(at 54.61 154.94 0)
 			(hide yes)
@@ -4101,7 +4101,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "284e2eb2-6b1e-44df-a07d-d219c6cc17f5")
+			(uuid "b3538870-b842-41f1-b318-380623385d27")
 		)
 		(instances
 			(project "ExtensionPCB"
@@ -4122,7 +4122,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "018db263-8b3c-462b-897e-d9f5769821b9")
+		(uuid "4c9b1a28-7313-498a-87b1-8d8334b4fddc")
 		(property "Reference" "#PWR013"
 			(at 54.61 157.48 0)
 			(hide yes)
@@ -4160,7 +4160,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "6c1db8b5-acff-4351-8ee2-b3d91fb019da")
+			(uuid "e75264cc-2fb0-4b3e-aacc-0094fa5e8ecf")
 		)
 		(instances
 			(project "ExtensionPCB"
@@ -4181,7 +4181,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "e8bf9496-bd5a-4375-b093-b24bc51b5f35")
+		(uuid "93cc234a-25d7-49b7-add4-89283d64a973")
 		(property "Reference" "#PWR014"
 			(at 54.61 160.02 0)
 			(hide yes)
@@ -4219,7 +4219,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "3b2dba2a-95a1-4223-a575-932288e5a1f9")
+			(uuid "6e2dc048-3ecb-4251-826c-216215fb54ab")
 		)
 		(instances
 			(project "ExtensionPCB"
@@ -4238,7 +4238,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "9c94a948-9821-4d2d-8472-e629368ed161")
+		(uuid "4423d9aa-ed23-46f5-8292-62d65d463e0a")
 	)
 	(label "SPI1.MISO"
 		(at 67.31 144.78 0)
@@ -4248,7 +4248,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "13e80043-e4b0-4259-8c48-5579d197100c")
+		(uuid "0d86c0db-b10a-47de-bd5b-c0255860a8b8")
 	)
 	(label "SPI1.MOSI"
 		(at 67.31 147.32 0)
@@ -4258,7 +4258,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "17d31870-acf3-488c-a3da-f97e83e916ef")
+		(uuid "c17d0b62-f014-47a2-9c76-7812287b3fe9")
 	)
 	(label "EXT.SPI.CS"
 		(at 67.31 149.86 0)
@@ -4268,7 +4268,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "eafb0182-25d3-4530-9a4c-83d74be8240a")
+		(uuid "020174c7-961a-4f18-8986-59e98b9d02ff")
 	)
 	(label "I2C2.SDA"
 		(at 67.31 152.4 0)
@@ -4278,7 +4278,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "fbc9e876-ef23-4c92-b548-0e8d37024461")
+		(uuid "79c8f199-cdc9-459c-a21f-d0d63c9cc286")
 	)
 	(label "I2C2.SCL"
 		(at 67.31 154.94 0)
@@ -4288,7 +4288,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "e348af99-5ab0-48cd-8c7b-e586c37fbb28")
+		(uuid "5d597cd9-0a65-47cc-b3bb-fcf9c0bcabfa")
 	)
 	(label "EXT.INT"
 		(at 67.31 157.48 0)
@@ -4298,7 +4298,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "adc05bea-5caa-4145-80ef-8084daa5faa0")
+		(uuid "2f84c7a4-943a-4af1-b4ab-6bf42f938907")
 	)
 	(symbol
 		(lib_id "power:+3.3V")
@@ -4310,7 +4310,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "e3e47742-2e74-4ef2-b15e-9fd9541b2097")
+		(uuid "c9edc692-e369-4bcc-8b5d-720b2e670cf4")
 		(property "Reference" "#PWR015"
 			(at 67.31 160.02 0)
 			(hide yes)
@@ -4348,7 +4348,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "0c62375f-3c9e-4123-aa05-21a45cf7edc8")
+			(uuid "9dd63406-c5df-4e3e-9cba-b84c474383af")
 		)
 		(instances
 			(project "ExtensionPCB"
@@ -4369,7 +4369,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "85261050-d8a4-4f71-b3fa-27de23b4c760")
+		(uuid "a8fa1c6d-8ae7-4bc6-b377-ddfdd6f0c0fd")
 		(property "Reference" "#PWR016"
 			(at 67.31 160.02 0)
 			(hide yes)
@@ -4408,7 +4408,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "4f299516-97dd-4cce-a1b6-6723670ee4c8")
+			(uuid "598b8969-dcc4-4aa5-8f96-17b43b7103da")
 		)
 		(instances
 			(project "ExtensionPCB"
@@ -4429,7 +4429,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "d0baca9b-6029-446e-ab6f-f91fadde9508")
+		(uuid "f2167d82-492d-4e8e-a736-91e724c0a1d6")
 		(property "Reference" "J6"
 			(at 151.13000000000002 71.12 0)
 			(effects
@@ -4465,7 +4465,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "5e48241f-ba8b-42eb-8b41-5f93453a49fe")
+			(uuid "179f333f-bb4f-4ce4-a220-4de6b6bc45ba")
 		)
 		(instances
 			(project "ExtensionPCB"
@@ -4486,7 +4486,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "f2e778ca-8883-4761-a7e6-9b18e784bf7f")
+		(uuid "5eb9daca-6c30-4a42-8ac3-14672b1684c3")
 		(property "Reference" "#PWR017"
 			(at 144.78 76.2 0)
 			(hide yes)
@@ -4524,7 +4524,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "923b78e3-9f89-4f28-915e-569bb4e4a149")
+			(uuid "1b79edaf-452a-46e9-be7e-ae0dfbf08fed")
 		)
 		(instances
 			(project "ExtensionPCB"
@@ -4545,7 +4545,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "b1c80ba0-1ad1-4352-b292-d5001bd122a2")
+		(uuid "34e7a91d-d589-4128-b17f-d508d212f2da")
 		(property "Reference" "#PWR018"
 			(at 144.78 76.2 0)
 			(hide yes)
@@ -4584,7 +4584,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "0cbc07f0-0518-4165-8982-074e17ca2351")
+			(uuid "a5949726-c3b3-41e0-8ff6-00232efca596")
 		)
 		(instances
 			(project "ExtensionPCB"
@@ -4605,7 +4605,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "814302da-db98-43aa-8b2e-f96b792fa4f0")
+		(uuid "0db398e7-8659-4fea-8049-65d947981dab")
 		(property "Reference" "J2"
 			(at 212.09 99.06 0)
 			(effects
@@ -4641,118 +4641,118 @@
 			)
 		)
 		(pin "1"
-			(uuid "dc0f752e-785d-47b4-be17-60256d4b27b3")
+			(uuid "c3bcffdb-0fbc-4a81-8661-752e6245a1e5")
 		)
 		(pin "2"
-			(uuid "6f3daec7-a957-4ecd-b846-a8db0ed3dc00")
+			(uuid "9e1b317e-dfe4-4a95-9e6d-eb8fa50a040a")
 		)
 		(pin "3"
-			(uuid "9fdd1216-a04d-4bbd-b19c-053aef7ca5f9")
+			(uuid "54f9a6ba-6ed6-447f-aba0-c204a630b6d0")
 		)
 		(pin "4"
-			(uuid "5984ae43-dbc1-4139-a645-e41853cec2d7")
+			(uuid "deb8e237-9f1e-4cbd-a28a-afbe7f369c11")
 		)
 		(pin "5"
-			(uuid "fedddbc4-89ad-45b7-b8f8-040d93ee4c1e")
+			(uuid "be24d746-9bb8-494c-844d-ce0863057b2e")
 		)
 		(pin "6"
-			(uuid "7414995a-a6a8-456a-a5ab-a9f5441c75ff")
+			(uuid "2a60e8cb-a997-4be9-97f2-9448854b8eb8")
 		)
 		(pin "7"
-			(uuid "68b701db-7fba-495d-ae8e-56ea68e50feb")
+			(uuid "e452577a-dbfb-4ff1-9c4b-330970d12d5f")
 		)
 		(pin "8"
-			(uuid "2fc470c5-a740-4ded-9913-73f4b34c5bf9")
+			(uuid "1310b5e8-a181-40a9-a655-4dd09aa1e321")
 		)
 		(pin "9"
-			(uuid "421f3977-a505-45a0-b085-bad38417d55a")
+			(uuid "2a5ee563-6637-4ea5-b8c8-1abc198cc319")
 		)
 		(pin "10"
-			(uuid "943adfa6-0fa6-4aa4-8595-0b15809836d0")
+			(uuid "ba791722-fd94-4a6e-a3d6-6816e1e2d384")
 		)
 		(pin "11"
-			(uuid "943ab37e-d66d-4552-ac16-a2e04bc24fd0")
+			(uuid "a7c9d11c-8964-48e8-b610-77f9c05b50c2")
 		)
 		(pin "12"
-			(uuid "caf5f52d-f657-404f-bd80-0b9ac3109b80")
+			(uuid "6a9b5511-eb93-4306-af87-24262c6d77a2")
 		)
 		(pin "13"
-			(uuid "50131aff-5906-4959-b809-7fa0c2b2f051")
+			(uuid "c78087f6-3254-464a-949e-b415ab515610")
 		)
 		(pin "14"
-			(uuid "7ec78210-1662-43f2-9bde-669426af9505")
+			(uuid "69ed40e8-6f9a-4758-b1d2-75ff8f7da059")
 		)
 		(pin "17"
-			(uuid "6106d924-ad48-4768-80ad-359492d1d6f7")
+			(uuid "af666738-d060-4e84-bdf6-a52b859d7c15")
 		)
 		(pin "18"
-			(uuid "fb2fdca3-2fc7-4b79-916d-639bd0b73afd")
+			(uuid "503a8dc6-ccde-469d-894c-920ac96ebb82")
 		)
 		(pin "19"
-			(uuid "69bc522f-e30d-4861-af2b-c0a898745979")
+			(uuid "c1655ac6-ad02-4ac0-a09c-4c8d79003dc7")
 		)
 		(pin "20"
-			(uuid "4640896d-4417-4be9-b2b8-fa1e9d4f00ae")
+			(uuid "e12823f5-0ed5-49bb-bff9-1befd4e87c0c")
 		)
 		(pin "21"
-			(uuid "181db440-482b-4fe6-b101-30fc9bcd3bed")
+			(uuid "8018a1c4-fff1-48ec-a101-868d0de37b6c")
 		)
 		(pin "22"
-			(uuid "7f901709-fd09-4ff3-a8b6-b5d6ed0eed98")
+			(uuid "1a35210a-20c7-4034-ba4a-e1867768a990")
 		)
 		(pin "23"
-			(uuid "3a14d343-7072-4f1e-99f3-8e4e1b7bead0")
+			(uuid "a9028c6a-9fc1-4d19-9a78-9bcf6ae07983")
 		)
 		(pin "24"
-			(uuid "8ca87086-e733-4f08-bc74-7a844faf8a76")
+			(uuid "6599d5fb-3bc3-4e10-9d98-6903dc1d9816")
 		)
 		(pin "25"
-			(uuid "94a138e7-4837-41bf-948e-b29ee89b60fc")
+			(uuid "c0fed115-73cd-4523-8fbc-ba9567844fe2")
 		)
 		(pin "26"
-			(uuid "3185abbc-d85a-431f-b38a-b09e2f7ca6fa")
+			(uuid "4f8ec87b-7260-4cb7-8be2-df7a6f4159a8")
 		)
 		(pin "27"
-			(uuid "c7177039-b25e-4cf0-ac19-f8a50c2d918b")
+			(uuid "74b30ed8-dd9e-4031-a260-6c30d0528ce0")
 		)
 		(pin "28"
-			(uuid "65167d41-3657-4cb1-88aa-15a9bde77618")
+			(uuid "bd563a9e-1c45-409b-84bd-fd96ed2d03c1")
 		)
 		(pin "29"
-			(uuid "2d3e0d35-8e6a-426c-b234-4ce0a75f8cc8")
+			(uuid "59385899-c90a-4448-8882-eb14f661501d")
 		)
 		(pin "30"
-			(uuid "a7150cfd-5c48-4213-a8f4-88df38b99417")
+			(uuid "98a6e20e-a467-477e-9fb4-24c286d5bb83")
 		)
 		(pin "31"
-			(uuid "e86ec4de-9235-4887-9cb7-b0db51a3fec2")
+			(uuid "5d98e0d5-4ed8-4655-a9f4-52d7e73a3446")
 		)
 		(pin "32"
-			(uuid "aabf2cca-a4a1-4b59-a2ff-78b9ed3a53ba")
+			(uuid "a7ac2920-613c-4df1-bd9e-97e74ac21f0f")
 		)
 		(pin "33"
-			(uuid "4919eddc-dfb1-4d0f-bf6e-5e4403ec97e4")
+			(uuid "2e2b2327-604f-44d7-b66c-d03ed378a4b2")
 		)
 		(pin "34"
-			(uuid "ae565eb3-df97-4a80-9215-c9ab2eeba1a7")
+			(uuid "47afb488-2516-47ac-8143-51424005172e")
 		)
 		(pin "35"
-			(uuid "55ffdb02-fddb-4c7f-9beb-41cf9caf5394")
+			(uuid "b3fad9ff-33e9-4a8c-870c-f812560892ca")
 		)
 		(pin "36"
-			(uuid "72bccec4-6377-4b9d-8185-680f79916229")
+			(uuid "c42943c8-c1dd-48f8-8235-b44137f6d947")
 		)
 		(pin "37"
-			(uuid "17c9670b-0913-46fe-810b-179de6d8e837")
+			(uuid "9d97cf92-94fb-4b27-94d7-148c9fa61045")
 		)
 		(pin "38"
-			(uuid "020d421b-d80f-401b-bf5d-db3fdabde6c3")
+			(uuid "42f60037-439b-4a89-8125-6687bbeb4359")
 		)
 		(pin "39"
-			(uuid "b05b86e1-8da0-42c1-b296-d2b741cecebc")
+			(uuid "4240c0e1-96a0-4493-8ee3-8523753e349b")
 		)
 		(pin "40"
-			(uuid "1732d38b-4b12-4fbe-946d-12686596cc6d")
+			(uuid "a6aed8e0-43d5-4f8d-9601-883b3cce68f1")
 		)
 		(instances
 			(project "ExtensionPCB"
@@ -4773,7 +4773,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "4c5d6a07-e6ac-41c8-b1f5-93e478e1938a")
+		(uuid "3737a974-eb33-429c-836a-67daa4feb4be")
 		(property "Reference" "#PWR019"
 			(at 205.74 104.14 0)
 			(hide yes)
@@ -4811,7 +4811,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "16dfb9dc-e6a2-4ac5-b6df-289fadd20366")
+			(uuid "a060cbfa-a455-42ad-b529-61364bf7dd17")
 		)
 		(instances
 			(project "ExtensionPCB"
@@ -4832,7 +4832,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "a05264de-1430-444b-8476-7ab349edcec9")
+		(uuid "1dc4caef-ad72-47ed-8584-780d4afa715e")
 		(property "Reference" "#PWR020"
 			(at 218.44 104.14 0)
 			(hide yes)
@@ -4870,7 +4870,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "af5d0add-387b-4355-9cd5-4df2f69538cf")
+			(uuid "7049b93b-e4d7-40a4-b769-ccd3004c0db3")
 		)
 		(instances
 			(project "ExtensionPCB"
@@ -4881,123 +4881,13 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "power:+7.5V")
-		(at 205.74 106.68 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "46dceea5-e5d6-4d7a-bddb-416c88302d0c")
-		(property "Reference" "#PWR021"
-			(at 205.74 106.68 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+7.5V"
-			(at 202.14000000000001 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 205.74 106.68 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 205.74 106.68 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9392ce50-5109-43ba-b466-47c819fd3db9")
-		)
-		(instances
-			(project "ExtensionPCB"
-				(path "/cd21fdf8-0ab4-4d2d-97c8-34272a5c3237"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
+	(no_connect
+		(at 205.74 106.68)
+		(uuid "8ada2e13-f025-4961-9b3c-f9860dacc348")
 	)
-	(symbol
-		(lib_id "power:+7.5V")
-		(at 218.44 106.68 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "37bed06f-af6f-42c6-bf2f-262f80cfc5e1")
-		(property "Reference" "#PWR022"
-			(at 218.44 106.68 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+7.5V"
-			(at 222.04 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 218.44 106.68 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 218.44 106.68 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dedb581a-8328-44fa-9f7b-2c186f88548d")
-		)
-		(instances
-			(project "ExtensionPCB"
-				(path "/cd21fdf8-0ab4-4d2d-97c8-34272a5c3237"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
+	(no_connect
+		(at 218.44 106.68)
+		(uuid "df9d822c-cf77-4c02-8c5b-b95006136863")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -5009,8 +4899,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "3aadf362-c38f-488e-86e4-2eb30f9f7560")
-		(property "Reference" "#PWR023"
+		(uuid "f0f34146-1497-4c50-9550-5074234886c3")
+		(property "Reference" "#PWR021"
 			(at 205.74 109.22 0)
 			(hide yes)
 			(effects
@@ -5047,12 +4937,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "74400ae5-8ca7-44df-966f-b8ce9071f865")
+			(uuid "22c25522-a9db-45fc-8c58-3d3e11373d99")
 		)
 		(instances
 			(project "ExtensionPCB"
 				(path "/cd21fdf8-0ab4-4d2d-97c8-34272a5c3237"
-					(reference "#PWR023")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -5068,8 +4958,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "a6321531-b64f-4d8f-af24-e3ca2d76ca8d")
-		(property "Reference" "#PWR024"
+		(uuid "71073335-7664-4f90-a2fd-7d116f0852dc")
+		(property "Reference" "#PWR022"
 			(at 218.44 109.22 0)
 			(hide yes)
 			(effects
@@ -5106,18 +4996,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "89d36cdf-2e0e-402c-8f0f-adb9da5cd9ae")
+			(uuid "697d7737-4e45-4b28-afb3-36519f550514")
 		)
 		(instances
 			(project "ExtensionPCB"
 				(path "/cd21fdf8-0ab4-4d2d-97c8-34272a5c3237"
-					(reference "#PWR024")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
 		)
 	)
-	(label "RTX.BT.TX"
+	(label "~{RST.2.DEVICES}"
 		(at 205.74 111.76 180)
 		(effects
 			(font
@@ -5125,66 +5015,17 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "7422ff1b-e499-40a0-9723-e531152d580b")
+		(uuid "af82884b-c551-48a0-9085-16b8250e8bdb")
 	)
-	(symbol
-		(lib_id "power:GND")
-		(at 218.44 111.76 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d8445d2b-b9ca-4ba8-8d94-4ea9dc0e81e9")
-		(property "Reference" "#PWR025"
-			(at 218.44 111.76 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+	(label "EXT.BT.ON_OFF"
+		(at 218.44 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left bottom)
 		)
-		(property "Value" "GND"
-			(at 222.04 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 218.44 111.76 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 218.44 111.76 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b385447e-cbd5-4e21-9d53-780b5185cd00")
-		)
-		(instances
-			(project "ExtensionPCB"
-				(path "/cd21fdf8-0ab4-4d2d-97c8-34272a5c3237"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "32d38990-e77a-4ebd-8f89-2e0488835c7e")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -5196,8 +5037,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "8acd32f1-b4df-46b8-9388-b96a613ab535")
-		(property "Reference" "#PWR026"
+		(uuid "a057a3c1-69e9-439d-8a63-a190cacb84cd")
+		(property "Reference" "#PWR023"
 			(at 205.74 114.3 0)
 			(hide yes)
 			(effects
@@ -5234,40 +5075,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "1dc7e061-ce7a-4573-b293-051acf12060a")
+			(uuid "1fd5e8b2-6484-4ea2-906f-cd0ebf5a2dba")
 		)
 		(instances
 			(project "ExtensionPCB"
 				(path "/cd21fdf8-0ab4-4d2d-97c8-34272a5c3237"
-					(reference "#PWR026")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
 		)
 	)
-	(label "RTX.BT.RX"
-		(at 218.44 114.3 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f0ef410b-d4ac-44e6-942d-e7d0430cb6c4")
-	)
-	(label "EXT.BT.ON_OFF"
-		(at 205.74 116.84 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4cb7d0df-58de-43e7-ba96-34a67747decc")
-	)
 	(symbol
 		(lib_id "power:GND")
-		(at 218.44 116.84 90)
+		(at 218.44 114.3 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5275,9 +5096,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "51457742-0c6b-4155-91d0-482790a06c2d")
-		(property "Reference" "#PWR027"
-			(at 218.44 116.84 0)
+		(uuid "fd30c2d3-ee30-415f-aee5-6d4f53525353")
+		(property "Reference" "#PWR024"
+			(at 218.44 114.3 0)
 			(hide yes)
 			(effects
 				(font
@@ -5286,7 +5107,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 222.04 116.84 90)
+			(at 222.04 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5295,7 +5116,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 116.84 0)
+			(at 218.44 114.3 0)
 			(hide yes)
 			(effects
 				(font
@@ -5304,7 +5125,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 116.84 0)
+			(at 218.44 114.3 0)
 			(hide yes)
 			(effects
 				(font
@@ -5313,16 +5134,36 @@
 			)
 		)
 		(pin "1"
-			(uuid "226b760b-eb6b-4b56-a2e2-ae4ba28acf46")
+			(uuid "b075dc8d-a6b7-4166-92e1-c98879802c49")
 		)
 		(instances
 			(project "ExtensionPCB"
 				(path "/cd21fdf8-0ab4-4d2d-97c8-34272a5c3237"
-					(reference "#PWR027")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
 		)
+	)
+	(label "RTX.BT.RX"
+		(at 205.74 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0aafb6f1-95d8-4920-a703-eafc66467ea1")
+	)
+	(label "EXT.BT.PAIRING"
+		(at 218.44 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3eacbfed-cef0-4b83-80eb-2cdd8da10faf")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -5334,8 +5175,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "0ecab8de-e2fa-4656-8cca-b673dbb5e903")
-		(property "Reference" "#PWR028"
+		(uuid "943d762c-12b3-447e-82aa-f741a8262044")
+		(property "Reference" "#PWR025"
 			(at 205.74 119.38 0)
 			(hide yes)
 			(effects
@@ -5372,30 +5213,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "71d0261a-efe3-4602-8003-68758c34403d")
+			(uuid "f2a92fb5-1ce9-4bca-958a-faccb56a54c6")
 		)
 		(instances
 			(project "ExtensionPCB"
 				(path "/cd21fdf8-0ab4-4d2d-97c8-34272a5c3237"
-					(reference "#PWR028")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
 		)
 	)
-	(label "~{RST.2.DEVICES}"
-		(at 218.44 119.38 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "46839dc7-fd73-4e74-9eb4-6890893af535")
-	)
 	(symbol
 		(lib_id "power:GND")
-		(at 205.74 124.46 270)
+		(at 218.44 119.38 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5403,9 +5234,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "14838880-12fe-4f03-b20d-dca13513bd89")
-		(property "Reference" "#PWR029"
-			(at 205.74 124.46 0)
+		(uuid "4aefaace-8a23-4ebe-97ba-64fcf3320d78")
+		(property "Reference" "#PWR026"
+			(at 218.44 119.38 0)
 			(hide yes)
 			(effects
 				(font
@@ -5414,7 +5245,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 202.14000000000001 124.46 90)
+			(at 222.04 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5423,7 +5254,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 124.46 0)
+			(at 218.44 119.38 0)
 			(hide yes)
 			(effects
 				(font
@@ -5432,7 +5263,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 124.46 0)
+			(at 218.44 119.38 0)
 			(hide yes)
 			(effects
 				(font
@@ -5441,18 +5272,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "88c6994e-3479-46a9-ac39-f974e1763a33")
+			(uuid "c3d38706-d261-4ad7-b339-3f481bcac300")
 		)
 		(instances
 			(project "ExtensionPCB"
 				(path "/cd21fdf8-0ab4-4d2d-97c8-34272a5c3237"
-					(reference "#PWR029")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
 		)
 	)
-	(label "EXT.BT.PAIRING"
+	(label "EXT.SPDIF"
+		(at 205.74 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f47a9a12-e3bd-48ea-b946-c5d426269828")
+	)
+	(label "RTX.BT.TX"
 		(at 218.44 124.46 0)
 		(effects
 			(font
@@ -5460,17 +5301,66 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "e815f5d9-4cf5-40fe-acb9-55f1f5b651cc")
+		(uuid "ac81d0f3-1759-4bce-9861-8c7fc06c6bde")
 	)
-	(label "EXT.SPDIF"
-		(at 205.74 127.0 180)
-		(effects
-			(font
-				(size 1.27 1.27)
+	(symbol
+		(lib_id "power:GND")
+		(at 205.74 127.0 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "76810b72-b4fc-4853-9f7c-3dbf5a261644")
+		(property "Reference" "#PWR027"
+			(at 205.74 127.0 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
-			(justify right bottom)
 		)
-		(uuid "4551673d-4a16-4e65-b80f-a82c691c2587")
+		(property "Value" "GND"
+			(at 202.14000000000001 127.0 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 127.0 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 127.0 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "57b713e8-1579-4a67-ae80-21b976faadf0")
+		)
+		(instances
+			(project "ExtensionPCB"
+				(path "/cd21fdf8-0ab4-4d2d-97c8-34272a5c3237"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -5482,8 +5372,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "ac519fda-a441-41b2-898d-7c27d24c5f25")
-		(property "Reference" "#PWR030"
+		(uuid "31378120-067c-4f75-97cf-813c210d048a")
+		(property "Reference" "#PWR028"
 			(at 218.44 127.0 0)
 			(hide yes)
 			(effects
@@ -5520,75 +5410,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "1386b016-484b-4ffe-b278-102c5e5c4a73")
+			(uuid "60310f5d-5e46-4747-92f4-642e1f0856d7")
 		)
 		(instances
 			(project "ExtensionPCB"
 				(path "/cd21fdf8-0ab4-4d2d-97c8-34272a5c3237"
-					(reference "#PWR030")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
 		)
 	)
-	(symbol
-		(lib_id "power:GND")
-		(at 205.74 129.54 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d697aac9-ff71-41aa-8a57-9011f8ff3714")
-		(property "Reference" "#PWR031"
-			(at 205.74 129.54 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 202.14000000000001 129.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 205.74 129.54 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 205.74 129.54 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ebace72c-fae3-4fbb-b76d-bdd4648e95bd")
-		)
-		(instances
-			(project "ExtensionPCB"
-				(path "/cd21fdf8-0ab4-4d2d-97c8-34272a5c3237"
-					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
+	(no_connect
+		(at 205.74 129.54)
+		(uuid "aa2c5057-c32a-40a3-85a3-d4f541daa29f")
 	)
 	(label "SPI1.SCK"
 		(at 218.44 129.54 0)
@@ -5598,17 +5433,66 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "e6452475-484c-4544-bb2b-f5ccdee69140")
+		(uuid "cb36a266-2383-41ef-a28e-898cd235d8d4")
 	)
-	(label "SPI1.MOSI"
-		(at 205.74 132.08 180)
-		(effects
-			(font
-				(size 1.27 1.27)
+	(symbol
+		(lib_id "power:GND")
+		(at 205.74 132.08 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "83339a59-e6fe-464d-8bcf-ca71009dee52")
+		(property "Reference" "#PWR029"
+			(at 205.74 132.08 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
-			(justify right bottom)
 		)
-		(uuid "6ea95f95-f721-43de-835c-6e4f492ee63b")
+		(property "Value" "GND"
+			(at 202.14000000000001 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 132.08 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 132.08 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d731d9cc-5eaa-4214-9b6c-97f777110d3f")
+		)
+		(instances
+			(project "ExtensionPCB"
+				(path "/cd21fdf8-0ab4-4d2d-97c8-34272a5c3237"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -5620,8 +5504,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "c5fc76d6-2e1f-457d-95bd-1b0c2fcbb5f8")
-		(property "Reference" "#PWR032"
+		(uuid "09d8c708-3c7b-4ee9-9f67-fb86dfa32fab")
+		(property "Reference" "#PWR030"
 			(at 218.44 132.08 0)
 			(hide yes)
 			(effects
@@ -5658,20 +5542,40 @@
 			)
 		)
 		(pin "1"
-			(uuid "ab68989b-226b-4956-8cbd-3e3fc00785c6")
+			(uuid "c66945af-fdac-42d9-8c7c-2bda3379aeee")
 		)
 		(instances
 			(project "ExtensionPCB"
 				(path "/cd21fdf8-0ab4-4d2d-97c8-34272a5c3237"
-					(reference "#PWR032")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
 		)
 	)
+	(label "SPI1.MISO"
+		(at 205.74 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7588d224-c80b-42b1-83b1-2607fcd5f910")
+	)
+	(label "SPI1.MOSI"
+		(at 218.44 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "33e4544f-7b06-4e39-80cc-11291159f395")
+	)
 	(symbol
 		(lib_id "power:GND")
-		(at 205.74 134.62 270)
+		(at 205.74 137.16 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5679,9 +5583,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "f31210f7-b3d6-4ef6-958f-661317a657e5")
-		(property "Reference" "#PWR033"
-			(at 205.74 134.62 0)
+		(uuid "899901aa-1dde-4754-b318-fb7138437d98")
+		(property "Reference" "#PWR031"
+			(at 205.74 137.16 0)
 			(hide yes)
 			(effects
 				(font
@@ -5690,7 +5594,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 202.14000000000001 134.62 90)
+			(at 202.14000000000001 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5699,7 +5603,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 134.62 0)
+			(at 205.74 137.16 0)
 			(hide yes)
 			(effects
 				(font
@@ -5708,7 +5612,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 134.62 0)
+			(at 205.74 137.16 0)
 			(hide yes)
 			(effects
 				(font
@@ -5717,36 +5621,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "ca4ea4dd-7bf9-4354-b909-3b34320f77d8")
+			(uuid "4aa70fe9-3e62-4825-ab3d-cfcb0c2fa29b")
 		)
 		(instances
 			(project "ExtensionPCB"
 				(path "/cd21fdf8-0ab4-4d2d-97c8-34272a5c3237"
-					(reference "#PWR033")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
 		)
-	)
-	(label "SPI1.MISO"
-		(at 218.44 134.62 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "255ffd2d-9e32-49c7-ae0f-6a9b805aac9e")
-	)
-	(label "EXT.SPI.CS"
-		(at 205.74 137.16 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9b40aeb5-4374-4d53-a7a4-a7e468247612")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -5758,8 +5642,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "9bee16b1-6f09-4111-b3d1-ce0435fbaa81")
-		(property "Reference" "#PWR034"
+		(uuid "91019c04-127c-423b-a360-f832023b9f3b")
+		(property "Reference" "#PWR032"
 			(at 218.44 137.16 0)
 			(hide yes)
 			(effects
@@ -5796,20 +5680,40 @@
 			)
 		)
 		(pin "1"
-			(uuid "083b822d-0011-4f59-9f4b-17ceb4a9cb09")
+			(uuid "b7d5077b-5279-4c93-9da0-ee042e59b275")
 		)
 		(instances
 			(project "ExtensionPCB"
 				(path "/cd21fdf8-0ab4-4d2d-97c8-34272a5c3237"
-					(reference "#PWR034")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
 		)
 	)
+	(label "EXT.SPI.CS"
+		(at 205.74 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6a033bc0-a3ba-4c3b-a5f6-1a4bd09bb7bc")
+	)
+	(label "I2C2.SDA"
+		(at 218.44 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "12140381-2fa0-404f-a92a-7f9373323760")
+	)
 	(symbol
 		(lib_id "power:GND")
-		(at 205.74 139.7 270)
+		(at 205.74 142.24 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5817,9 +5721,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "dbdc8e86-3fc9-4474-9449-c5a3e5a5b20f")
-		(property "Reference" "#PWR035"
-			(at 205.74 139.7 0)
+		(uuid "d9957d33-9750-4e0f-800d-11b582d7d65a")
+		(property "Reference" "#PWR033"
+			(at 205.74 142.24 0)
 			(hide yes)
 			(effects
 				(font
@@ -5828,7 +5732,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 202.14000000000001 139.7 90)
+			(at 202.14000000000001 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5837,7 +5741,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 139.7 0)
+			(at 205.74 142.24 0)
 			(hide yes)
 			(effects
 				(font
@@ -5846,7 +5750,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 139.7 0)
+			(at 205.74 142.24 0)
 			(hide yes)
 			(effects
 				(font
@@ -5855,36 +5759,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "60c8f179-e30d-4154-8fe9-0b55b0588cf9")
+			(uuid "bae96612-9fd3-45d7-9ae1-3ed531061e7f")
 		)
 		(instances
 			(project "ExtensionPCB"
 				(path "/cd21fdf8-0ab4-4d2d-97c8-34272a5c3237"
-					(reference "#PWR035")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
 		)
-	)
-	(label "EXT.INT"
-		(at 218.44 139.7 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bd5238c5-b85d-4c3a-bc60-abc02c032460")
-	)
-	(label "I2C2.SDA"
-		(at 205.74 142.24 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8fecc44a-f0bb-4837-ae00-db1b2e4d84af")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -5896,8 +5780,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "956fe670-10af-4746-8fb8-362132a1966a")
-		(property "Reference" "#PWR036"
+		(uuid "13cab8d1-de09-49a1-9d8a-2e60f2669391")
+		(property "Reference" "#PWR034"
 			(at 218.44 142.24 0)
 			(hide yes)
 			(effects
@@ -5934,20 +5818,40 @@
 			)
 		)
 		(pin "1"
-			(uuid "3c1472ad-84d7-45bc-82cb-02dba276944a")
+			(uuid "6a07d4e8-8726-457f-88e0-8d1be08ea9ab")
 		)
 		(instances
 			(project "ExtensionPCB"
 				(path "/cd21fdf8-0ab4-4d2d-97c8-34272a5c3237"
-					(reference "#PWR036")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
 		)
 	)
+	(label "I2C2.SCL"
+		(at 205.74 144.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1d07153e-d6fa-4153-872e-7c85f8c26a2c")
+	)
+	(label "EXT.INT"
+		(at 218.44 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cb52d28b-9b7d-49f9-8375-7a2c903efed1")
+	)
 	(symbol
 		(lib_id "power:GND")
-		(at 205.74 144.78 270)
+		(at 205.74 147.32 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5955,9 +5859,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "e09dc57c-99bb-4810-b2ba-9515a6cfc0e4")
-		(property "Reference" "#PWR037"
-			(at 205.74 144.78 0)
+		(uuid "d38fe160-d08f-4851-8eac-168693fd0fc2")
+		(property "Reference" "#PWR035"
+			(at 205.74 147.32 0)
 			(hide yes)
 			(effects
 				(font
@@ -5966,7 +5870,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 202.14000000000001 144.78 90)
+			(at 202.14000000000001 147.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5975,7 +5879,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 144.78 0)
+			(at 205.74 147.32 0)
 			(hide yes)
 			(effects
 				(font
@@ -5984,7 +5888,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 144.78 0)
+			(at 205.74 147.32 0)
 			(hide yes)
 			(effects
 				(font
@@ -5993,30 +5897,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "e22c37bd-0e30-496f-912b-d6a4dfa3f33f")
+			(uuid "614e6ca2-6c6c-433d-8d24-8e896c5e0c48")
 		)
 		(instances
 			(project "ExtensionPCB"
 				(path "/cd21fdf8-0ab4-4d2d-97c8-34272a5c3237"
-					(reference "#PWR037")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
 		)
-	)
-	(label "I2C2.SCL"
-		(at 218.44 144.78 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9570e5f1-abeb-4106-8ebc-459e80eceb39")
-	)
-	(no_connect
-		(at 205.74 147.32)
-		(uuid "fee520fc-e60e-4eca-b439-a3d857905301")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -6028,8 +5918,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "58af168b-231d-45ac-9acf-06965a75275f")
-		(property "Reference" "#PWR038"
+		(uuid "eae50eef-fe51-4e3c-ba45-95b499421904")
+		(property "Reference" "#PWR036"
 			(at 218.44 147.32 0)
 			(hide yes)
 			(effects
@@ -6066,20 +5956,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "c1a20e52-02be-4a9a-914c-9196363a5b39")
+			(uuid "0736b00b-269d-4451-ac07-07c04b702289")
 		)
 		(instances
 			(project "ExtensionPCB"
 				(path "/cd21fdf8-0ab4-4d2d-97c8-34272a5c3237"
-					(reference "#PWR038")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 205.74 149.86 270)
+		(lib_id "power:+3.3V")
+		(at 205.74 149.86 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6087,8 +5977,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "f765bdb0-ae59-4d8f-9be2-b1f063c43ead")
-		(property "Reference" "#PWR039"
+		(uuid "675d832c-9dc4-4e2e-9517-d9d65c140fbb")
+		(property "Reference" "#PWR037"
 			(at 205.74 149.86 0)
 			(hide yes)
 			(effects
@@ -6097,13 +5987,13 @@
 				)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "+3.3V"
 			(at 202.14000000000001 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -6125,24 +6015,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "92b32039-09ff-41c2-84f9-1e162c6e7158")
+			(uuid "f773b5d7-2fd9-4a11-9164-dd7386887521")
 		)
 		(instances
 			(project "ExtensionPCB"
 				(path "/cd21fdf8-0ab4-4d2d-97c8-34272a5c3237"
-					(reference "#PWR039")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
 		)
 	)
-	(no_connect
-		(at 218.44 149.86)
-		(uuid "5eb8686e-48cc-4593-952f-b14b1b0a368b")
-	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 205.74 152.4 90)
+		(at 218.44 149.86 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6150,9 +6036,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "a16fda44-9343-4e2b-bac6-a89844e85c8d")
-		(property "Reference" "#PWR040"
-			(at 205.74 152.4 0)
+		(uuid "83ac7148-2983-48cc-89f4-f1800cbc07da")
+		(property "Reference" "#PWR038"
+			(at 218.44 149.86 0)
 			(hide yes)
 			(effects
 				(font
@@ -6161,6 +6047,65 @@
 			)
 		)
 		(property "Value" "+3.3V"
+			(at 222.04 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 149.86 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 149.86 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "349dc547-1a9e-4907-89a9-0b7510c1c552")
+		)
+		(instances
+			(project "ExtensionPCB"
+				(path "/cd21fdf8-0ab4-4d2d-97c8-34272a5c3237"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+7.5V")
+		(at 205.74 152.4 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3b694dd2-cacd-41ca-a0bd-4c9309dc11f6")
+		(property "Reference" "#PWR039"
+			(at 205.74 152.4 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+7.5V"
 			(at 202.14000000000001 152.4 90)
 			(effects
 				(font
@@ -6188,19 +6133,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "d9278bf3-fbcd-4e81-b815-24fb73cfedb1")
+			(uuid "1ecf6d2b-a9b5-4320-a569-c077537ed01e")
 		)
 		(instances
 			(project "ExtensionPCB"
 				(path "/cd21fdf8-0ab4-4d2d-97c8-34272a5c3237"
-					(reference "#PWR040")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
+		(lib_id "power:+7.5V")
 		(at 218.44 152.4 270)
 		(unit 1)
 		(body_style 1)
@@ -6209,8 +6154,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "2c959a86-b260-449e-b10a-4718aec5f69f")
-		(property "Reference" "#PWR041"
+		(uuid "4901cbec-c9cc-4632-9964-c077da112961")
+		(property "Reference" "#PWR040"
 			(at 218.44 152.4 0)
 			(hide yes)
 			(effects
@@ -6219,7 +6164,7 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+7.5V"
 			(at 222.04 152.4 90)
 			(effects
 				(font
@@ -6247,18 +6192,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "d82903a8-c38d-49d9-b740-275491fb0b9e")
+			(uuid "94a9d45b-e59e-48c2-8432-b19a68c691da")
 		)
 		(instances
 			(project "ExtensionPCB"
 				(path "/cd21fdf8-0ab4-4d2d-97c8-34272a5c3237"
-					(reference "#PWR041")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
 		)
 	)
-	(text "Modulsteckplatz (hardware#1): Kontakte 15/16 = Kodierung, Daten im Wechsel mit GND, 2 Reserve.\nJ1 paarweise gespiegelt gezaehlt (J1.1 = 3V3), am Original pruefen.\nJ5 = X105 ueber FFC 1:1 (Kabeltyp pruefen)."
+	(text "Modulsteckplatz (hardware#1): Kontakte 15/16 = Kodierung, Signalreihen und GND-Reihen im Wechsel, Reserve 3/4/21.\nJ1 paarweise gespiegelt gezaehlt (J1.1 = 3V3), am Original pruefen.\nJ5 = X105 ueber FFC 1:1 (Kabeltyp pruefen)."
 		(exclude_from_sim no)
 		(at 180.34 166.37 0)
 		(effects
@@ -6267,7 +6212,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "fab1622a-b50e-4d05-b140-ec404344e41a")
+		(uuid "36790858-f424-43e6-a893-cb65d9e0eeb0")
 	)
 	(sheet_instances
 		(path "/"
