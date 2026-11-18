@@ -1,0 +1,12 @@
+(footprint "ShieldTab_Chamfer_L"
+	(version 20240108)
+	(generator "pcbnew")
+	(layer "F.Cu")
+	(descr "Loetfahne an der gezahnten Ecke fuer den Schirm der RJ45-Buchsen (Master/Slave) der Grundplatine, GND. B.Cu ohne Loetstopp bis zur Kante, F.Cu-Streifen entlang der Stufen. Kantenmetallisierung beim Fertiger angeben.")
+	(tags "shield solder tab castellated edge")
+	(property "Reference" "REF**" (at 0 1.5) (layer "F.Fab") (hide yes) (uuid "d392a7fd-1b78-40fa-a695-b210089e6cb0") (effects (font (size 0.8 0.8) (thickness 0.12))))
+	(property "Value" "SCHIRM" (at 0 2.5) (layer "F.Fab") (hide yes) (uuid "27e829b1-533a-4816-a585-6cd35e490f8e") (effects (font (size 0.8 0.8) (thickness 0.12))))
+	(attr smd)
+	(pad "1" smd custom (at 0.0000 0.0000) (size 0.3 0.3) (layers "B.Cu" "B.Mask") (zone_connect 2) (options (clearance outline) (anchor rect)) (primitives (gr_poly (pts (xy -5.0000 0.0000) (xy -3.7500 0.0000) (xy -3.7500 -1.0000) (xy -2.5000 -1.0000) (xy -2.5000 -2.0000) (xy -1.2500 -2.0000) (xy -1.2500 -3.0000) (xy 0.0000 -3.0000) (xy 0.0000 -4.0000) (xy 0.0000 0.0000)) (width 0) (fill yes))) (uuid "2f2dbb55-535e-49bb-9e9d-4aa64fb6bbaa"))
+	(pad "1" smd custom (at -3.4500 0.3000) (size 0.3 0.3) (layers "F.Cu" "F.Mask") (zone_connect 2) (options (clearance outline) (anchor rect)) (primitives (gr_poly (pts (xy -1.5500 -0.3000) (xy -0.3000 -0.3000) (xy -0.3000 -1.3000) (xy 0.9500 -1.3000) (xy 0.9500 -2.3000) (xy 2.2000 -2.3000) (xy 2.2000 -3.3000) (xy 3.4500 -3.3000) (xy 3.4500 -4.3000) (xy 4.0500 -3.7000) (xy 4.0500 -2.7000) (xy 2.8000 -2.7000) (xy 2.8000 -1.7000) (xy 1.5500 -1.7000) (xy 1.5500 -0.7000) (xy 0.3000 -0.7000) (xy 0.3000 0.3000) (xy -0.9500 0.3000)) (width 0) (fill yes))) (uuid "68b719c2-e888-4532-8acf-44632a26c261"))
+)

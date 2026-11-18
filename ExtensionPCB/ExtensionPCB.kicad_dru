@@ -4,3 +4,8 @@
 	(condition "A.memberOfFootprint('J2')")
 	(constraint edge_clearance (min 0mm))
 	(severity ignore))
+# Loetfahnen an den gezahnten Ecken: Kupfer bis zur Kante (Kantenmetallisierung)
+(rule "Schirm-Loetfahnen an der Kante"
+	(condition "A.memberOfFootprint('J7') || A.memberOfFootprint('J8')")
+	(constraint edge_clearance (min 0mm))
+	(severity ignore))
