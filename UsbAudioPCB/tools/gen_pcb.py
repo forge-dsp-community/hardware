@@ -71,9 +71,6 @@ for p in P:
     fp.SetFPID(pcbnew.LIB_ID(lib, name))
     fp.SetReference(p['ref']); fp.SetValue(p['val'])
     if p['lcsc']: fp.SetField('LCSC', p['lcsc'])
-    if p['ref'] == 'Q101':   # no model for the ASE footprint in the KiCad library: same 3225 package
-        for m in fp.Models():
-            m.m_Filename = '${KICAD10_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_3225-4Pin_3.2x2.5mm.step'
     b.Add(fp)
     for pad in fp.Pads():
         n = pad.GetNumber()
@@ -150,4 +147,8 @@ for r in sorted(fps):
     if abs(x - PLACE[r][0]) > 0.05 or abs(y - PLACE[r][1]) > 0.05: print(f'  moved {r}: {PLACE[r][0]:.2f},{PLACE[r][1]:.2f} -> {x:.2f},{y:.2f}')
 
 b.Save(f'{PROJ}.kicad_pcb')
+# no model for the ASE oscillator footprint in the KiCad library: same 3225 package as the crystals
+t = open(f'{PROJ}.kicad_pcb').read()
+t = t.replace('Oscillator.3dshapes/Oscillator_SMD_Abracon_ASE-4Pin_3.2x2.5mm.step', 'Crystal.3dshapes/Crystal_SMD_3225-4Pin_3.2x2.5mm.step')
+open(f'{PROJ}.kicad_pcb', 'w').write(t)
 print('saved', len(P), 'footprints')
