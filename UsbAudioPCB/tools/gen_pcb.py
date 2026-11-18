@@ -48,8 +48,8 @@ for (x1, y1), (x2, y2) in zip(pts, pts[1:] + pts[:1]):
     else:
         seg((x1, y1), (x2, y2))
 
-# rule area above X-PDI of the base board: no footprints on the bottom side
-ka = pcbnew.ZONE(b); ka.SetIsRuleArea(True); ka.SetLayer(pcbnew.B_Cu)
+# rule area above X-PDI of the base board: no footprints on side F (faces the base board)
+ka = pcbnew.ZONE(b); ka.SetIsRuleArea(True); ka.SetLayer(pcbnew.F_Cu)
 ka.SetDoNotAllowFootprints(True); ka.SetDoNotAllowTracks(False); ka.SetDoNotAllowVias(False)
 ka.SetDoNotAllowPads(False); ka.SetDoNotAllowZoneFills(False); ka.SetZoneName('X-PDI Mainboard')
 x0, y0, x1, y1 = KEEPOUT_B
@@ -92,7 +92,7 @@ if missing: print('not placed:', ' '.join(missing))
 # ---- legalize: push movable parts out of overlaps (courtyard boxes per side, THT pads on the other side)
 KO = [mm(ORIGIN[0] + KEEPOUT_B[0]), mm(ORIGIN[1] + KEEPOUT_B[1]), mm(ORIGIN[0] + KEEPOUT_B[2]), mm(ORIGIN[1] + KEEPOUT_B[3])]
 FIXED = {'X101', 'X102', 'X103', 'X104', 'X105', 'X106', 'X107', 'SW101', 'IC114', 'IC101'}
-GAP = mm(0.05)
+GAP = 0
 outline = pcbnew.SHAPE_POLY_SET(); b.GetBoardPolygonOutlines(outline, False)
 fps = {fp.GetReference(): fp for fp in b.GetFootprints()}
 def boxes(fp):
@@ -100,7 +100,8 @@ def boxes(fp):
     out = []
     cy = fp.GetCourtyard(pcbnew.B_CrtYd if side == 'B' else pcbnew.F_CrtYd)
     if cy.OutlineCount():
-        bb = cy.BBox(); out.append((side, bb.GetLeft(), bb.GetTop(), bb.GetRight(), bb.GetBottom()))
+        bb = cy.BBox(); w = mm(0.03)   # bbox includes half the 0.05 mm courtyard line
+        out.append((side, bb.GetLeft() + w, bb.GetTop() + w, bb.GetRight() - w, bb.GetBottom() - w))
     for p in fp.Pads():
         if p.GetAttribute() in (pcbnew.PAD_ATTRIB_PTH, pcbnew.PAD_ATTRIB_NPTH):
             bb = p.GetBoundingBox(); bb.Inflate(mm(0.2))
@@ -113,35 +114,37 @@ def inside(fp):
     return all(outline.Contains(pcbnew.VECTOR2I(x, y)) for x, y in
                ((bb.GetLeft(), bb.GetTop()), (bb.GetRight(), bb.GetTop()), (bb.GetLeft(), bb.GetBottom()), (bb.GetRight(), bb.GetBottom())))
 IGNORE = {frozenset(('X103', 'X102')), frozenset(('X105', 'SW101'))}   # bodies touch by design (as the original)
-for it in range(400):
-    moved = 0; lastm = []
-    refs = sorted(fps)
-    bx = {r: boxes(fps[r]) for r in refs}
-    for i, ra in enumerate(refs):
-        for rb in refs[i + 1:]:
-            if frozenset((ra, rb)) in IGNORE: continue
-            if ra in FIXED and rb in FIXED: continue
-            for sa, ax0, ay0, ax1, ay1 in bx[ra]:
-                for sb, bx0, by0, bx1, by1 in bx[rb]:
-                    if sa != sb: continue
-                    ox = min(ax1, bx1) - max(ax0, bx0) + GAP; oy = min(ay1, by1) - max(ay0, by0) + GAP
-                    if ox <= 0 or oy <= 0: continue
-                    mv = rb if ra in FIXED else ra if rb in FIXED else max(ra, rb)   # deterministic
-                    other = ra if mv == rb else rb
-                    sgnx = 1 if (fps[mv].GetPosition().x >= fps[other].GetPosition().x) else -1
-                    sgny = 1 if (fps[mv].GetPosition().y >= fps[other].GetPosition().y) else -1
-                    d = pcbnew.VECTOR2I(sgnx * (ox + 1), 0) if ox < oy else pcbnew.VECTOR2I(0, sgny * (oy + 1))
-                    fps[mv].Move(d)
-                    if not inside(fps[mv]):
-                        fps[mv].Move(pcbnew.VECTOR2I(-d.x, -d.y))
-                        d = pcbnew.VECTOR2I(0, sgny * (oy + 1)) if ox < oy else pcbnew.VECTOR2I(sgnx * (ox + 1), 0)
-                        fps[mv].Move(d)
-                        if not inside(fps[mv]): fps[mv].Move(pcbnew.VECTOR2I(-d.x, -d.y)); continue
-                    moved += 1; lastm.append(mv + '/' + other)
-                    bx[mv] = boxes(fps[mv])
-    if not moved: break
-    last = lastm
-print('legalize iterations', it, 'last moves', moved, sorted(set(lastm)))
+# greedy: fixed parts first, then by size (big first); a part that overlaps something already
+# placed goes to the nearest free spot on a spiral around its wanted position
+def area(r):
+    bb = fps[r].GetCourtyard(pcbnew.B_CrtYd if fps[r].IsFlipped() else pcbnew.F_CrtYd).BBox()
+    return bb.GetWidth() * bb.GetHeight()
+order = [r for r in sorted(fps) if r in FIXED] + sorted((r for r in fps if r not in FIXED), key=lambda r: -area(r))
+placed = []
+def clash(r):
+    for sa, ax0, ay0, ax1, ay1 in boxes(fps[r]):
+        for o in placed:
+            if frozenset((r, o)) in IGNORE: continue
+            for sb, bx0, by0, bx1, by1 in boxes(fps[o]):
+                if sa == sb and min(ax1, bx1) - max(ax0, bx0) > GAP and min(ay1, by1) - max(ay0, by0) > GAP:
+                    return o
+    return None
+step = mm(0.2)
+spiral = [(0, 0)] + [(dx, dy) for rad in range(1, 40) for dx in range(-rad, rad + 1) for dy in range(-rad, rad + 1)
+                     if max(abs(dx), abs(dy)) == rad]
+spiral.sort(key=lambda d: d[0] ** 2 + d[1] ** 2)
+for r in order:
+    if r not in FIXED:
+        home = fps[r].GetPosition()
+        why = clash(r)
+        if why and inside(fps[r]): print('  clash', r, 'with', why)
+        elif not inside(fps[r]): print('  outside', r)
+        for dx, dy in spiral:
+            fps[r].SetPosition(pcbnew.VECTOR2I(home.x + dx * step, home.y + dy * step))
+            if inside(fps[r]) and clash(r) is None: break
+        else:
+            fps[r].SetPosition(home); print('  no free spot for', r)
+    placed.append(r)
 for r in sorted(fps):
     if r in FIXED or r not in PLACE: continue
     p = fps[r].GetPosition(); x, y = pcbnew.ToMM(p.x) - ORIGIN[0], pcbnew.ToMM(p.y) - ORIGIN[1]

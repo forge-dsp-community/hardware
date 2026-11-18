@@ -14,12 +14,14 @@ CAN über MCP2515 ([firmware#73](https://github.com/forge-dsp-community/firmware
 
 ## Ansichten
 
-| | Oberseite | Unterseite |
+| | Seite F (KiCad vorne) | Seite B (KiCad hinten) |
 |---|---|---|
-| ExtensionPCB | ![ExtensionPCB oben](ExtensionPCB/images/ExtensionPCB-3d-top.png) | ![ExtensionPCB unten](ExtensionPCB/images/ExtensionPCB-3d-bottom.png) |
-| UsbAudioPCB (Platzierung, ohne Leiterbahnen) | ![UsbAudioPCB oben](UsbAudioPCB/images/UsbAudioPCB-3d-top.png) | ![UsbAudioPCB unten](UsbAudioPCB/images/UsbAudioPCB-3d-bottom.png) |
+| ExtensionPCB | ![ExtensionPCB Seite F](ExtensionPCB/images/ExtensionPCB-3d-top.png) | ![ExtensionPCB Seite B](ExtensionPCB/images/ExtensionPCB-3d-bottom.png) |
+| UsbAudioPCB (Platzierung, ohne Leiterbahnen) | ![UsbAudioPCB Seite F](UsbAudioPCB/images/UsbAudioPCB-3d-top.png) | ![UsbAudioPCB Seite B](UsbAudioPCB/images/UsbAudioPCB-3d-bottom.png) |
 
-3D-Renderings aus KiCad (`kicad-cli pcb render`). Bei der USB-Audio-Platine fehlen noch die Modelle von USB-B-Buchse,
+3D-Renderings aus KiCad (`kicad-cli pcb render`). Die USB-Audio-Platine sitzt im Forge mit **Seite B nach oben**:
+Seite F zeigt zum Mainboard und trägt wie im Original nur microSD-Halter und USB-B-Buchse an der Kante, alle anderen
+Bauteile sitzen auf B, die Stiftleisten X101/X104 stecken von B durch die Platine ins Mainboard. Bei der USB-Audio-Platine fehlen noch die Modelle von USB-B-Buchse,
 microSD-Halter und Taster.
 
 ## Anschlüsse der Grundplatine
