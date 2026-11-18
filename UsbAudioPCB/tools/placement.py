@@ -73,3 +73,16 @@ k = 0
 for p in P:
     if p['ref'] not in PLACE:
         at(p['ref'], 70 + (k % 8) * 5, (k // 8) * 4, 0, 'B'); k += 1
+
+# ---- copper zones (net, layer, priority, polygon in board mm); higher priority wins
+BOARD = [(-1, -1), (65, -1), (65, 40), (-1, 40)]
+ZONES = [
+    ('GND', 'In1_Cu', 0, BOARD),
+    ('+3V3', 'In2_Cu', 0, BOARD),
+    # XMOS.3V3: around the XMOS (vias of the 3.3 V pins sit outside the pad rows) and along the top
+    # edge to the LDO IC109/C23 (x 30-36)
+    ('XMOS.3V3', 'In2_Cu', 1, [(-1, -1), (37.4, -1), (37.4, 6.2), (22.9, 6.2), (22.9, 27.0), (-1, 27.0)]),
+    # XMOS.1V0: under the chip (vias of the 1.0 V pins sit inside the pad rows) and a band to the
+    # output of the buck converter (L1/C27 at x 35-38, y 15-18)
+    ('XMOS.1V0', 'In2_Cu', 2, [(9.4, 9.4), (18.3, 9.4), (18.3, 16.6), (39.0, 16.6), (39.0, 18.6), (18.3, 18.6), (18.3, 21.2), (9.4, 21.2)]),
+]

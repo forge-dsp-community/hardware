@@ -26,6 +26,7 @@ from placement import PLACE, KEEPOUT_B      # ref -> (x, y, rot, side) in board 
 
 b = pcbnew.CreateEmptyBoard()
 b.SetCopperLayerCount(4)
+b.SetLayerType(pcbnew.In1_Cu, pcbnew.LT_POWER); b.SetLayerType(pcbnew.In2_Cu, pcbnew.LT_POWER)
 pts = [(x * MIL, y * MIL) for x, y in OUTLINE]
 def seg(a, c):
     s = pcbnew.PCB_SHAPE(b); s.SetShape(pcbnew.SHAPE_T_SEGMENT); s.SetLayer(pcbnew.Edge_Cuts)
@@ -146,6 +147,30 @@ for r in sorted(fps):
     p = fps[r].GetPosition(); x, y = pcbnew.ToMM(p.x) - ORIGIN[0], pcbnew.ToMM(p.y) - ORIGIN[1]
     if abs(x - PLACE[r][0]) > 0.05 or abs(y - PLACE[r][1]) > 0.05: print(f'  moved {r}: {PLACE[r][0]:.2f},{PLACE[r][1]:.2f} -> {x:.2f},{y:.2f}')
 
+# ---- copper zones: In1 GND, In2 split (XMOS.1V0 core + band to the buck converter, XMOS.3V3 ring +
+# band to the LDO, +3V3 elsewhere), GND on the outer layers
+from placement import ZONES
+def polyset(poly):
+    ps = pcbnew.SHAPE_POLY_SET(); c = pcbnew.SHAPE_LINE_CHAIN()
+    for x, y in poly: c.Append(mm(ORIGIN[0] + x), mm(ORIGIN[1] + y))
+    c.SetClosed(True); ps.AddOutline(c); return ps
+# the zones of one layer are made disjoint (higher priority cut out of lower ones): the Specctra
+# export for Freerouting knows no zone priorities
+shapes = {}
+for name, layer, prio, poly in ZONES:
+    ps = polyset(poly)
+    for n2, l2, p2, poly2 in ZONES:
+        if l2 == layer and p2 > prio: ps.BooleanSubtract(polyset(poly2))
+    for i in range(ps.OutlineCount()):
+        if ps.HoleCount(i): raise SystemExit(f'zone {name} on {layer} has holes')
+    shapes[(name, layer)] = (prio, ps)
+for (name, layer), (prio, ps) in shapes.items():
+    z = pcbnew.ZONE(b); z.SetLayer(getattr(pcbnew, layer)); z.SetNet(net(name)); z.SetAssignedPriority(prio)
+    z.SetLocalClearance(mm(0.2)); z.SetMinThickness(mm(0.2)); z.SetIslandRemovalMode(pcbnew.ISLAND_REMOVAL_MODE_ALWAYS)
+    z.SetPadConnection(pcbnew.ZONE_CONNECTION_THERMAL); z.SetThermalReliefGap(mm(0.25)); z.SetThermalReliefSpokeWidth(mm(0.3))
+    z.SetOutline(ps)
+    b.Add(z)
+filler = pcbnew.ZONE_FILLER(b); filler.Fill(b.Zones())
 b.Save(f'{PROJ}.kicad_pcb')
 # no model for the ASE oscillator footprint in the KiCad library: same 3225 package as the crystals
 t = open(f'{PROJ}.kicad_pcb').read()
