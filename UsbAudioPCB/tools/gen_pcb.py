@@ -22,7 +22,7 @@ OUTLINE = [(0, 1070), (100, 1070), (100, 160), (900, 160), (900, 0), (1480, 0), 
            (1630, 60), (1630, 0), (1965, 0), (1965, 160), (2500, 160), (2500, 650), (1870, 650), (1770, 750),
            (1770, 1500), (0, 1500)]
 
-from placement import PLACE      # ref -> (x, y, rot, side) in board mm
+from placement import PLACE, KEEPOUT_B      # ref -> (x, y, rot, side) in board mm
 
 b = pcbnew.CreateEmptyBoard()
 b.SetCopperLayerCount(4)
@@ -30,6 +30,14 @@ pts = [(x * MIL, y * MIL) for x, y in OUTLINE]
 for (x1, y1), (x2, y2) in zip(pts, pts[1:] + pts[:1]):
     s = pcbnew.PCB_SHAPE(b); s.SetShape(pcbnew.SHAPE_T_SEGMENT); s.SetLayer(pcbnew.Edge_Cuts)
     s.SetWidth(mm(0.05)); s.SetStart(V(x1, y1)); s.SetEnd(V(x2, y2)); b.Add(s)
+
+# rule area above X-PDI of the base board: no footprints on the bottom side
+ka = pcbnew.ZONE(b); ka.SetIsRuleArea(True); ka.SetLayer(pcbnew.B_Cu)
+ka.SetDoNotAllowFootprints(True); ka.SetDoNotAllowTracks(False); ka.SetDoNotAllowVias(False)
+ka.SetDoNotAllowPads(False); ka.SetDoNotAllowZoneFills(False); ka.SetZoneName('X-PDI Mainboard')
+x0, y0, x1, y1 = KEEPOUT_B
+for x, y in ((x0, y0), (x1, y0), (x1, y1), (x0, y1)): ka.AppendCorner(V(x, y), -1)
+b.Add(ka)
 
 nets = {}
 def net(name):
@@ -65,6 +73,7 @@ for p in P:
 if missing: print('not placed:', ' '.join(missing))
 
 # ---- legalize: push movable parts out of overlaps (courtyard boxes per side, THT pads on the other side)
+KO = [mm(ORIGIN[0] + KEEPOUT_B[0]), mm(ORIGIN[1] + KEEPOUT_B[1]), mm(ORIGIN[0] + KEEPOUT_B[2]), mm(ORIGIN[1] + KEEPOUT_B[3])]
 FIXED = {'X101', 'X102', 'X103', 'X104', 'X105', 'X106', 'X107', 'SW101', 'IC114', 'IC101'}
 GAP = mm(0.05)
 outline = pcbnew.SHAPE_POLY_SET(); b.GetBoardPolygonOutlines(outline, False)
