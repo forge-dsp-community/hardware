@@ -31,7 +31,8 @@ if CHILD:
     sys.argv = [sys.argv[0], RIP]
     src = open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'route.py')).read()
     exec(src[:src.index('# ---- order')])
-    import copy
+    import copy, random
+    RNG = random.Random(1)
     base = (copy.deepcopy(own_t), copy.deepcopy(own_v), copy.deepcopy(netof_t), copy.deepcopy(netof_v))
     ORDER = ['USB.1.DP', 'USB.1.DM', 'COM.D+', 'COM.D-']
     bad = set(json.load(open(BADJ)))
@@ -45,6 +46,10 @@ if CHILD:
         for net in order:
             pads = pads_of.get(net, [])
             if len(pads) < 2: continue
+            # existing copper of the net (manual stubs) joins the tree, so start at the pad it touches;
+            # otherwise a pad on that island counts as reached without a connection
+            cc = copper_cells(net)
+            pads = sorted(pads, key=lambda pd: not (pad_cells(pd[4], pd[3]) & cc))
             nid = NID[net]; w = width(net)
             extra = ring(max(0.0, (w - 0.15) / 2)) if w > 0.16 else []
             attract = pair_cells if net in ('USB.1.DM', 'COM.D-') and pair_cells else None
@@ -70,6 +75,8 @@ if CHILD:
             n_ = f_.split(':')[0]
             if n_ not in fn: fn.append(n_)
         order = [n for n in ORDER if n in order and n not in fn] + fn + [n for n in order if n not in fn and n not in ORDER]
+        if pass_no >= 2:    # two orders tend to alternate: shuffle the rest behind the failed nets
+            rest = [n for n in order if n not in fn]; RNG.shuffle(rest); RNG.shuffle(fn); order = fn + rest
 
     for xa, ya, xb, yb, w, L, net in best_run[0]:
         t = pcbnew.PCB_TRACK(b); t.SetStart(pcbnew.VECTOR2I(mm(xa), mm(ya))); t.SetEnd(pcbnew.VECTOR2I(mm(xb), mm(yb)))

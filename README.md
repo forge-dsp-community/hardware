@@ -10,19 +10,32 @@ Hardware-Erweiterungen für Forge DSP 96ELN/96ELN-3/96LN und ETON CORE D8, entwo
 Geplante Einschubmodule: Bluetooth ([#2](https://github.com/forge-dsp-community/hardware/issues/2)),
 CAN über MCP2515 ([firmware#73](https://github.com/forge-dsp-community/firmware/issues/73)).
 
-**Stand:** Entwürfe, nicht gefertigt, nicht am Gerät geprüft. Die USB-Audio-Platine ist platziert, aber noch nicht geroutet.
+**Stand:** Entwürfe, nicht gefertigt, nicht am Gerät geprüft. Die USB-Audio-Platine ist platziert und geroutet (KiCad-DRC ohne Fehler außer den bekannten Überlappungen von X102/X103/X105/SW101), noch ohne Impedanzprüfung beim Fertiger.
 
 ## Ansichten
 
 | | Seite F (KiCad vorne) | Seite B (KiCad hinten) |
 |---|---|---|
 | ExtensionPCB | ![ExtensionPCB Seite F](ExtensionPCB/images/ExtensionPCB-3d-top.png) | ![ExtensionPCB Seite B](ExtensionPCB/images/ExtensionPCB-3d-bottom.png) |
-| UsbAudioPCB (Platzierung, ohne Leiterbahnen) | ![UsbAudioPCB Seite F](UsbAudioPCB/images/UsbAudioPCB-3d-top.png) | ![UsbAudioPCB Seite B](UsbAudioPCB/images/UsbAudioPCB-3d-bottom.png) |
+| UsbAudioPCB | ![UsbAudioPCB Seite F](UsbAudioPCB/images/UsbAudioPCB-3d-top.png) | ![UsbAudioPCB Seite B](UsbAudioPCB/images/UsbAudioPCB-3d-bottom.png) |
 
 3D-Renderings aus KiCad (`kicad-cli pcb render`). Die USB-Audio-Platine sitzt im Forge mit **Seite B nach oben**:
 Seite F zeigt zum Mainboard und trägt wie im Original nur microSD-Halter und USB-B-Buchse an der Kante, alle anderen
 Bauteile sitzen auf B, die Stiftleisten X101/X104 stecken von B durch die Platine ins Mainboard. Bei der USB-Audio-Platine fehlen noch die Modelle von USB-B-Buchse,
 microSD-Halter und Taster.
+
+## USB-Audio-Platine erzeugen
+
+Alles unter `UsbAudioPCB/tools/`, pcbnew-Python von KiCad 10 (`/usr/bin/python3`):
+
+1. `gen_sch.py`, `gen_pcb.py`: Schaltplan und Platine aus `parts.py`/`placement.py`.
+2. `fanout.py`: Durchkontaktierungen der Ebenennetze (GND auf In1, +3V3/XMOS.3V3/XMOS.1V0 auf In2).
+3. `route_nc.py UsbAudioPCB.kicad_pcb 40 routed.kicad_pcb`: Raster-Router (0,1 mm, 45°) mit PathFinder-Verhandlung,
+   gibt je Runde die Konfliktstellen aus und speichert den besten Stand (rund 70 min).
+4. `cleanup.py routed.kicad_pcb`: Netze mit DRC-Fehlern neu routen (half beim aktuellen Stand nicht).
+5. `fix_route.py`: Handkorrekturen für genau diesen Lauf, danach Zonen füllen und `kicad-cli pcb drc`.
+
+`opt_place.py` sucht Drehungen und Tausche nach Ratsnest-Kreuzungen, `netmap.py` zeichnet Prüfbilder mit Netznamen.
 
 ## Anschlüsse der Grundplatine
 
