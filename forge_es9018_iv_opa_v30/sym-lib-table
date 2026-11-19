@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "forge_iv_opa")(type "KiCad")(uri "${KIPRJMOD}/forge_iv_opa.kicad_sym")(options "")(descr "Rekonstruierte Symbole Forge I/V-Ausgangsplatine"))
+)

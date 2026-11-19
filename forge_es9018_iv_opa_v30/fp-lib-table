@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "forge_iv_opa")(type "KiCad")(uri "${KIPRJMOD}/forge_iv_opa.pretty")(options "")(descr "Rekonstruierte Footprints Forge I/V-Ausgangsplatine"))
+)
