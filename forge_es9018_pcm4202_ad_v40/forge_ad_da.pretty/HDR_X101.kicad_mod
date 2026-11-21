@@ -1,0 +1,118 @@
+(footprint "HDR_X101"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "X101"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "729f951c-42c7-497a-bff3-dd87166f4b36")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.09)
+			)
+		)
+	)
+	(property "Value" "1x04"
+		(at 0 0.8 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "160086a9-e3ae-42bc-98e8-41fe3cb53725")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.09)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5d3a8abe-18cd-4026-bccd-3fd6a2a4245d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bf89f373-487c-452a-a6c2-81242f6da5ed")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -0.969494 -3.996304)
+		(end 0.969505 3.953695)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "091ce12d-ebdd-40c9-8f67-d6807d8e69b1")
+	)
+	(fp_rect
+		(start -0.969494 -3.996304)
+		(end 0.969505 3.953695)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "b781ab63-0a51-4c49-95a0-a57986b84076")
+	)
+	(pad "1" thru_hole circle
+		(at 0.000005 -3.026804)
+		(size 1.439 1.439)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0918e0d8-b6f2-48d8-8fdb-d8dc25f33170")
+	)
+	(pad "2" thru_hole circle
+		(at 0.000005 -0.994804)
+		(size 1.439 1.439)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "39e254cf-87d2-4b10-8175-63311320beb9")
+	)
+	(pad "3" thru_hole circle
+		(at 0.000005 1.037195)
+		(size 1.439 1.439)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4b2b742e-7af7-4401-8323-5aaf59af8b38")
+	)
+	(pad "4" thru_hole circle
+		(at 0.000005 2.984195)
+		(size 1.439 1.439)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "30fe9848-4ae3-4b98-9efe-cc74a8f944fa")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.00mm.3dshapes/PinHeader_1x04_P2.00mm_Vertical.step"
+		(offset
+			(xyz 0 3.03 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

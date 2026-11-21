@@ -1,0 +1,107 @@
+(footprint "SOT-23-3_custom"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "U204"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "8729313d-0594-49a5-a278-97b3f548dc28")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.09)
+			)
+		)
+	)
+	(property "Value" "SOT-23 ?"
+		(at 0 0.8 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6e8aafa4-6e1e-4ed7-822b-b28990bfa2a0")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.09)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bdf42e6c-2825-4327-aa0d-bbab61627b87")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1f55a00e-321d-45ab-ab84-44fe27256ee1")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -1.519999 -2.22)
+		(end 1.509999 2.159999)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "d5576d40-17d2-4e01-a921-1901e26f0d5a")
+	)
+	(fp_rect
+		(start -1.519999 -2.22)
+		(end 1.509999 2.159999)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "3bf2f0b3-0e5c-43f2-adc7-6b975eba3cde")
+	)
+	(pad "1" smd rect
+		(at 0 1.239999)
+		(size 0.66 1.34)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "d1416dfd-2e37-4192-8ce9-23ec6c7e9f5a")
+	)
+	(pad "2" smd rect
+		(at -0.939999 1.239999)
+		(size 0.66 1.34)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "e3e4c6a9-c41d-4a97-8bea-396a2bcc9677")
+	)
+	(pad "3" smd rect
+		(at 0.929999 -1.3)
+		(size 0.66 1.34)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "236979a4-a8e0-4ea3-a7ce-e993062eb05d")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+)

@@ -1,0 +1,100 @@
+(footprint "CP_Tantalum_Case-C_TPSC_P4.91"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "C202"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "526ca066-e7ad-446d-a812-a9347c2e62e9")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.09)
+			)
+		)
+	)
+	(property "Value" "47uF 16V"
+		(at 0 0.8 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "78a651d4-12c3-421b-8af6-03239d86c03c")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.09)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b5b3a44c-6563-4b57-a6d4-3e84e7d1a5d1")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f2283f1d-4e00-4da2-a026-a77763a8a262")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -3.754999 -1.385)
+		(end 3.755 1.385)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "c125a995-6aa9-4114-8fd6-9880b413ad2d")
+	)
+	(fp_rect
+		(start -3.754999 -1.385)
+		(end 3.755 1.385)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "99b9920d-c6c2-4444-b860-54361a21e42c")
+	)
+	(pad "1" smd rect
+		(at -2.454999 0)
+		(size 2.1 2.27)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "bf68965a-276a-4d11-b053-d88d8cb0d415")
+	)
+	(pad "2" smd rect
+		(at 2.455 0)
+		(size 2.1 2.27)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "af255e94-e64b-432d-abe6-0aba286bb16b")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Capacitor_Tantalum_SMD.3dshapes/CP_EIA-6032-28_Kemet-C.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

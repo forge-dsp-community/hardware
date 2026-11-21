@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "forge_ad_da")(type "KiCad")(uri "${KIPRJMOD}/forge_ad_da.kicad_sym")(options "")(descr "Rekonstruierte Symbole Forge ES9018/PCM4202 AD/DA V4.0"))
+)

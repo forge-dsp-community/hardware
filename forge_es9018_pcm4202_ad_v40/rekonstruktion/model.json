@@ -1,0 +1,9005 @@
+{
+"comps": [
+{
+"ref": "IC103",
+"kind": "PCM4202",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 18.16,
+"y": 43.39,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 30)",
+"net": "VREFL.3"
+},
+{
+"num": "2",
+"x": 18.16,
+"y": 42.71,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"num": "3",
+"x": 18.16,
+"y": 42.04,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 52)",
+"net": "VCOML.3"
+},
+{
+"num": "4",
+"x": 18.16,
+"y": 41.44,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 64)",
+"net": "VINL+.3"
+},
+{
+"num": "5",
+"x": 18.16,
+"y": 40.77,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 70)",
+"net": "VINL-.3"
+},
+{
+"num": "6",
+"x": 18.16,
+"y": 40.09,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"num": "7",
+"x": 18.16,
+"y": 39.5,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"num": "8",
+"x": 18.16,
+"y": 38.82,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 113)",
+"net": "3V3"
+},
+{
+"num": "9",
+"x": 18.16,
+"y": 38.14,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 93)",
+"net": "FS0"
+},
+{
+"num": "10",
+"x": 18.16,
+"y": 37.55,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 97)",
+"net": "FS1"
+},
+{
+"num": "11",
+"x": 18.16,
+"y": 36.87,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"num": "12",
+"x": 18.16,
+"y": 36.2,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 103)",
+"net": "HPFD"
+},
+{
+"num": "13",
+"x": 18.16,
+"y": 35.6,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"num": "14",
+"x": 18.16,
+"y": 34.93,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 113)",
+"net": "3V3"
+},
+{
+"num": "28",
+"x": 11.22,
+"y": 43.39,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 28)",
+"net": "VREFR.3"
+},
+{
+"num": "27",
+"x": 11.22,
+"y": 42.71,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"num": "26",
+"x": 11.22,
+"y": 42.04,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 51)",
+"net": "VCOMR.3"
+},
+{
+"num": "25",
+"x": 11.22,
+"y": 41.44,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 15)",
+"net": "VINR+.3"
+},
+{
+"num": "24",
+"x": 11.22,
+"y": 40.77,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 69)",
+"net": "VINR-.3"
+},
+{
+"num": "23",
+"x": 11.22,
+"y": 40.09,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"num": "22",
+"x": 11.22,
+"y": 39.5,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 224)",
+"net": "5V0"
+},
+{
+"num": "21",
+"x": 11.22,
+"y": 38.82,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 79)",
+"net": "CLIPL.3"
+},
+{
+"num": "20",
+"x": 11.22,
+"y": 38.14,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 80)",
+"net": "CLIPR.3"
+},
+{
+"num": "19",
+"x": 11.22,
+"y": 37.55,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 57)",
+"net": "nRST.PCM4202"
+},
+{
+"num": "18",
+"x": 11.22,
+"y": 36.87,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 139)",
+"net": "MCLK"
+},
+{
+"num": "17",
+"x": 11.22,
+"y": 36.2,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 169)",
+"net": "LRCLK"
+},
+{
+"num": "16",
+"x": 11.22,
+"y": 35.6,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 154)",
+"net": "BCLK.IN"
+},
+{
+"num": "15",
+"x": 11.22,
+"y": 34.93,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 108)",
+"net": "AD.OUT.3"
+}
+],
+"cx": 14.690000000000001,
+"cy": 39.16,
+"rot": 0,
+"_xpin": "7",
+"_idx": 3,
+"value": "PCM4202"
+},
+{
+"ref": "IC102",
+"kind": "PCM4202",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 33.4,
+"y": 43.39,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 34)",
+"net": "VREFL.2"
+},
+{
+"num": "2",
+"x": 33.4,
+"y": 42.71,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"num": "3",
+"x": 33.4,
+"y": 42.04,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 54)",
+"net": "VCOML.2"
+},
+{
+"num": "4",
+"x": 33.4,
+"y": 41.44,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 66)",
+"net": "VINL+.2"
+},
+{
+"num": "5",
+"x": 33.4,
+"y": 40.77,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 72)",
+"net": "VINL-.2"
+},
+{
+"num": "6",
+"x": 33.4,
+"y": 40.09,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"num": "7",
+"x": 33.4,
+"y": 39.5,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"num": "8",
+"x": 33.4,
+"y": 38.82,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 113)",
+"net": "3V3"
+},
+{
+"num": "9",
+"x": 33.4,
+"y": 38.14,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 93)",
+"net": "FS0"
+},
+{
+"num": "10",
+"x": 33.4,
+"y": 37.55,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 97)",
+"net": "FS1"
+},
+{
+"num": "11",
+"x": 33.4,
+"y": 36.87,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"num": "12",
+"x": 33.4,
+"y": 36.2,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 103)",
+"net": "HPFD"
+},
+{
+"num": "13",
+"x": 33.4,
+"y": 35.6,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"num": "14",
+"x": 33.4,
+"y": 34.93,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 113)",
+"net": "3V3"
+},
+{
+"num": "28",
+"x": 26.46,
+"y": 43.39,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 32)",
+"net": "VREFR.2"
+},
+{
+"num": "27",
+"x": 26.46,
+"y": 42.71,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"num": "26",
+"x": 26.46,
+"y": 42.04,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 53)",
+"net": "VCOMR.2"
+},
+{
+"num": "25",
+"x": 26.46,
+"y": 41.44,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 17)",
+"net": "VINR+.2"
+},
+{
+"num": "24",
+"x": 26.46,
+"y": 40.77,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 71)",
+"net": "VINR-.2"
+},
+{
+"num": "23",
+"x": 26.46,
+"y": 40.09,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"num": "22",
+"x": 26.46,
+"y": 39.5,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 224)",
+"net": "5V0"
+},
+{
+"num": "21",
+"x": 26.46,
+"y": 38.82,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 81)",
+"net": "CLIPL.2"
+},
+{
+"num": "20",
+"x": 26.46,
+"y": 38.14,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 82)",
+"net": "CLIPR.2"
+},
+{
+"num": "19",
+"x": 26.46,
+"y": 37.55,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 57)",
+"net": "nRST.PCM4202"
+},
+{
+"num": "18",
+"x": 26.46,
+"y": 36.87,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 139)",
+"net": "MCLK"
+},
+{
+"num": "17",
+"x": 26.46,
+"y": 36.2,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 169)",
+"net": "LRCLK"
+},
+{
+"num": "16",
+"x": 26.46,
+"y": 35.6,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 154)",
+"net": "BCLK.IN"
+},
+{
+"num": "15",
+"x": 26.46,
+"y": 34.93,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 114)",
+"net": "AD.OUT.2"
+}
+],
+"cx": 29.93,
+"cy": 39.16,
+"rot": 0,
+"_xpin": "8",
+"_idx": 2,
+"value": "PCM4202"
+},
+{
+"ref": "IC101",
+"kind": "PCM4202",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 48.64,
+"y": 43.39,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 38)",
+"net": "VREFL.1"
+},
+{
+"num": "2",
+"x": 48.64,
+"y": 42.71,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"num": "3",
+"x": 48.64,
+"y": 42.04,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 56)",
+"net": "VCOML.1"
+},
+{
+"num": "4",
+"x": 48.64,
+"y": 41.44,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 68)",
+"net": "VINL+.1"
+},
+{
+"num": "5",
+"x": 48.64,
+"y": 40.77,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 74)",
+"net": "VINL-.1"
+},
+{
+"num": "6",
+"x": 48.64,
+"y": 40.09,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"num": "7",
+"x": 48.64,
+"y": 39.5,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"num": "8",
+"x": 48.64,
+"y": 38.82,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 113)",
+"net": "3V3"
+},
+{
+"num": "9",
+"x": 48.64,
+"y": 38.14,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 93)",
+"net": "FS0"
+},
+{
+"num": "10",
+"x": 48.64,
+"y": 37.55,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 97)",
+"net": "FS1"
+},
+{
+"num": "11",
+"x": 48.64,
+"y": 36.87,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"num": "12",
+"x": 48.64,
+"y": 36.2,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 103)",
+"net": "HPFD"
+},
+{
+"num": "13",
+"x": 48.64,
+"y": 35.6,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"num": "14",
+"x": 48.64,
+"y": 34.93,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 113)",
+"net": "3V3"
+},
+{
+"num": "28",
+"x": 41.7,
+"y": 43.39,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 36)",
+"net": "VREFR.1"
+},
+{
+"num": "27",
+"x": 41.7,
+"y": 42.71,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"num": "26",
+"x": 41.7,
+"y": 42.04,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 55)",
+"net": "VCOMR.1"
+},
+{
+"num": "25",
+"x": 41.7,
+"y": 41.44,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 19)",
+"net": "VINR+.1"
+},
+{
+"num": "24",
+"x": 41.7,
+"y": 40.77,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 73)",
+"net": "VINR-.1"
+},
+{
+"num": "23",
+"x": 41.7,
+"y": 40.09,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"num": "22",
+"x": 41.7,
+"y": 39.5,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 224)",
+"net": "5V0"
+},
+{
+"num": "21",
+"x": 41.7,
+"y": 38.82,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 83)",
+"net": "CLIPL.1"
+},
+{
+"num": "20",
+"x": 41.7,
+"y": 38.14,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 84)",
+"net": "CLIPR.1"
+},
+{
+"num": "19",
+"x": 41.7,
+"y": 37.55,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 57)",
+"net": "nRST.PCM4202"
+},
+{
+"num": "18",
+"x": 41.7,
+"y": 36.87,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 139)",
+"net": "MCLK"
+},
+{
+"num": "17",
+"x": 41.7,
+"y": 36.2,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 169)",
+"net": "LRCLK"
+},
+{
+"num": "16",
+"x": 41.7,
+"y": 35.6,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 154)",
+"net": "BCLK.IN"
+},
+{
+"num": "15",
+"x": 41.7,
+"y": 34.93,
+"w": 1.45,
+"h": 0.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 120)",
+"net": "AD.OUT.1"
+}
+],
+"cx": 45.17,
+"cy": 39.16,
+"rot": 0,
+"_xpin": "9",
+"_idx": 1,
+"value": "PCM4202"
+},
+{
+"ref": "IC105",
+"kind": "ES9018",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 19.58,
+"y": 25.23,
+"w": 0.28,
+"h": 1.55,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 237)",
+"net": "1V2_AVCC"
+},
+{
+"num": "2",
+"x": 20.08,
+"y": 25.23,
+"w": 0.28,
+"h": 1.55,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 245)",
+"net": "VOUT1+"
+},
+{
+"num": "3",
+"x": 20.58,
+"y": 25.23,
+"w": 0.28,
+"h": 1.55,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 253)",
+"net": "VOUT1-"
+},
+{
+"num": "4",
+"x": 21.08,
+"y": 25.23,
+"w": 0.28,
+"h": 1.55,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 254)",
+"net": "VOUT3-"
+},
+{
+"num": "5",
+"x": 21.58,
+"y": 25.23,
+"w": 0.28,
+"h": 1.55,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 246)",
+"net": "VOUT3+"
+},
+{
+"num": "6",
+"x": 22.08,
+"y": 25.23,
+"w": 0.28,
+"h": 1.55,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 220)",
+"net": "AGND"
+},
+{
+"num": "7",
+"x": 22.58,
+"y": 25.23,
+"w": 0.28,
+"h": 1.55,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 137)",
+"net": "3V3_AVCC_L"
+},
+{
+"num": "8",
+"x": 23.08,
+"y": 25.23,
+"w": 0.28,
+"h": 1.55,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 144)",
+"net": "RST.ES9018"
+},
+{
+"num": "9",
+"x": 23.58,
+"y": 25.23,
+"w": 0.28,
+"h": 1.55,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"num": "10",
+"x": 24.08,
+"y": 25.23,
+"w": 0.28,
+"h": 1.55,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 137)",
+"net": "3V3_AVCC_L"
+},
+{
+"num": "11",
+"x": 24.58,
+"y": 25.23,
+"w": 0.28,
+"h": 1.55,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 220)",
+"net": "AGND"
+},
+{
+"num": "12",
+"x": 25.08,
+"y": 25.23,
+"w": 0.28,
+"h": 1.55,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 247)",
+"net": "VOUT5+"
+},
+{
+"num": "13",
+"x": 25.58,
+"y": 25.23,
+"w": 0.28,
+"h": 1.55,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 255)",
+"net": "VOUT5-"
+},
+{
+"num": "14",
+"x": 26.08,
+"y": 25.23,
+"w": 0.28,
+"h": 1.55,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 256)",
+"net": "VOUT7-"
+},
+{
+"num": "15",
+"x": 26.58,
+"y": 25.23,
+"w": 0.28,
+"h": 1.55,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 248)",
+"net": "VOUT7+"
+},
+{
+"num": "16",
+"x": 27.08,
+"y": 25.23,
+"w": 0.28,
+"h": 1.55,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 237)",
+"net": "1V2_AVCC"
+},
+{
+"num": "17",
+"x": 28.92,
+"y": 23.39,
+"w": 1.55,
+"h": 0.28,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 137)",
+"net": "3V3_AVCC_L"
+},
+{
+"num": "18",
+"x": 28.92,
+"y": 22.89,
+"w": 1.55,
+"h": 0.28,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 220)",
+"net": "AGND"
+},
+{
+"num": "19",
+"x": 28.92,
+"y": 22.39,
+"w": 1.55,
+"h": 0.28,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"num": "20",
+"x": 28.92,
+"y": 21.89,
+"w": 1.55,
+"h": 0.28,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 186)",
+"net": "1V2_DVCC"
+},
+{
+"num": "21",
+"x": 28.92,
+"y": 21.39,
+"w": 1.55,
+"h": 0.28,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 163)",
+"net": "SDA.PIPE.2"
+},
+{
+"num": "22",
+"x": 28.92,
+"y": 20.89,
+"w": 1.55,
+"h": 0.28,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 168)",
+"net": "SCL.PIPE.2"
+},
+{
+"num": "23",
+"x": 28.92,
+"y": 20.39,
+"w": 1.55,
+"h": 0.28,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 171)",
+"net": "ES_XO"
+},
+{
+"num": "24",
+"x": 28.92,
+"y": 19.89,
+"w": 1.55,
+"h": 0.28,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 172)",
+"net": "MCLK.DA"
+},
+{
+"num": "25",
+"x": 28.92,
+"y": 19.39,
+"w": 1.55,
+"h": 0.28,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 174)",
+"net": "3V3.NOHF"
+},
+{
+"num": "26",
+"x": 28.92,
+"y": 18.89,
+"w": 1.55,
+"h": 0.28,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 178)",
+"net": "OVF-DA_LOCK"
+},
+{
+"num": "27",
+"x": 28.92,
+"y": 18.39,
+"w": 1.55,
+"h": 0.28,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 180)",
+"net": "Net-(IC105-27)"
+},
+{
+"num": "28",
+"x": 28.92,
+"y": 17.89,
+"w": 1.55,
+"h": 0.28,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 184)",
+"net": "Net-(IC105-28)"
+},
+{
+"num": "29",
+"x": 28.92,
+"y": 17.39,
+"w": 1.55,
+"h": 0.28,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 186)",
+"net": "1V2_DVCC"
+},
+{
+"num": "30",
+"x": 28.92,
+"y": 16.89,
+"w": 1.55,
+"h": 0.28,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"num": "31",
+"x": 28.92,
+"y": 16.39,
+"w": 1.55,
+"h": 0.28,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 220)",
+"net": "AGND"
+},
+{
+"num": "32",
+"x": 28.92,
+"y": 15.89,
+"w": 1.55,
+"h": 0.28,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 204)",
+"net": "3V3_AVCC_R"
+},
+{
+"num": "33",
+"x": 27.08,
+"y": 14.05,
+"w": 0.28,
+"h": 1.55,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 237)",
+"net": "1V2_AVCC"
+},
+{
+"num": "34",
+"x": 26.58,
+"y": 14.05,
+"w": 0.28,
+"h": 1.55,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 229)",
+"net": "VOUT8+"
+},
+{
+"num": "35",
+"x": 26.08,
+"y": 14.05,
+"w": 0.28,
+"h": 1.55,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 244)",
+"net": "VOUT8-"
+},
+{
+"num": "36",
+"x": 25.58,
+"y": 14.05,
+"w": 0.28,
+"h": 1.55,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 243)",
+"net": "VOUT6-"
+},
+{
+"num": "37",
+"x": 25.08,
+"y": 14.05,
+"w": 0.28,
+"h": 1.55,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 228)",
+"net": "VOUT6+"
+},
+{
+"num": "38",
+"x": 24.58,
+"y": 14.05,
+"w": 0.28,
+"h": 1.55,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 220)",
+"net": "AGND"
+},
+{
+"num": "39",
+"x": 24.08,
+"y": 14.05,
+"w": 0.28,
+"h": 1.55,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 204)",
+"net": "3V3_AVCC_R"
+},
+{
+"num": "40",
+"x": 23.58,
+"y": 14.05,
+"w": 0.28,
+"h": 1.55,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 194)",
+"net": "ES_AUTOMUTE"
+},
+{
+"num": "41",
+"x": 23.08,
+"y": 14.05,
+"w": 0.28,
+"h": 1.55,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"num": "42",
+"x": 22.58,
+"y": 14.05,
+"w": 0.28,
+"h": 1.55,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 204)",
+"net": "3V3_AVCC_R"
+},
+{
+"num": "43",
+"x": 22.08,
+"y": 14.05,
+"w": 0.28,
+"h": 1.55,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 220)",
+"net": "AGND"
+},
+{
+"num": "44",
+"x": 21.58,
+"y": 14.05,
+"w": 0.28,
+"h": 1.55,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 227)",
+"net": "VOUT4+"
+},
+{
+"num": "45",
+"x": 21.08,
+"y": 14.05,
+"w": 0.28,
+"h": 1.55,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 242)",
+"net": "VOUT4-"
+},
+{
+"num": "46",
+"x": 20.58,
+"y": 14.05,
+"w": 0.28,
+"h": 1.55,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 241)",
+"net": "VOUT2-"
+},
+{
+"num": "47",
+"x": 20.08,
+"y": 14.05,
+"w": 0.28,
+"h": 1.55,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 226)",
+"net": "VOUT2+"
+},
+{
+"num": "48",
+"x": 19.58,
+"y": 14.05,
+"w": 0.28,
+"h": 1.55,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 237)",
+"net": "1V2_AVCC"
+},
+{
+"num": "49",
+"x": 17.74,
+"y": 15.89,
+"w": 1.55,
+"h": 0.28,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 204)",
+"net": "3V3_AVCC_R"
+},
+{
+"num": "50",
+"x": 17.74,
+"y": 16.39,
+"w": 1.55,
+"h": 0.28,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 220)",
+"net": "AGND"
+},
+{
+"num": "51",
+"x": 17.74,
+"y": 16.89,
+"w": 1.55,
+"h": 0.28,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"num": "52",
+"x": 17.74,
+"y": 17.39,
+"w": 1.55,
+"h": 0.28,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"num": "53",
+"x": 17.74,
+"y": 17.89,
+"w": 1.55,
+"h": 0.28,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"num": "54",
+"x": 17.74,
+"y": 18.39,
+"w": 1.55,
+"h": 0.28,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"num": "55",
+"x": 17.74,
+"y": 18.89,
+"w": 1.55,
+"h": 0.28,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 177)",
+"net": "ES_DATA5"
+},
+{
+"num": "56",
+"x": 17.74,
+"y": 19.39,
+"w": 1.55,
+"h": 0.28,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 175)",
+"net": "ES_DATA4"
+},
+{
+"num": "57",
+"x": 17.74,
+"y": 19.89,
+"w": 1.55,
+"h": 0.28,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 173)",
+"net": "ES_DATA3"
+},
+{
+"num": "58",
+"x": 17.74,
+"y": 20.39,
+"w": 1.55,
+"h": 0.28,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 170)",
+"net": "ES_DATA2"
+},
+{
+"num": "59",
+"x": 17.74,
+"y": 20.89,
+"w": 1.55,
+"h": 0.28,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 169)",
+"net": "LRCLK"
+},
+{
+"num": "60",
+"x": 17.74,
+"y": 21.39,
+"w": 1.55,
+"h": 0.28,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 162)",
+"net": "BCLK.OUT"
+},
+{
+"num": "61",
+"x": 17.74,
+"y": 21.89,
+"w": 1.55,
+"h": 0.28,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 186)",
+"net": "1V2_DVCC"
+},
+{
+"num": "62",
+"x": 17.74,
+"y": 22.39,
+"w": 1.55,
+"h": 0.28,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 174)",
+"net": "3V3.NOHF"
+},
+{
+"num": "63",
+"x": 17.74,
+"y": 22.89,
+"w": 1.55,
+"h": 0.28,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 220)",
+"net": "AGND"
+},
+{
+"num": "64",
+"x": 17.74,
+"y": 23.39,
+"w": 1.55,
+"h": 0.28,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 137)",
+"net": "3V3_AVCC_L"
+}
+],
+"cx": 23.33,
+"cy": 19.64,
+"rot": 0,
+"value": "ES9018S"
+},
+{
+"ref": "IC104",
+"kind": "PCA9554",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 6.05,
+"y": 44.395,
+"w": 0.8,
+"h": 0.28,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 113)",
+"net": "3V3"
+},
+{
+"num": "2",
+"x": 6.05,
+"y": 43.895,
+"w": 0.8,
+"h": 0.28,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 79)",
+"net": "CLIPL.3"
+},
+{
+"num": "3",
+"x": 6.05,
+"y": 43.395,
+"w": 0.8,
+"h": 0.28,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 80)",
+"net": "CLIPR.3"
+},
+{
+"num": "4",
+"x": 6.05,
+"y": 42.895,
+"w": 0.8,
+"h": 0.28,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 81)",
+"net": "CLIPL.2"
+},
+{
+"num": "5",
+"x": 5.28,
+"y": 42.125,
+"w": 0.28,
+"h": 0.8,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 82)",
+"net": "CLIPR.2"
+},
+{
+"num": "6",
+"x": 4.78,
+"y": 42.125,
+"w": 0.28,
+"h": 0.8,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"num": "7",
+"x": 4.28,
+"y": 42.125,
+"w": 0.28,
+"h": 0.8,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 83)",
+"net": "CLIPL.1"
+},
+{
+"num": "8",
+"x": 3.78,
+"y": 42.125,
+"w": 0.28,
+"h": 0.8,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 84)",
+"net": "CLIPR.1"
+},
+{
+"num": "9",
+"x": 3.01,
+"y": 42.895,
+"w": 0.8,
+"h": 0.28,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 57)",
+"net": "nRST.PCM4202"
+},
+{
+"num": "10",
+"x": 3.01,
+"y": 43.395,
+"w": 0.8,
+"h": 0.28,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 144)",
+"net": "RST.ES9018"
+},
+{
+"num": "11",
+"x": 3.01,
+"y": 43.895,
+"w": 0.8,
+"h": 0.28,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 40)",
+"net": "OVF-AD"
+},
+{
+"num": "12",
+"x": 3.01,
+"y": 44.395,
+"w": 0.8,
+"h": 0.28,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 47)",
+"net": "SCL.PIPE.1"
+},
+{
+"num": "13",
+"x": 3.78,
+"y": 45.165,
+"w": 0.28,
+"h": 0.8,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 44)",
+"net": "SDA.PIPE.1"
+},
+{
+"num": "14",
+"x": 4.28,
+"y": 45.165,
+"w": 0.28,
+"h": 0.8,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 113)",
+"net": "3V3"
+},
+{
+"num": "15",
+"x": 4.78,
+"y": 45.165,
+"w": 0.28,
+"h": 0.8,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 113)",
+"net": "3V3"
+},
+{
+"num": "16",
+"x": 5.28,
+"y": 45.165,
+"w": 0.28,
+"h": 0.8,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 113)",
+"net": "3V3"
+},
+{
+"num": "17",
+"x": 4.53,
+"y": 43.645,
+"w": 1.6,
+"h": 1.6,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 179)",
+"net": "GND"
+}
+],
+"cx": 4.53,
+"cy": 43.645,
+"rot": 0,
+"value": "PCA9554ABS"
+},
+{
+"ref": "U201",
+"kind": "SOT23-5",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 7.15,
+"y": 7.79,
+"w": 1.34,
+"h": 0.66,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 236)",
+"net": "Net-(U201-1)"
+},
+{
+"num": "2",
+"x": 7.15,
+"y": 6.77,
+"w": 1.34,
+"h": 0.66,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 220)",
+"net": "AGND"
+},
+{
+"num": "3",
+"x": 7.15,
+"y": 5.84,
+"w": 1.34,
+"h": 0.66,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 236)",
+"net": "Net-(U201-1)"
+},
+{
+"num": "4",
+"x": 9.78,
+"y": 5.84,
+"w": 1.34,
+"h": 0.66,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 237)",
+"net": "1V2_AVCC"
+},
+{
+"num": "5",
+"x": 9.78,
+"y": 7.79,
+"w": 1.34,
+"h": 0.66,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 218)",
+"net": "Net-(U201-5)"
+}
+],
+"cx": 8.47,
+"cy": 6.8,
+"value": "LDO SOT-23-5 (1V2_AVCC)"
+},
+{
+"ref": "U202",
+"kind": "SOT89",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 10.71,
+"y": 24.05,
+"w": 1.17,
+"h": 0.83,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"num": "2",
+"x": 8.09,
+"y": 22.48,
+"w": 2.86,
+"h": 2.1,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 174)",
+"net": "3V3.NOHF"
+},
+{
+"num": "3",
+"x": 10.71,
+"y": 21.08,
+"w": 1.17,
+"h": 0.83,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 186)",
+"net": "1V2_DVCC"
+},
+{
+"num": "4",
+"x": 10.71,
+"y": 22.52,
+"w": 1.17,
+"h": 0.83,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 174)",
+"net": "3V3.NOHF"
+}
+],
+"cx": 9.6,
+"cy": 22.5,
+"value": "Regler SOT-89 (1V2_DVCC)"
+},
+{
+"ref": "U203",
+"kind": "SOIC8",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 37.59,
+"y": 16.98,
+"w": 0.75,
+"h": 2.2,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 220)",
+"net": "AGND"
+},
+{
+"num": "2",
+"x": 38.86,
+"y": 16.98,
+"w": 0.75,
+"h": 2.2,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 176)",
+"net": "Net-(U203-2)"
+},
+{
+"num": "3",
+"x": 40.13,
+"y": 16.98,
+"w": 0.75,
+"h": 2.2,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 204)",
+"net": "3V3_AVCC_R"
+},
+{
+"num": "4",
+"x": 41.4,
+"y": 16.98,
+"w": 0.75,
+"h": 2.2,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 204)",
+"net": "3V3_AVCC_R"
+},
+{
+"num": "5",
+"x": 41.4,
+"y": 22.23,
+"w": 0.75,
+"h": 2.2,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 161)",
+"net": "Net-(U203-5)"
+},
+{
+"num": "6",
+"x": 40.13,
+"y": 22.23,
+"w": 0.75,
+"h": 2.2,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 137)",
+"net": "3V3_AVCC_L"
+},
+{
+"num": "7",
+"x": 38.86,
+"y": 22.23,
+"w": 0.75,
+"h": 2.2,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 137)",
+"net": "3V3_AVCC_L"
+},
+{
+"num": "8",
+"x": 37.59,
+"y": 22.23,
+"w": 0.75,
+"h": 2.2,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 160)",
+"net": "Net-(U203-8)"
+}
+],
+"cx": 39.5,
+"cy": 19.6,
+"value": "SOIC-8 (3V3_AVCC_L/R?)"
+},
+{
+"ref": "U204",
+"kind": "SOT23",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 50.5,
+"y": 7.96,
+"w": 0.66,
+"h": 1.34,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 220)",
+"net": "AGND"
+},
+{
+"num": "2",
+"x": 51.44,
+"y": 7.96,
+"w": 0.66,
+"h": 1.34,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 223)",
+"net": "Net-(U204-2)"
+},
+{
+"num": "3",
+"x": 49.57,
+"y": 10.5,
+"w": 0.66,
+"h": 1.34,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 207)",
+"net": "Net-(U204-3)"
+}
+],
+"cx": 50.5,
+"cy": 9.2,
+"value": "SOT-23 ?"
+},
+{
+"ref": "JP1",
+"kind": "SJ3",
+"side": "F",
+"pads": [
+{
+"num": "1",
+"x": 17.72,
+"y": 38.19,
+"w": 1.0,
+"h": 0.9,
+"side": "F",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"num": "2",
+"x": 17.72,
+"y": 36.94,
+"w": 1.0,
+"h": 0.9,
+"side": "F",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 93)",
+"net": "FS0"
+},
+{
+"num": "3",
+"x": 17.72,
+"y": 35.69,
+"w": 1.0,
+"h": 0.9,
+"side": "F",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 113)",
+"net": "3V3"
+}
+],
+"cx": 17.72,
+"cy": 36.94,
+"value": "SJ FS0"
+},
+{
+"ref": "JP2",
+"kind": "SJ3",
+"side": "F",
+"pads": [
+{
+"num": "1",
+"x": 33.3,
+"y": 37.68,
+"w": 1.0,
+"h": 0.9,
+"side": "F",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"num": "2",
+"x": 33.3,
+"y": 36.43,
+"w": 1.0,
+"h": 0.9,
+"side": "F",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 97)",
+"net": "FS1"
+},
+{
+"num": "3",
+"x": 33.3,
+"y": 35.18,
+"w": 1.0,
+"h": 0.9,
+"side": "F",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 113)",
+"net": "3V3"
+}
+],
+"cx": 33.3,
+"cy": 36.43,
+"value": "SJ FS1"
+},
+{
+"ref": "JP3",
+"kind": "SJ3",
+"side": "F",
+"pads": [
+{
+"num": "1",
+"x": 48.54,
+"y": 37.68,
+"w": 1.0,
+"h": 0.9,
+"side": "F",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"num": "2",
+"x": 48.54,
+"y": 36.43,
+"w": 1.0,
+"h": 0.9,
+"side": "F",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 103)",
+"net": "HPFD"
+},
+{
+"num": "3",
+"x": 48.54,
+"y": 35.18,
+"w": 1.0,
+"h": 0.9,
+"side": "F",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 113)",
+"net": "3V3"
+}
+],
+"cx": 48.54,
+"cy": 36.43,
+"value": "SJ HPFD"
+},
+{
+"ref": "X100",
+"kind": "EDGE",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 0.326,
+"y": 49.482,
+"w": 1.8,
+"h": 1.7,
+"side": "FB",
+"shape": "rect",
+"drill": 0.7,
+"th": true,
+"root": "('B', 40)",
+"net": "OVF-AD"
+},
+{
+"num": "2",
+"x": 0.326,
+"y": 47.45,
+"w": 1.8,
+"h": 1.7,
+"side": "FB",
+"shape": "rect",
+"drill": 0.7,
+"th": true,
+"root": "('B', 39)",
+"net": "Net-(X100-2)"
+},
+{
+"num": "3",
+"x": 0.331,
+"y": 45.45,
+"w": 1.8,
+"h": 1.7,
+"side": "FB",
+"shape": "rect",
+"drill": 0.7,
+"th": true,
+"root": "('B', 44)",
+"net": "SDA.PIPE.1"
+},
+{
+"num": "4",
+"x": 0.326,
+"y": 43.47,
+"w": 1.8,
+"h": 1.7,
+"side": "FB",
+"shape": "rect",
+"drill": 0.7,
+"th": true,
+"root": "('B', 47)",
+"net": "SCL.PIPE.1"
+},
+{
+"num": "5",
+"x": 0.331,
+"y": 41.463,
+"w": 1.8,
+"h": 1.7,
+"side": "FB",
+"shape": "rect",
+"drill": 0.7,
+"th": true,
+"root": "('B', 168)",
+"net": "SCL.PIPE.2"
+},
+{
+"num": "6",
+"x": 0.331,
+"y": 39.439,
+"w": 1.8,
+"h": 1.7,
+"side": "FB",
+"shape": "rect",
+"drill": 0.7,
+"th": true,
+"root": "('B', 163)",
+"net": "SDA.PIPE.2"
+},
+{
+"num": "7",
+"x": 0.326,
+"y": 37.459,
+"w": 1.8,
+"h": 1.7,
+"side": "FB",
+"shape": "rect",
+"drill": 0.7,
+"th": true,
+"root": "('B', 108)",
+"net": "AD.OUT.3"
+},
+{
+"num": "8",
+"x": 0.331,
+"y": 35.46,
+"w": 1.8,
+"h": 1.7,
+"side": "FB",
+"shape": "rect",
+"drill": 0.7,
+"th": true,
+"root": "('B', 114)",
+"net": "AD.OUT.2"
+},
+{
+"num": "9",
+"x": 0.326,
+"y": 33.48,
+"w": 1.8,
+"h": 1.7,
+"side": "FB",
+"shape": "rect",
+"drill": 0.7,
+"th": true,
+"root": "('B', 120)",
+"net": "AD.OUT.1"
+},
+{
+"num": "10",
+"x": 0.326,
+"y": 31.448,
+"w": 1.8,
+"h": 1.7,
+"side": "FB",
+"shape": "rect",
+"drill": 0.7,
+"th": true,
+"root": "('B', 121)",
+"net": "Net-(X100-10)"
+},
+{
+"num": "11",
+"x": 0.331,
+"y": 29.448,
+"w": 1.8,
+"h": 1.7,
+"side": "FB",
+"shape": "rect",
+"drill": 0.7,
+"th": true,
+"root": "('B', 178)",
+"net": "OVF-DA_LOCK"
+},
+{
+"num": "12",
+"x": 0.326,
+"y": 27.468,
+"w": 1.8,
+"h": 1.7,
+"side": "FB",
+"shape": "rect",
+"drill": 0.7,
+"th": true,
+"root": "('B', 128)",
+"net": "nRST.2.DEVICES"
+},
+{
+"num": "13",
+"x": 0.331,
+"y": 25.461,
+"w": 1.8,
+"h": 1.7,
+"side": "FB",
+"shape": "rect",
+"drill": 0.7,
+"th": true,
+"root": "('B', 139)",
+"net": "MCLK"
+},
+{
+"num": "14",
+"x": 0.331,
+"y": 23.437,
+"w": 1.8,
+"h": 1.7,
+"side": "FB",
+"shape": "rect",
+"drill": 0.7,
+"th": true,
+"root": "('B', 154)",
+"net": "BCLK.IN"
+},
+{
+"num": "15",
+"x": 0.326,
+"y": 21.457,
+"w": 1.8,
+"h": 1.7,
+"side": "FB",
+"shape": "rect",
+"drill": 0.7,
+"th": true,
+"root": "('B', 162)",
+"net": "BCLK.OUT"
+},
+{
+"num": "16",
+"x": 0.331,
+"y": 19.45,
+"w": 1.8,
+"h": 1.7,
+"side": "FB",
+"shape": "rect",
+"drill": 0.7,
+"th": true,
+"root": "('B', 169)",
+"net": "LRCLK"
+},
+{
+"num": "17",
+"x": 0.326,
+"y": 17.478,
+"w": 1.8,
+"h": 1.7,
+"side": "FB",
+"shape": "rect",
+"drill": 0.7,
+"th": true,
+"root": "('B', 182)",
+"net": "Net-(X100-17)"
+},
+{
+"num": "18",
+"x": 0.326,
+"y": 15.446,
+"w": 1.8,
+"h": 1.7,
+"side": "FB",
+"shape": "rect",
+"drill": 0.7,
+"th": true,
+"root": "('B', 193)",
+"net": "Net-(X100-18)"
+},
+{
+"num": "19",
+"x": 0.331,
+"y": 13.446,
+"w": 1.8,
+"h": 1.7,
+"side": "FB",
+"shape": "rect",
+"drill": 0.7,
+"th": true,
+"root": "('B', 208)",
+"net": "Net-(X100-19)"
+},
+{
+"num": "20",
+"x": 0.326,
+"y": 11.466,
+"w": 1.8,
+"h": 1.7,
+"side": "FB",
+"shape": "rect",
+"drill": 0.7,
+"th": true,
+"root": "('B', 211)",
+"net": "Net-(X100-20)"
+},
+{
+"num": "21",
+"x": 0.6,
+"y": 55.71,
+"w": 1.2,
+"h": 1.5,
+"side": "FB",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"num": "22",
+"x": 0.6,
+"y": 52.92,
+"w": 1.2,
+"h": 1.5,
+"side": "FB",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 113)",
+"net": "3V3"
+},
+{
+"num": "23",
+"x": 0.6,
+"y": 7.76,
+"w": 1.2,
+"h": 1.5,
+"side": "FB",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 224)",
+"net": "5V0"
+},
+{
+"num": "24",
+"x": 0.6,
+"y": 3.4,
+"w": 1.2,
+"h": 1.5,
+"side": "FB",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 238)",
+"net": "Net-(X100-24)"
+}
+],
+"cx": 0.5,
+"cy": 30.5,
+"value": "Randkontakt 1x20 + Versorgung"
+},
+{
+"ref": "X101",
+"kind": "HDR",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 2.667,
+"y": 17.272,
+"w": 1.439,
+"h": 1.439,
+"side": "FB",
+"shape": "circle",
+"drill": 0.7,
+"th": true,
+"root": "('B', 170)",
+"net": "ES_DATA2"
+},
+{
+"num": "2",
+"x": 2.667,
+"y": 15.24,
+"w": 1.439,
+"h": 1.439,
+"side": "FB",
+"shape": "circle",
+"drill": 0.7,
+"th": true,
+"root": "('B', 173)",
+"net": "ES_DATA3"
+},
+{
+"num": "3",
+"x": 2.667,
+"y": 13.208,
+"w": 1.439,
+"h": 1.439,
+"side": "FB",
+"shape": "circle",
+"drill": 0.7,
+"th": true,
+"root": "('B', 175)",
+"net": "ES_DATA4"
+},
+{
+"num": "4",
+"x": 2.667,
+"y": 11.261,
+"w": 1.439,
+"h": 1.439,
+"side": "FB",
+"shape": "circle",
+"drill": 0.7,
+"th": true,
+"root": "('B', 177)",
+"net": "ES_DATA5"
+}
+],
+"cx": 2.667005334010668,
+"cy": 14.245195157056981,
+"value": "1x04"
+},
+{
+"ref": "X102",
+"kind": "HDR",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 45.129,
+"y": 23.409,
+"w": 1.439,
+"h": 1.439,
+"side": "FB",
+"shape": "circle",
+"drill": 1.0,
+"th": true,
+"root": "('B', 155)",
+"net": "Net-(X102-1)"
+},
+{
+"num": "2",
+"x": 45.129,
+"y": 20.869,
+"w": 1.439,
+"h": 1.439,
+"side": "FB",
+"shape": "circle",
+"drill": 1.0,
+"th": true,
+"root": "('B', 155)",
+"net": "Net-(X102-1)"
+},
+{
+"num": "3",
+"x": 45.129,
+"y": 18.329,
+"w": 1.439,
+"h": 1.439,
+"side": "FB",
+"shape": "circle",
+"drill": 1.0,
+"th": true,
+"root": "('B', 161)",
+"net": "Net-(U203-5)"
+},
+{
+"num": "4",
+"x": 45.17,
+"y": 15.748,
+"w": 1.439,
+"h": 1.439,
+"side": "FB",
+"shape": "circle",
+"drill": 1.0,
+"th": true,
+"root": "('B', 223)",
+"net": "Net-(U204-2)"
+}
+],
+"cx": 45.1290393674935,
+"cy": 19.58857734509362,
+"value": "1x04"
+},
+{
+"ref": "J1",
+"kind": "OUTSLOT",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 14.78,
+"y": 7.46,
+"w": 1.8,
+"h": 0.72,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 226)",
+"net": "VOUT2+"
+},
+{
+"num": "2",
+"x": 14.78,
+"y": 6.19,
+"w": 1.8,
+"h": 0.72,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 235)",
+"net": "I.2-VREF"
+},
+{
+"num": "3",
+"x": 14.78,
+"y": 4.92,
+"w": 1.8,
+"h": 0.72,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 241)",
+"net": "VOUT2-"
+},
+{
+"num": "4",
+"x": 14.78,
+"y": 3.65,
+"w": 1.8,
+"h": 0.72,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 245)",
+"net": "VOUT1+"
+},
+{
+"num": "5",
+"x": 14.78,
+"y": 2.38,
+"w": 1.8,
+"h": 0.72,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 252)",
+"net": "I.1-VREF"
+},
+{
+"num": "6",
+"x": 14.78,
+"y": 1.11,
+"w": 1.8,
+"h": 0.72,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 253)",
+"net": "VOUT1-"
+}
+],
+"cx": 14.78,
+"cy": 4.28,
+"value": "Ausgangsplatine I/V (Steckplatz 1)"
+},
+{
+"ref": "J2",
+"kind": "OUTSLOT",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 24.85,
+"y": 7.46,
+"w": 1.8,
+"h": 0.72,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 227)",
+"net": "VOUT4+"
+},
+{
+"num": "2",
+"x": 24.85,
+"y": 6.19,
+"w": 1.8,
+"h": 0.72,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 235)",
+"net": "I.2-VREF"
+},
+{
+"num": "3",
+"x": 24.85,
+"y": 4.92,
+"w": 1.8,
+"h": 0.72,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 242)",
+"net": "VOUT4-"
+},
+{
+"num": "4",
+"x": 24.85,
+"y": 3.65,
+"w": 1.8,
+"h": 0.72,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 246)",
+"net": "VOUT3+"
+},
+{
+"num": "5",
+"x": 24.85,
+"y": 2.38,
+"w": 1.8,
+"h": 0.72,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 252)",
+"net": "I.1-VREF"
+},
+{
+"num": "6",
+"x": 24.85,
+"y": 1.11,
+"w": 1.8,
+"h": 0.72,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 254)",
+"net": "VOUT3-"
+}
+],
+"cx": 24.85,
+"cy": 4.28,
+"value": "Ausgangsplatine I/V (Steckplatz 2)"
+},
+{
+"ref": "J3",
+"kind": "OUTSLOT",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 35.01,
+"y": 7.46,
+"w": 1.8,
+"h": 0.72,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 228)",
+"net": "VOUT6+"
+},
+{
+"num": "2",
+"x": 35.01,
+"y": 6.19,
+"w": 1.8,
+"h": 0.72,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 235)",
+"net": "I.2-VREF"
+},
+{
+"num": "3",
+"x": 35.01,
+"y": 4.92,
+"w": 1.8,
+"h": 0.72,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 243)",
+"net": "VOUT6-"
+},
+{
+"num": "4",
+"x": 35.01,
+"y": 3.65,
+"w": 1.8,
+"h": 0.72,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 247)",
+"net": "VOUT5+"
+},
+{
+"num": "5",
+"x": 35.01,
+"y": 2.38,
+"w": 1.8,
+"h": 0.72,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 252)",
+"net": "I.1-VREF"
+},
+{
+"num": "6",
+"x": 35.01,
+"y": 1.11,
+"w": 1.8,
+"h": 0.72,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 255)",
+"net": "VOUT5-"
+}
+],
+"cx": 35.01,
+"cy": 4.28,
+"value": "Ausgangsplatine I/V (Steckplatz 3)"
+},
+{
+"ref": "J4",
+"kind": "OUTSLOT",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 45.17,
+"y": 7.46,
+"w": 1.8,
+"h": 0.72,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 229)",
+"net": "VOUT8+"
+},
+{
+"num": "2",
+"x": 45.17,
+"y": 6.19,
+"w": 1.8,
+"h": 0.72,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 235)",
+"net": "I.2-VREF"
+},
+{
+"num": "3",
+"x": 45.17,
+"y": 4.92,
+"w": 1.8,
+"h": 0.72,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 244)",
+"net": "VOUT8-"
+},
+{
+"num": "4",
+"x": 45.17,
+"y": 3.65,
+"w": 1.8,
+"h": 0.72,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 248)",
+"net": "VOUT7+"
+},
+{
+"num": "5",
+"x": 45.17,
+"y": 2.38,
+"w": 1.8,
+"h": 0.72,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 252)",
+"net": "I.1-VREF"
+},
+{
+"num": "6",
+"x": 45.17,
+"y": 1.11,
+"w": 1.8,
+"h": 0.72,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 256)",
+"net": "VOUT7-"
+}
+],
+"cx": 45.17,
+"cy": 4.28,
+"value": "Ausgangsplatine I/V (Steckplatz 4)"
+},
+{
+"ref": "C201",
+"kind": "TANT_C",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 8.81,
+"y": 48.81,
+"w": 2.1,
+"h": 2.27,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 28)",
+"net": "VREFR.3"
+},
+{
+"num": "2",
+"x": 13.71,
+"y": 48.81,
+"w": 2.1,
+"h": 2.27,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 179)",
+"net": "GND"
+}
+],
+"cx": 11.260000000000002,
+"cy": 48.81,
+"value": "47uF 16V"
+},
+{
+"ref": "C202",
+"kind": "TANT_C",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 15.75,
+"y": 48.81,
+"w": 2.1,
+"h": 2.27,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"num": "2",
+"x": 20.66,
+"y": 48.81,
+"w": 2.1,
+"h": 2.27,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 30)",
+"net": "VREFL.3"
+}
+],
+"cx": 18.205,
+"cy": 48.81,
+"value": "47uF 16V"
+},
+{
+"ref": "C203",
+"kind": "TANT_C",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 24.05,
+"y": 48.81,
+"w": 2.1,
+"h": 2.27,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 32)",
+"net": "VREFR.2"
+},
+{
+"num": "2",
+"x": 28.95,
+"y": 48.81,
+"w": 2.1,
+"h": 2.27,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 179)",
+"net": "GND"
+}
+],
+"cx": 26.5,
+"cy": 48.81,
+"value": "47uF 16V"
+},
+{
+"ref": "C204",
+"kind": "TANT_C",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 30.99,
+"y": 48.81,
+"w": 2.1,
+"h": 2.27,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"num": "2",
+"x": 35.9,
+"y": 48.81,
+"w": 2.1,
+"h": 2.27,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 34)",
+"net": "VREFL.2"
+}
+],
+"cx": 33.445,
+"cy": 48.81,
+"value": "47uF 16V"
+},
+{
+"ref": "C205",
+"kind": "TANT_C",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 39.29,
+"y": 48.81,
+"w": 2.1,
+"h": 2.27,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 36)",
+"net": "VREFR.1"
+},
+{
+"num": "2",
+"x": 44.19,
+"y": 48.81,
+"w": 2.1,
+"h": 2.27,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 179)",
+"net": "GND"
+}
+],
+"cx": 41.739999999999995,
+"cy": 48.81,
+"value": "47uF 16V"
+},
+{
+"ref": "C206",
+"kind": "TANT_C",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 46.23,
+"y": 48.81,
+"w": 2.1,
+"h": 2.27,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"num": "2",
+"x": 51.14,
+"y": 48.81,
+"w": 2.1,
+"h": 2.27,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 38)",
+"net": "VREFL.1"
+}
+],
+"cx": 48.685,
+"cy": 48.81,
+"value": "47uF 16V"
+},
+{
+"ref": "C207",
+"kind": "0603",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 29.17,
+"y": 53.38,
+"w": 1.17,
+"h": 1.09,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 17)",
+"net": "VINR+.2"
+},
+{
+"num": "2",
+"x": 30.86,
+"y": 53.38,
+"w": 1.17,
+"h": 1.09,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 71)",
+"net": "VINR-.2"
+}
+],
+"cx": 30.015,
+"cy": 53.38,
+"value": "2.7nF C0G"
+},
+{
+"ref": "C208",
+"kind": "0603",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 36.79,
+"y": 53.38,
+"w": 1.17,
+"h": 1.09,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 66)",
+"net": "VINL+.2"
+},
+{
+"num": "2",
+"x": 38.48,
+"y": 53.38,
+"w": 1.17,
+"h": 1.09,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 72)",
+"net": "VINL-.2"
+}
+],
+"cx": 37.635,
+"cy": 53.38,
+"value": "2.7nF C0G"
+},
+{
+"ref": "C209",
+"kind": "0603",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 44.41,
+"y": 53.38,
+"w": 1.17,
+"h": 1.09,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 19)",
+"net": "VINR+.1"
+},
+{
+"num": "2",
+"x": 46.1,
+"y": 53.38,
+"w": 1.17,
+"h": 1.09,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 73)",
+"net": "VINR-.1"
+}
+],
+"cx": 45.254999999999995,
+"cy": 53.38,
+"value": "2.7nF C0G"
+},
+{
+"ref": "C210",
+"kind": "0603",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 29.17,
+"y": 51.44,
+"w": 1.17,
+"h": 1.09,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 17)",
+"net": "VINR+.2"
+},
+{
+"num": "2",
+"x": 29.17,
+"y": 55.25,
+"w": 1.17,
+"h": 1.09,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 71)",
+"net": "VINR-.2"
+}
+],
+"cx": 29.17,
+"cy": 53.345,
+"value": "2.7nF C0G"
+},
+{
+"ref": "C211",
+"kind": "0603",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 36.79,
+"y": 51.44,
+"w": 1.17,
+"h": 1.09,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 66)",
+"net": "VINL+.2"
+},
+{
+"num": "2",
+"x": 36.79,
+"y": 55.25,
+"w": 1.17,
+"h": 1.09,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 72)",
+"net": "VINL-.2"
+}
+],
+"cx": 36.79,
+"cy": 53.345,
+"value": "2.7nF C0G"
+},
+{
+"ref": "C212",
+"kind": "0603",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 49.91,
+"y": 51.44,
+"w": 1.17,
+"h": 1.09,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 68)",
+"net": "VINL+.1"
+},
+{
+"num": "2",
+"x": 51.6,
+"y": 51.44,
+"w": 1.17,
+"h": 1.09,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 74)",
+"net": "VINL-.1"
+}
+],
+"cx": 50.754999999999995,
+"cy": 51.44,
+"value": "2.7nF C0G"
+},
+{
+"ref": "C213",
+"kind": "0805",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 4.91,
+"y": 48.98,
+"w": 1.59,
+"h": 1.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"num": "2",
+"x": 4.91,
+"y": 47.12,
+"w": 1.59,
+"h": 1.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 113)",
+"net": "3V3"
+}
+],
+"cx": 4.91,
+"cy": 48.05,
+"value": "100nF"
+},
+{
+"ref": "C214",
+"kind": "0805",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 11.01,
+"y": 45.76,
+"w": 1.42,
+"h": 1.59,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 28)",
+"net": "VREFR.3"
+},
+{
+"num": "2",
+"x": 12.87,
+"y": 45.76,
+"w": 1.42,
+"h": 1.59,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 179)",
+"net": "GND"
+}
+],
+"cx": 11.94,
+"cy": 45.76,
+"value": "100nF"
+},
+{
+"ref": "C215",
+"kind": "0805",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 16.59,
+"y": 45.76,
+"w": 1.42,
+"h": 1.59,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"num": "2",
+"x": 18.46,
+"y": 45.76,
+"w": 1.42,
+"h": 1.59,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 30)",
+"net": "VREFL.3"
+}
+],
+"cx": 17.525,
+"cy": 45.76,
+"value": "100nF"
+},
+{
+"ref": "C216",
+"kind": "0805",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 26.25,
+"y": 45.76,
+"w": 1.42,
+"h": 1.59,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 32)",
+"net": "VREFR.2"
+},
+{
+"num": "2",
+"x": 28.11,
+"y": 45.76,
+"w": 1.42,
+"h": 1.59,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 179)",
+"net": "GND"
+}
+],
+"cx": 27.18,
+"cy": 45.76,
+"value": "100nF"
+},
+{
+"ref": "C217",
+"kind": "0805",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 31.83,
+"y": 45.76,
+"w": 1.42,
+"h": 1.59,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"num": "2",
+"x": 33.7,
+"y": 45.76,
+"w": 1.42,
+"h": 1.59,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 34)",
+"net": "VREFL.2"
+}
+],
+"cx": 32.765,
+"cy": 45.76,
+"value": "100nF"
+},
+{
+"ref": "C218",
+"kind": "0805",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 41.49,
+"y": 45.76,
+"w": 1.42,
+"h": 1.59,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 36)",
+"net": "VREFR.1"
+},
+{
+"num": "2",
+"x": 43.35,
+"y": 45.76,
+"w": 1.42,
+"h": 1.59,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 179)",
+"net": "GND"
+}
+],
+"cx": 42.42,
+"cy": 45.76,
+"value": "100nF"
+},
+{
+"ref": "C219",
+"kind": "0805",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 47.07,
+"y": 45.76,
+"w": 1.42,
+"h": 1.59,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"num": "2",
+"x": 48.94,
+"y": 45.76,
+"w": 1.42,
+"h": 1.59,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 38)",
+"net": "VREFL.1"
+}
+],
+"cx": 48.004999999999995,
+"cy": 45.76,
+"value": "100nF"
+},
+{
+"ref": "C220",
+"kind": "0805",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 8.97,
+"y": 43.39,
+"w": 1.59,
+"h": 1.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"num": "2",
+"x": 8.97,
+"y": 41.53,
+"w": 1.59,
+"h": 1.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 51)",
+"net": "VCOMR.3"
+}
+],
+"cx": 8.97,
+"cy": 42.46,
+"value": "100nF"
+},
+{
+"ref": "C221",
+"kind": "0805",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 20.4,
+"y": 43.39,
+"w": 1.59,
+"h": 1.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"num": "2",
+"x": 20.4,
+"y": 41.53,
+"w": 1.59,
+"h": 1.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 52)",
+"net": "VCOML.3"
+}
+],
+"cx": 20.4,
+"cy": 42.46,
+"value": "100nF"
+},
+{
+"ref": "C222",
+"kind": "0805",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 24.21,
+"y": 43.39,
+"w": 1.59,
+"h": 1.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"num": "2",
+"x": 24.21,
+"y": 41.53,
+"w": 1.59,
+"h": 1.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 53)",
+"net": "VCOMR.2"
+}
+],
+"cx": 24.21,
+"cy": 42.46,
+"value": "100nF"
+},
+{
+"ref": "C223",
+"kind": "0805",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 35.64,
+"y": 43.39,
+"w": 1.59,
+"h": 1.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"num": "2",
+"x": 35.64,
+"y": 41.53,
+"w": 1.59,
+"h": 1.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 54)",
+"net": "VCOML.2"
+}
+],
+"cx": 35.64,
+"cy": 42.46,
+"value": "100nF"
+},
+{
+"ref": "C224",
+"kind": "0805",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 39.45,
+"y": 43.39,
+"w": 1.59,
+"h": 1.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"num": "2",
+"x": 39.45,
+"y": 41.53,
+"w": 1.59,
+"h": 1.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 55)",
+"net": "VCOMR.1"
+}
+],
+"cx": 39.45,
+"cy": 42.46,
+"value": "100nF"
+},
+{
+"ref": "C225",
+"kind": "0805",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 50.88,
+"y": 43.39,
+"w": 1.59,
+"h": 1.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"num": "2",
+"x": 50.88,
+"y": 41.53,
+"w": 1.59,
+"h": 1.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 56)",
+"net": "VCOML.1"
+}
+],
+"cx": 50.88,
+"cy": 42.46,
+"value": "100nF"
+},
+{
+"ref": "C226",
+"kind": "0603",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 3.01,
+"y": 39.58,
+"w": 1.17,
+"h": 1.09,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 57)",
+"net": "nRST.PCM4202"
+},
+{
+"num": "2",
+"x": 3.01,
+"y": 37.89,
+"w": 1.17,
+"h": 1.09,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 179)",
+"net": "GND"
+}
+],
+"cx": 3.01,
+"cy": 38.735,
+"value": "100nF"
+},
+{
+"ref": "C227",
+"kind": "0805",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 7.2,
+"y": 38.74,
+"w": 1.42,
+"h": 1.59,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"num": "2",
+"x": 9.06,
+"y": 38.74,
+"w": 1.42,
+"h": 1.59,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 224)",
+"net": "5V0"
+}
+],
+"cx": 8.13,
+"cy": 38.74,
+"value": "100nF"
+},
+{
+"ref": "C228",
+"kind": "0805",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 22.44,
+"y": 38.74,
+"w": 1.42,
+"h": 1.59,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"num": "2",
+"x": 24.3,
+"y": 38.74,
+"w": 1.42,
+"h": 1.59,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 224)",
+"net": "5V0"
+}
+],
+"cx": 23.37,
+"cy": 38.74,
+"value": "100nF"
+},
+{
+"ref": "C229",
+"kind": "0805",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 37.68,
+"y": 38.74,
+"w": 1.42,
+"h": 1.59,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"num": "2",
+"x": 39.54,
+"y": 38.74,
+"w": 1.42,
+"h": 1.59,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 224)",
+"net": "5V0"
+}
+],
+"cx": 38.61,
+"cy": 38.74,
+"value": "100nF"
+},
+{
+"ref": "C230",
+"kind": "TANT_C",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 8.38,
+"y": 36.2,
+"w": 2.27,
+"h": 2.1,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 224)",
+"net": "5V0"
+},
+{
+"num": "2",
+"x": 8.38,
+"y": 31.2,
+"w": 2.27,
+"h": 2.1,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 179)",
+"net": "GND"
+}
+],
+"cx": 8.38,
+"cy": 33.7,
+"value": "47uF 16V"
+},
+{
+"ref": "C231",
+"kind": "TANT_C",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 23.62,
+"y": 36.2,
+"w": 2.27,
+"h": 2.1,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 224)",
+"net": "5V0"
+},
+{
+"num": "2",
+"x": 23.62,
+"y": 31.2,
+"w": 2.27,
+"h": 2.1,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 179)",
+"net": "GND"
+}
+],
+"cx": 23.62,
+"cy": 33.7,
+"value": "47uF 16V"
+},
+{
+"ref": "C232",
+"kind": "TANT_C",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 38.86,
+"y": 36.2,
+"w": 2.27,
+"h": 2.1,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 224)",
+"net": "5V0"
+},
+{
+"num": "2",
+"x": 38.86,
+"y": 31.2,
+"w": 2.27,
+"h": 2.1,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 179)",
+"net": "GND"
+}
+],
+"cx": 38.86,
+"cy": 33.7,
+"value": "47uF 16V"
+},
+{
+"ref": "C233",
+"kind": "0805",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 20.4,
+"y": 36.2,
+"w": 1.59,
+"h": 1.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"num": "2",
+"x": 20.4,
+"y": 34.25,
+"w": 1.59,
+"h": 1.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 113)",
+"net": "3V3"
+}
+],
+"cx": 20.4,
+"cy": 35.225,
+"value": "100nF"
+},
+{
+"ref": "C234",
+"kind": "0805",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 35.64,
+"y": 36.2,
+"w": 1.59,
+"h": 1.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"num": "2",
+"x": 35.64,
+"y": 34.25,
+"w": 1.59,
+"h": 1.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 113)",
+"net": "3V3"
+}
+],
+"cx": 35.64,
+"cy": 35.225,
+"value": "100nF"
+},
+{
+"ref": "C235",
+"kind": "0805",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 50.88,
+"y": 36.2,
+"w": 1.59,
+"h": 1.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"num": "2",
+"x": 50.88,
+"y": 34.25,
+"w": 1.59,
+"h": 1.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 113)",
+"net": "3V3"
+}
+],
+"cx": 50.88,
+"cy": 35.225,
+"value": "100nF"
+},
+{
+"ref": "C236",
+"kind": "TANT_C",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 12.19,
+"y": 31.79,
+"w": 2.1,
+"h": 2.27,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"num": "2",
+"x": 17.19,
+"y": 31.79,
+"w": 2.1,
+"h": 2.27,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 113)",
+"net": "3V3"
+}
+],
+"cx": 14.690000000000001,
+"cy": 31.79,
+"value": "47uF 16V"
+},
+{
+"ref": "C237",
+"kind": "TANT_C",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 27.43,
+"y": 31.79,
+"w": 2.1,
+"h": 2.27,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"num": "2",
+"x": 32.43,
+"y": 31.79,
+"w": 2.1,
+"h": 2.27,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 113)",
+"net": "3V3"
+}
+],
+"cx": 29.93,
+"cy": 31.79,
+"value": "47uF 16V"
+},
+{
+"ref": "C238",
+"kind": "TANT_C",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 42.67,
+"y": 31.79,
+"w": 2.1,
+"h": 2.27,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"num": "2",
+"x": 47.67,
+"y": 31.79,
+"w": 2.1,
+"h": 2.27,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 113)",
+"net": "3V3"
+}
+],
+"cx": 45.17,
+"cy": 31.79,
+"value": "47uF 16V"
+},
+{
+"ref": "C239",
+"kind": "0805",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 7.96,
+"y": 28.74,
+"w": 1.42,
+"h": 1.59,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 174)",
+"net": "3V3.NOHF"
+},
+{
+"num": "2",
+"x": 9.82,
+"y": 28.74,
+"w": 1.42,
+"h": 1.59,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 113)",
+"net": "3V3"
+}
+],
+"cx": 8.89,
+"cy": 28.74,
+"value": "?"
+},
+{
+"ref": "C240",
+"kind": "0603",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 39.67,
+"y": 26.8,
+"w": 1.17,
+"h": 1.09,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 137)",
+"net": "3V3_AVCC_L"
+},
+{
+"num": "2",
+"x": 39.67,
+"y": 25.1,
+"w": 1.17,
+"h": 1.09,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 252)",
+"net": "I.1-VREF"
+}
+],
+"cx": 39.67,
+"cy": 25.950000000000003,
+"value": "R? (VREF-Teiler)"
+},
+{
+"ref": "C241",
+"kind": "0805",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 7.96,
+"y": 26.46,
+"w": 1.42,
+"h": 1.59,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 174)",
+"net": "3V3.NOHF"
+},
+{
+"num": "2",
+"x": 9.82,
+"y": 26.46,
+"w": 1.42,
+"h": 1.59,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 179)",
+"net": "GND"
+}
+],
+"cx": 8.89,
+"cy": 26.46,
+"value": "100nF"
+},
+{
+"ref": "C242",
+"kind": "SMD2",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 35.64,
+"y": 25.23,
+"w": 1.93,
+"h": 1.68,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 220)",
+"net": "AGND"
+},
+{
+"num": "2",
+"x": 35.64,
+"y": 22.44,
+"w": 1.93,
+"h": 1.68,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 252)",
+"net": "I.1-VREF"
+}
+],
+"cx": 35.64,
+"cy": 23.835,
+"value": "100nF"
+},
+{
+"ref": "C243",
+"kind": "0603",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 12.91,
+"y": 22.99,
+"w": 1.17,
+"h": 1.09,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"num": "2",
+"x": 12.91,
+"y": 21.12,
+"w": 1.17,
+"h": 1.09,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 179)",
+"net": "GND"
+}
+],
+"cx": 12.91,
+"cy": 22.055,
+"value": "100nF"
+},
+{
+"ref": "C244",
+"kind": "0603",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 43.18,
+"y": 22.27,
+"w": 1.09,
+"h": 1.17,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 220)",
+"net": "AGND"
+},
+{
+"num": "2",
+"x": 43.18,
+"y": 20.57,
+"w": 1.09,
+"h": 1.17,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 161)",
+"net": "Net-(U203-5)"
+}
+],
+"cx": 43.18,
+"cy": 21.42,
+"value": "100nF"
+},
+{
+"ref": "R201",
+"kind": "0603",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 48.68,
+"y": 20.66,
+"w": 1.09,
+"h": 1.17,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 240)",
+"net": "Net-(R201-1)"
+},
+{
+"num": "2",
+"x": 48.68,
+"y": 18.63,
+"w": 1.09,
+"h": 1.17,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 240)",
+"net": "Net-(R201-1)"
+}
+],
+"cx": 48.68,
+"cy": 19.645,
+"value": "0R / Bruecke?"
+},
+{
+"ref": "C245",
+"kind": "SMD2",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 35.64,
+"y": 16.85,
+"w": 1.93,
+"h": 1.68,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 235)",
+"net": "I.2-VREF"
+},
+{
+"num": "2",
+"x": 35.64,
+"y": 14.05,
+"w": 1.93,
+"h": 1.68,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 220)",
+"net": "AGND"
+}
+],
+"cx": 35.64,
+"cy": 15.450000000000001,
+"value": "100nF"
+},
+{
+"ref": "C246",
+"kind": "0603",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 7.37,
+"y": 16.43,
+"w": 1.09,
+"h": 1.17,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"num": "2",
+"x": 9.14,
+"y": 16.43,
+"w": 1.09,
+"h": 1.17,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 186)",
+"net": "1V2_DVCC"
+}
+],
+"cx": 8.255,
+"cy": 16.43,
+"value": "100nF"
+},
+{
+"ref": "C247",
+"kind": "0603",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 49.53,
+"y": 14.14,
+"w": 1.09,
+"h": 1.17,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 207)",
+"net": "Net-(U204-3)"
+},
+{
+"num": "2",
+"x": 49.53,
+"y": 12.45,
+"w": 1.09,
+"h": 1.17,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 220)",
+"net": "AGND"
+}
+],
+"cx": 49.53,
+"cy": 13.295,
+"value": "100nF"
+},
+{
+"ref": "C248",
+"kind": "0603",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 37.8,
+"y": 14.1,
+"w": 1.17,
+"h": 1.09,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 235)",
+"net": "I.2-VREF"
+},
+{
+"num": "2",
+"x": 37.8,
+"y": 12.4,
+"w": 1.17,
+"h": 1.09,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 220)",
+"net": "AGND"
+}
+],
+"cx": 37.8,
+"cy": 13.25,
+"value": "100nF"
+},
+{
+"ref": "C249",
+"kind": "0603",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 39.67,
+"y": 14.1,
+"w": 1.17,
+"h": 1.09,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 235)",
+"net": "I.2-VREF"
+},
+{
+"num": "2",
+"x": 39.67,
+"y": 12.4,
+"w": 1.17,
+"h": 1.09,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 204)",
+"net": "3V3_AVCC_R"
+}
+],
+"cx": 39.67,
+"cy": 13.25,
+"value": "R? (VREF-Teiler)"
+},
+{
+"ref": "C250",
+"kind": "TANT_C",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 42.33,
+"y": 13.0,
+"w": 2.1,
+"h": 2.27,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 204)",
+"net": "3V3_AVCC_R"
+},
+{
+"num": "2",
+"x": 47.33,
+"y": 13.0,
+"w": 2.1,
+"h": 2.27,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 220)",
+"net": "AGND"
+}
+],
+"cx": 44.83,
+"cy": 13.0,
+"value": "47uF 16V"
+},
+{
+"ref": "C251",
+"kind": "0805",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 39.37,
+"y": 9.53,
+"w": 1.59,
+"h": 1.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 223)",
+"net": "Net-(U204-2)"
+},
+{
+"num": "2",
+"x": 39.37,
+"y": 7.58,
+"w": 1.59,
+"h": 1.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 224)",
+"net": "5V0"
+}
+],
+"cx": 39.37,
+"cy": 8.555,
+"value": "?"
+},
+{
+"ref": "C252",
+"kind": "0805",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 47.58,
+"y": 9.53,
+"w": 1.59,
+"h": 1.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 223)",
+"net": "Net-(U204-2)"
+},
+{
+"num": "2",
+"x": 47.58,
+"y": 7.58,
+"w": 1.59,
+"h": 1.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 220)",
+"net": "AGND"
+}
+],
+"cx": 47.58,
+"cy": 8.555,
+"value": "100nF"
+},
+{
+"ref": "C253",
+"kind": "0603",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 7.07,
+"y": 9.53,
+"w": 1.17,
+"h": 1.09,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 220)",
+"net": "AGND"
+},
+{
+"num": "2",
+"x": 10.63,
+"y": 9.53,
+"w": 1.17,
+"h": 1.09,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 237)",
+"net": "1V2_AVCC"
+}
+],
+"cx": 8.850000000000001,
+"cy": 9.53,
+"value": "100nF"
+},
+{
+"ref": "C254",
+"kind": "0805",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 2.37,
+"y": 7.75,
+"w": 1.59,
+"h": 1.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 224)",
+"net": "5V0"
+},
+{
+"num": "2",
+"x": 2.37,
+"y": 5.8,
+"w": 1.59,
+"h": 1.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 236)",
+"net": "Net-(U201-1)"
+}
+],
+"cx": 2.37,
+"cy": 6.775,
+"value": "?"
+},
+{
+"ref": "C255",
+"kind": "0603",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 48.51,
+"y": 3.13,
+"w": 1.09,
+"h": 1.17,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 239)",
+"net": "Net-(C255-1)"
+},
+{
+"num": "2",
+"x": 50.21,
+"y": 3.13,
+"w": 1.09,
+"h": 1.17,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 220)",
+"net": "AGND"
+}
+],
+"cx": 49.36,
+"cy": 3.13,
+"value": "100nF"
+},
+{
+"ref": "C256",
+"kind": "0603",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 7.62,
+"y": 1.69,
+"w": 1.09,
+"h": 1.17,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 220)",
+"net": "AGND"
+},
+{
+"num": "2",
+"x": 9.4,
+"y": 1.69,
+"w": 1.09,
+"h": 1.17,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 237)",
+"net": "1V2_AVCC"
+}
+],
+"cx": 8.51,
+"cy": 1.69,
+"value": "100nF"
+},
+{
+"ref": "C257",
+"kind": "0603",
+"side": "F",
+"pads": [
+{
+"num": "1",
+"x": 42.8,
+"y": 32.64,
+"w": 1.17,
+"h": 1.09,
+"side": "F",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('F', 103)",
+"net": "Net-(C257-1)"
+},
+{
+"num": "2",
+"x": 44.49,
+"y": 32.64,
+"w": 1.17,
+"h": 1.09,
+"side": "F",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 139)",
+"net": "MCLK"
+}
+],
+"cx": 43.644999999999996,
+"cy": 32.64,
+"value": "?"
+},
+{
+"ref": "C258",
+"kind": "0603",
+"side": "F",
+"pads": [
+{
+"num": "1",
+"x": 42.84,
+"y": 30.73,
+"w": 1.09,
+"h": 1.17,
+"side": "F",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('F', 103)",
+"net": "Net-(C257-1)"
+},
+{
+"num": "2",
+"x": 44.53,
+"y": 30.73,
+"w": 1.09,
+"h": 1.17,
+"side": "F",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 179)",
+"net": "GND"
+}
+],
+"cx": 43.685,
+"cy": 30.73,
+"value": "100nF"
+},
+{
+"ref": "C259",
+"kind": "0603",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 42.29,
+"y": 51.44,
+"w": 1.17,
+"h": 1.09,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 19)",
+"net": "VINR+.1"
+},
+{
+"num": "2",
+"x": 47.03,
+"y": 51.44,
+"w": 1.17,
+"h": 1.09,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 68)",
+"net": "VINL+.1"
+}
+],
+"cx": 44.66,
+"cy": 51.44,
+"value": "2.7nF C0G"
+},
+{
+"ref": "TP1",
+"kind": "PADGRP",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 44.41,
+"y": 55.25,
+"w": 1.17,
+"h": 1.09,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 73)",
+"net": "VINR-.1"
+}
+],
+"cx": 44.41,
+"cy": 55.25,
+"value": "Anschluss/Pad"
+},
+{
+"ref": "TP2",
+"kind": "PADGRP",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 52.07,
+"y": 53.59,
+"w": 1.09,
+"h": 1.17,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 74)",
+"net": "VINL-.1"
+}
+],
+"cx": 52.07,
+"cy": 53.59,
+"value": "Anschluss/Pad"
+},
+{
+"ref": "TP3",
+"kind": "PADGRP",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 15.62,
+"y": 53.38,
+"w": 1.17,
+"h": 1.09,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 69)",
+"net": "VINR-.3"
+},
+{
+"num": "2",
+"x": 13.93,
+"y": 51.44,
+"w": 1.17,
+"h": 1.09,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 15)",
+"net": "VINR+.3"
+}
+],
+"cx": 14.774999999999999,
+"cy": 52.41,
+"value": "Anschluss/Pad"
+},
+{
+"ref": "TP4",
+"kind": "PADGRP",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 23.24,
+"y": 53.38,
+"w": 1.17,
+"h": 1.09,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 70)",
+"net": "VINL-.3"
+},
+{
+"num": "2",
+"x": 21.55,
+"y": 51.44,
+"w": 1.17,
+"h": 1.09,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 64)",
+"net": "VINL+.3"
+}
+],
+"cx": 22.395,
+"cy": 52.41,
+"value": "Anschluss/Pad"
+},
+{
+"ref": "TP5",
+"kind": "PADGRP",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 37.8,
+"y": 26.8,
+"w": 1.17,
+"h": 1.09,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 220)",
+"net": "AGND"
+}
+],
+"cx": 37.8,
+"cy": 26.8,
+"value": "Anschluss/Pad"
+},
+{
+"ref": "TP6",
+"kind": "PADGRP",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 47.33,
+"y": 26.2,
+"w": 2.1,
+"h": 2.27,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 220)",
+"net": "AGND"
+}
+],
+"cx": 47.33,
+"cy": 26.2,
+"value": "Anschluss/Pad"
+},
+{
+"ref": "TP7",
+"kind": "PADGRP",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 11.85,
+"y": 26.5,
+"w": 1.09,
+"h": 1.17,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 113)",
+"net": "3V3"
+}
+],
+"cx": 11.85,
+"cy": 26.5,
+"value": "Anschluss/Pad"
+},
+{
+"ref": "TP8",
+"kind": "PADGRP",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 50.08,
+"y": 22.9,
+"w": 1.68,
+"h": 1.93,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 220)",
+"net": "AGND"
+},
+{
+"num": "2",
+"x": 50.8,
+"y": 20.53,
+"w": 1.59,
+"h": 1.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 220)",
+"net": "AGND"
+}
+],
+"cx": 50.44,
+"cy": 21.715,
+"value": "Anschluss/Pad"
+},
+{
+"ref": "TP9",
+"kind": "PADGRP",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 7.03,
+"y": 18.58,
+"w": 1.42,
+"h": 1.59,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 179)",
+"net": "GND"
+}
+],
+"cx": 7.03,
+"cy": 18.58,
+"value": "Anschluss/Pad"
+},
+{
+"ref": "TP10",
+"kind": "PADGRP",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 43.18,
+"y": 18.42,
+"w": 1.59,
+"h": 1.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 161)",
+"net": "Net-(U203-5)"
+}
+],
+"cx": 43.18,
+"cy": 18.42,
+"value": "Anschluss/Pad"
+},
+{
+"ref": "TP11",
+"kind": "PADGRP",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 50.08,
+"y": 16.3,
+"w": 1.68,
+"h": 1.93,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 220)",
+"net": "AGND"
+},
+{
+"num": "2",
+"x": 51.31,
+"y": 14.14,
+"w": 1.09,
+"h": 1.17,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 207)",
+"net": "Net-(U204-3)"
+}
+],
+"cx": 50.695,
+"cy": 15.22,
+"value": "Anschluss/Pad"
+},
+{
+"ref": "TP12",
+"kind": "PADGRP",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 8.81,
+"y": 9.69,
+"w": 1.25,
+"h": 1.09,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 218)",
+"net": "Net-(U201-5)"
+}
+],
+"cx": 8.81,
+"cy": 9.69,
+"value": "Anschluss/Pad"
+},
+{
+"ref": "TP13",
+"kind": "PADGRP",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 4.91,
+"y": 7.75,
+"w": 1.59,
+"h": 1.42,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 220)",
+"net": "AGND"
+},
+{
+"num": "2",
+"x": 6.71,
+"y": 5.57,
+"w": 1.4599999999999997,
+"h": 0.8699999999999999,
+"side": "F",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 236)",
+"net": "Net-(U201-1)"
+},
+{
+"num": "3",
+"x": 7.97,
+"y": 4.29,
+"w": 0.7900000000000001,
+"h": 1.4599999999999997,
+"side": "F",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 220)",
+"net": "AGND"
+}
+],
+"cx": 6.53,
+"cy": 5.87,
+"value": "Anschluss/Pad"
+},
+{
+"ref": "TP14",
+"kind": "PADGRP",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 45.04,
+"y": 6.18,
+"w": 1.59,
+"h": 0.83,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 235)",
+"net": "I.2-VREF"
+}
+],
+"cx": 45.04,
+"cy": 6.18,
+"value": "Anschluss/Pad"
+},
+{
+"ref": "TP15",
+"kind": "PADGRP",
+"side": "B",
+"pads": [
+{
+"num": "1",
+"x": 7.28,
+"y": 3.85,
+"w": 1.42,
+"h": 1.59,
+"side": "B",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 220)",
+"net": "AGND"
+}
+],
+"cx": 7.28,
+"cy": 3.85,
+"value": "Anschluss/Pad"
+},
+{
+"ref": "TP16",
+"kind": "PADGRP",
+"side": "F",
+"pads": [
+{
+"num": "1",
+"x": 26.12,
+"y": 19.81,
+"w": 0.49,
+"h": 1.0,
+"side": "F",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 172)",
+"net": "MCLK.DA"
+}
+],
+"cx": 26.12,
+"cy": 19.81,
+"value": "Anschluss/Pad"
+},
+{
+"ref": "TP17",
+"kind": "PADGRP",
+"side": "F",
+"pads": [
+{
+"num": "1",
+"x": 36.27,
+"y": 19.44,
+"w": 2.36,
+"h": 1.17,
+"side": "F",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 179)",
+"net": "GND"
+}
+],
+"cx": 36.27,
+"cy": 19.44,
+"value": "Anschluss/Pad"
+},
+{
+"ref": "TP18",
+"kind": "PADGRP",
+"side": "F",
+"pads": [
+{
+"num": "1",
+"x": 49.18,
+"y": 8.27,
+"w": 3.71,
+"h": 1.17,
+"side": "F",
+"shape": "rect",
+"drill": 0.0,
+"th": false,
+"root": "('B', 223)",
+"net": "Net-(U204-2)"
+}
+],
+"cx": 49.18,
+"cy": 8.27,
+"value": "Anschluss/Pad"
+}
+],
+"vias": [
+{
+"x": 0.127,
+"y": 56.303,
+"dia": 2.46,
+"drill": 2.0,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"x": 2.752,
+"y": 56.303,
+"dia": 1.27,
+"drill": 0.8,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"x": 4.276,
+"y": 56.303,
+"dia": 1.27,
+"drill": 0.8,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"x": 52.028,
+"y": 55.372,
+"dia": 0.76,
+"drill": 0.3,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"x": 15.875,
+"y": 55.287,
+"dia": 0.76,
+"drill": 0.3,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"x": 23.495,
+"y": 55.287,
+"dia": 0.76,
+"drill": 0.3,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"x": 31.115,
+"y": 55.287,
+"dia": 0.76,
+"drill": 0.3,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"x": 38.735,
+"y": 55.287,
+"dia": 0.76,
+"drill": 0.3,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"x": 46.355,
+"y": 55.287,
+"dia": 0.76,
+"drill": 0.3,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"x": 49.996,
+"y": 55.287,
+"dia": 0.76,
+"drill": 0.3,
+"root": "('B', 74)",
+"net": "VINL-.1"
+},
+{
+"x": 12.827,
+"y": 55.033,
+"dia": 0.76,
+"drill": 0.3,
+"root": "('B', 69)",
+"net": "VINR-.3"
+},
+{
+"x": 20.447,
+"y": 55.033,
+"dia": 0.76,
+"drill": 0.3,
+"root": "('B', 70)",
+"net": "VINL-.3"
+},
+{
+"x": 28.067,
+"y": 55.033,
+"dia": 0.76,
+"drill": 0.3,
+"root": "('B', 71)",
+"net": "VINR-.2"
+},
+{
+"x": 35.687,
+"y": 55.033,
+"dia": 0.76,
+"drill": 0.3,
+"root": "('B', 72)",
+"net": "VINL-.2"
+},
+{
+"x": 43.307,
+"y": 55.033,
+"dia": 0.76,
+"drill": 0.3,
+"root": "('B', 73)",
+"net": "VINR-.1"
+},
+{
+"x": 0.127,
+"y": 53.594,
+"dia": 1.27,
+"drill": 0.8,
+"root": "('B', 113)",
+"net": "3V3"
+},
+{
+"x": 1.397,
+"y": 53.594,
+"dia": 0.93,
+"drill": 0.5,
+"root": "('B', 113)",
+"net": "3V3"
+},
+{
+"x": 12.827,
+"y": 53.255,
+"dia": 0.76,
+"drill": 0.3,
+"root": "('B', 15)",
+"net": "VINR+.3"
+},
+{
+"x": 20.447,
+"y": 53.255,
+"dia": 0.76,
+"drill": 0.3,
+"root": "('B', 64)",
+"net": "VINL+.3"
+},
+{
+"x": 28.067,
+"y": 53.255,
+"dia": 0.76,
+"drill": 0.3,
+"root": "('B', 17)",
+"net": "VINR+.2"
+},
+{
+"x": 35.687,
+"y": 53.255,
+"dia": 0.76,
+"drill": 0.3,
+"root": "('B', 66)",
+"net": "VINL+.2"
+},
+{
+"x": 43.307,
+"y": 53.255,
+"dia": 0.76,
+"drill": 0.3,
+"root": "('B', 19)",
+"net": "VINR+.1"
+},
+{
+"x": 49.996,
+"y": 53.255,
+"dia": 0.76,
+"drill": 0.3,
+"root": "('B', 68)",
+"net": "VINL+.1"
+},
+{
+"x": 0.127,
+"y": 52.07,
+"dia": 1.27,
+"drill": 0.8,
+"root": "('B', 113)",
+"net": "3V3"
+},
+{
+"x": 53.044,
+"y": 52.07,
+"dia": 1.1,
+"drill": 0.6,
+"root": "('B', 21)",
+"net": ""
+},
+{
+"x": 1.397,
+"y": 52.07,
+"dia": 0.93,
+"drill": 0.5,
+"root": "('B', 113)",
+"net": "3V3"
+},
+{
+"x": 15.875,
+"y": 51.731,
+"dia": 0.76,
+"drill": 0.3,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"x": 23.495,
+"y": 51.731,
+"dia": 0.76,
+"drill": 0.3,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"x": 31.115,
+"y": 51.731,
+"dia": 0.76,
+"drill": 0.3,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"x": 38.735,
+"y": 51.731,
+"dia": 0.76,
+"drill": 0.3,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"x": 44.662,
+"y": 51.731,
+"dia": 0.76,
+"drill": 0.3,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"x": 2.752,
+"y": 49.022,
+"dia": 1.1,
+"drill": 0.6,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"x": 2.752,
+"y": 47.413,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 40)",
+"net": "OVF-AD"
+},
+{
+"x": 6.286,
+"y": 46.758,
+"dia": 0.76,
+"drill": 0.3,
+"root": "('B', 113)",
+"net": "3V3"
+},
+{
+"x": 7.832,
+"y": 46.482,
+"dia": 0.93,
+"drill": 0.5,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"x": 9.102,
+"y": 46.482,
+"dia": 0.93,
+"drill": 0.5,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"x": 22.31,
+"y": 46.482,
+"dia": 0.93,
+"drill": 0.5,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"x": 23.58,
+"y": 46.482,
+"dia": 0.93,
+"drill": 0.5,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"x": 37.55,
+"y": 46.482,
+"dia": 0.93,
+"drill": 0.5,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"x": 38.82,
+"y": 46.482,
+"dia": 0.93,
+"drill": 0.5,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"x": 51.943,
+"y": 46.482,
+"dia": 0.93,
+"drill": 0.5,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"x": 2.752,
+"y": 46.397,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 44)",
+"net": "SDA.PIPE.1"
+},
+{
+"x": 2.752,
+"y": 45.381,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 47)",
+"net": "SCL.PIPE.1"
+},
+{
+"x": 7.832,
+"y": 45.212,
+"dia": 0.93,
+"drill": 0.5,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"x": 9.102,
+"y": 45.212,
+"dia": 0.93,
+"drill": 0.5,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"x": 22.31,
+"y": 45.212,
+"dia": 0.93,
+"drill": 0.5,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"x": 23.58,
+"y": 45.212,
+"dia": 0.93,
+"drill": 0.5,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"x": 37.55,
+"y": 45.212,
+"dia": 0.93,
+"drill": 0.5,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"x": 38.82,
+"y": 45.212,
+"dia": 0.93,
+"drill": 0.5,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"x": 51.943,
+"y": 45.212,
+"dia": 0.93,
+"drill": 0.5,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"x": 6.562,
+"y": 45.127,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 79)",
+"net": "CLIPL.3"
+},
+{
+"x": 14.69,
+"y": 43.688,
+"dia": 0.93,
+"drill": 0.5,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"x": 29.93,
+"y": 43.688,
+"dia": 0.93,
+"drill": 0.5,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"x": 45.17,
+"y": 43.688,
+"dia": 0.93,
+"drill": 0.5,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"x": 4.53,
+"y": 43.603,
+"dia": 0.76,
+"drill": 0.3,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"x": 13.335,
+"y": 42.672,
+"dia": 1.1,
+"drill": 0.6,
+"root": "('B', 51)",
+"net": "VCOMR.3"
+},
+{
+"x": 16.129,
+"y": 42.672,
+"dia": 1.1,
+"drill": 0.6,
+"root": "('B', 52)",
+"net": "VCOML.3"
+},
+{
+"x": 28.575,
+"y": 42.672,
+"dia": 1.1,
+"drill": 0.6,
+"root": "('B', 53)",
+"net": "VCOMR.2"
+},
+{
+"x": 31.369,
+"y": 42.672,
+"dia": 1.1,
+"drill": 0.6,
+"root": "('B', 54)",
+"net": "VCOML.2"
+},
+{
+"x": 43.815,
+"y": 42.672,
+"dia": 1.1,
+"drill": 0.6,
+"root": "('B', 55)",
+"net": "VCOMR.1"
+},
+{
+"x": 46.609,
+"y": 42.672,
+"dia": 1.1,
+"drill": 0.6,
+"root": "('B', 56)",
+"net": "VCOML.1"
+},
+{
+"x": 14.69,
+"y": 42.587,
+"dia": 0.93,
+"drill": 0.5,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"x": 29.93,
+"y": 42.587,
+"dia": 0.93,
+"drill": 0.5,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"x": 45.17,
+"y": 42.587,
+"dia": 0.93,
+"drill": 0.5,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"x": 2.752,
+"y": 41.91,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 57)",
+"net": "nRST.PCM4202"
+},
+{
+"x": 6.477,
+"y": 41.825,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 80)",
+"net": "CLIPR.3"
+},
+{
+"x": 13.081,
+"y": 41.571,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 15)",
+"net": "VINR+.3"
+},
+{
+"x": 16.383,
+"y": 41.571,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 64)",
+"net": "VINL+.3"
+},
+{
+"x": 28.321,
+"y": 41.571,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 17)",
+"net": "VINR+.2"
+},
+{
+"x": 31.623,
+"y": 41.571,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 66)",
+"net": "VINL+.2"
+},
+{
+"x": 43.561,
+"y": 41.571,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 19)",
+"net": "VINR+.1"
+},
+{
+"x": 46.863,
+"y": 41.571,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 68)",
+"net": "VINL+.1"
+},
+{
+"x": 14.69,
+"y": 41.402,
+"dia": 0.93,
+"drill": 0.5,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"x": 29.93,
+"y": 41.402,
+"dia": 0.93,
+"drill": 0.5,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"x": 45.17,
+"y": 41.402,
+"dia": 0.93,
+"drill": 0.5,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"x": 2.498,
+"y": 40.894,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 144)",
+"net": "RST.ES9018"
+},
+{
+"x": 3.768,
+"y": 40.894,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 84)",
+"net": "CLIPR.1"
+},
+{
+"x": 5.038,
+"y": 40.894,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 82)",
+"net": "CLIPR.2"
+},
+{
+"x": 6.054,
+"y": 40.894,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 81)",
+"net": "CLIPL.2"
+},
+{
+"x": 22.31,
+"y": 40.64,
+"dia": 0.76,
+"drill": 0.3,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"x": 37.55,
+"y": 40.64,
+"dia": 0.76,
+"drill": 0.3,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"x": 13.081,
+"y": 40.555,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 69)",
+"net": "VINR-.3"
+},
+{
+"x": 16.383,
+"y": 40.555,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 70)",
+"net": "VINL-.3"
+},
+{
+"x": 28.321,
+"y": 40.555,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 71)",
+"net": "VINR-.2"
+},
+{
+"x": 31.623,
+"y": 40.555,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 72)",
+"net": "VINL-.2"
+},
+{
+"x": 43.561,
+"y": 40.555,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 73)",
+"net": "VINR-.1"
+},
+{
+"x": 46.863,
+"y": 40.555,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 74)",
+"net": "VINL-.1"
+},
+{
+"x": 14.69,
+"y": 40.301,
+"dia": 0.93,
+"drill": 0.5,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"x": 29.93,
+"y": 40.301,
+"dia": 0.93,
+"drill": 0.5,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"x": 45.17,
+"y": 40.301,
+"dia": 0.93,
+"drill": 0.5,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"x": 4.445,
+"y": 40.132,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 83)",
+"net": "CLIPL.1"
+},
+{
+"x": 51.943,
+"y": 39.624,
+"dia": 0.93,
+"drill": 0.5,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"x": 12.658,
+"y": 39.031,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 79)",
+"net": "CLIPL.3"
+},
+{
+"x": 13.674,
+"y": 39.031,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 80)",
+"net": "CLIPR.3"
+},
+{
+"x": 27.898,
+"y": 39.031,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 81)",
+"net": "CLIPL.2"
+},
+{
+"x": 28.914,
+"y": 39.031,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 82)",
+"net": "CLIPR.2"
+},
+{
+"x": 43.138,
+"y": 39.031,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 83)",
+"net": "CLIPL.1"
+},
+{
+"x": 44.154,
+"y": 39.031,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 84)",
+"net": "CLIPR.1"
+},
+{
+"x": 19.496,
+"y": 38.543,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 113)",
+"net": "3V3"
+},
+{
+"x": 34.736,
+"y": 38.543,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 113)",
+"net": "3V3"
+},
+{
+"x": 49.976,
+"y": 38.543,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 113)",
+"net": "3V3"
+},
+{
+"x": 30.607,
+"y": 38.269,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 57)",
+"net": "nRST.PCM4202"
+},
+{
+"x": 45.847,
+"y": 38.269,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 57)",
+"net": "nRST.PCM4202"
+},
+{
+"x": 5.038,
+"y": 37.761,
+"dia": 1.27,
+"drill": 0.8,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"x": 15.96,
+"y": 37.507,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 93)",
+"net": "FS0"
+},
+{
+"x": 31.2,
+"y": 37.507,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 93)",
+"net": "FS0"
+},
+{
+"x": 46.44,
+"y": 37.507,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 93)",
+"net": "FS0"
+},
+{
+"x": 15.198,
+"y": 36.83,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 57)",
+"net": "nRST.PCM4202"
+},
+{
+"x": 16.722,
+"y": 36.83,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 97)",
+"net": "FS1"
+},
+{
+"x": 31.962,
+"y": 36.83,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 97)",
+"net": "FS1"
+},
+{
+"x": 47.202,
+"y": 36.83,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 97)",
+"net": "FS1"
+},
+{
+"x": 15.96,
+"y": 36.237,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 103)",
+"net": "HPFD"
+},
+{
+"x": 31.2,
+"y": 36.237,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 103)",
+"net": "HPFD"
+},
+{
+"x": 46.44,
+"y": 36.237,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 103)",
+"net": "HPFD"
+},
+{
+"x": 14.182,
+"y": 35.814,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 139)",
+"net": "MCLK"
+},
+{
+"x": 29.422,
+"y": 35.814,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 139)",
+"net": "MCLK"
+},
+{
+"x": 44.662,
+"y": 35.814,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 139)",
+"net": "MCLK"
+},
+{
+"x": 4.53,
+"y": 35.56,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 108)",
+"net": "AD.OUT.3"
+},
+{
+"x": 13.42,
+"y": 35.221,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 169)",
+"net": "LRCLK"
+},
+{
+"x": 28.66,
+"y": 35.221,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 169)",
+"net": "LRCLK"
+},
+{
+"x": 43.9,
+"y": 35.221,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 169)",
+"net": "LRCLK"
+},
+{
+"x": 4.53,
+"y": 34.544,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 114)",
+"net": "AD.OUT.2"
+},
+{
+"x": 12.658,
+"y": 34.544,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 154)",
+"net": "BCLK.IN"
+},
+{
+"x": 27.898,
+"y": 34.544,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 154)",
+"net": "BCLK.IN"
+},
+{
+"x": 43.138,
+"y": 34.544,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 154)",
+"net": "BCLK.IN"
+},
+{
+"x": 7.812,
+"y": 34.31,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 224)",
+"net": "5V0"
+},
+{
+"x": 8.828,
+"y": 34.31,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 224)",
+"net": "5V0"
+},
+{
+"x": 23.052,
+"y": 34.31,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 224)",
+"net": "5V0"
+},
+{
+"x": 24.068,
+"y": 34.31,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 224)",
+"net": "5V0"
+},
+{
+"x": 38.292,
+"y": 34.31,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 224)",
+"net": "5V0"
+},
+{
+"x": 39.308,
+"y": 34.31,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 224)",
+"net": "5V0"
+},
+{
+"x": 10.795,
+"y": 34.036,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 108)",
+"net": "AD.OUT.3"
+},
+{
+"x": 26.035,
+"y": 34.036,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 114)",
+"net": "AD.OUT.2"
+},
+{
+"x": 41.275,
+"y": 34.036,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 120)",
+"net": "AD.OUT.1"
+},
+{
+"x": 31.856,
+"y": 33.719,
+"dia": 0.76,
+"drill": 0.3,
+"root": "('B', 113)",
+"net": "3V3"
+},
+{
+"x": 32.872,
+"y": 33.719,
+"dia": 0.76,
+"drill": 0.3,
+"root": "('B', 113)",
+"net": "3V3"
+},
+{
+"x": 47.096,
+"y": 33.719,
+"dia": 0.76,
+"drill": 0.3,
+"root": "('B', 113)",
+"net": "3V3"
+},
+{
+"x": 48.112,
+"y": 33.719,
+"dia": 0.76,
+"drill": 0.3,
+"root": "('B', 113)",
+"net": "3V3"
+},
+{
+"x": 4.53,
+"y": 33.528,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 120)",
+"net": "AD.OUT.1"
+},
+{
+"x": 8.255,
+"y": 33.02,
+"dia": 0.76,
+"drill": 0.3,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"x": 9.271,
+"y": 33.02,
+"dia": 0.76,
+"drill": 0.3,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"x": 23.495,
+"y": 33.02,
+"dia": 0.76,
+"drill": 0.3,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"x": 24.511,
+"y": 33.02,
+"dia": 0.76,
+"drill": 0.3,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"x": 38.735,
+"y": 33.02,
+"dia": 0.76,
+"drill": 0.3,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"x": 39.751,
+"y": 33.02,
+"dia": 0.76,
+"drill": 0.3,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"x": 18.986,
+"y": 32.449,
+"dia": 0.76,
+"drill": 0.3,
+"root": "('B', 113)",
+"net": "3V3"
+},
+{
+"x": 20.002,
+"y": 32.449,
+"dia": 0.76,
+"drill": 0.3,
+"root": "('B', 113)",
+"net": "3V3"
+},
+{
+"x": 18.986,
+"y": 31.433,
+"dia": 0.76,
+"drill": 0.3,
+"root": "('B', 113)",
+"net": "3V3"
+},
+{
+"x": 20.002,
+"y": 31.433,
+"dia": 0.76,
+"drill": 0.3,
+"root": "('B', 113)",
+"net": "3V3"
+},
+{
+"x": 51.943,
+"y": 29.464,
+"dia": 0.93,
+"drill": 0.5,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"x": 3.26,
+"y": 29.464,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 163)",
+"net": "SDA.PIPE.2"
+},
+{
+"x": 38.735,
+"y": 29.379,
+"dia": 0.76,
+"drill": 0.3,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"x": 39.751,
+"y": 29.379,
+"dia": 0.76,
+"drill": 0.3,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"x": 4.191,
+"y": 28.956,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 168)",
+"net": "SCL.PIPE.2"
+},
+{
+"x": 3.26,
+"y": 28.448,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 178)",
+"net": "OVF-DA_LOCK"
+},
+{
+"x": 5.969,
+"y": 27.94,
+"dia": 1.27,
+"drill": 0.8,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"x": 51.943,
+"y": 27.94,
+"dia": 0.93,
+"drill": 0.5,
+"root": "('B', 220)",
+"net": "AGND"
+},
+{
+"x": 15.93,
+"y": 27.377,
+"dia": 0.93,
+"drill": 0.5,
+"root": "('B', 237)",
+"net": "1V2_AVCC"
+},
+{
+"x": 17.399,
+"y": 27.432,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 220)",
+"net": "AGND"
+},
+{
+"x": 19.411,
+"y": 27.452,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 237)",
+"net": "1V2_AVCC"
+},
+{
+"x": 20.701,
+"y": 27.432,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 220)",
+"net": "AGND"
+},
+{
+"x": 23.306,
+"y": 27.452,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 137)",
+"net": "3V3_AVCC_L"
+},
+{
+"x": 26.035,
+"y": 27.432,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 220)",
+"net": "AGND"
+},
+{
+"x": 27.285,
+"y": 27.452,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 237)",
+"net": "1V2_AVCC"
+},
+{
+"x": 29.337,
+"y": 27.432,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 220)",
+"net": "AGND"
+},
+{
+"x": 35.687,
+"y": 26.924,
+"dia": 0.93,
+"drill": 0.5,
+"root": "('B', 220)",
+"net": "AGND"
+},
+{
+"x": 45.424,
+"y": 26.839,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 220)",
+"net": "AGND"
+},
+{
+"x": 14.436,
+"y": 26.585,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 144)",
+"net": "RST.ES9018"
+},
+{
+"x": 3.997,
+"y": 26.44,
+"dia": 0.93,
+"drill": 0.4,
+"root": "('B', 174)",
+"net": "3V3.NOHF"
+},
+{
+"x": 5.013,
+"y": 26.44,
+"dia": 0.93,
+"drill": 0.4,
+"root": "('B', 174)",
+"net": "3V3.NOHF"
+},
+{
+"x": 6.029,
+"y": 26.44,
+"dia": 0.93,
+"drill": 0.4,
+"root": "('B', 174)",
+"net": "3V3.NOHF"
+},
+{
+"x": 45.424,
+"y": 25.569,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 220)",
+"net": "AGND"
+},
+{
+"x": 3.997,
+"y": 25.424,
+"dia": 0.93,
+"drill": 0.4,
+"root": "('B', 174)",
+"net": "3V3.NOHF"
+},
+{
+"x": 5.013,
+"y": 25.424,
+"dia": 0.93,
+"drill": 0.4,
+"root": "('B', 174)",
+"net": "3V3.NOHF"
+},
+{
+"x": 6.029,
+"y": 25.424,
+"dia": 0.93,
+"drill": 0.4,
+"root": "('B', 174)",
+"net": "3V3.NOHF"
+},
+{
+"x": 15.367,
+"y": 25.061,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 220)",
+"net": "AGND"
+},
+{
+"x": 17.379,
+"y": 25.081,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 137)",
+"net": "3V3_AVCC_L"
+},
+{
+"x": 29.317,
+"y": 25.081,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 137)",
+"net": "3V3_AVCC_L"
+},
+{
+"x": 31.369,
+"y": 25.061,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 220)",
+"net": "AGND"
+},
+{
+"x": 12.319,
+"y": 24.553,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"x": 13.166,
+"y": 24.553,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"x": 14.097,
+"y": 24.553,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"x": 3.997,
+"y": 24.408,
+"dia": 0.93,
+"drill": 0.4,
+"root": "('B', 174)",
+"net": "3V3.NOHF"
+},
+{
+"x": 5.013,
+"y": 24.408,
+"dia": 0.93,
+"drill": 0.4,
+"root": "('B', 174)",
+"net": "3V3.NOHF"
+},
+{
+"x": 6.029,
+"y": 24.408,
+"dia": 0.93,
+"drill": 0.4,
+"root": "('B', 174)",
+"net": "3V3.NOHF"
+},
+{
+"x": 41.5,
+"y": 24.413,
+"dia": 0.93,
+"drill": 0.5,
+"root": "('B', 137)",
+"net": "3V3_AVCC_L"
+},
+{
+"x": 37.55,
+"y": 24.045,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 252)",
+"net": "I.1-VREF"
+},
+{
+"x": 20.024,
+"y": 23.622,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 245)",
+"net": "VOUT1+"
+},
+{
+"x": 21.717,
+"y": 23.622,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 246)",
+"net": "VOUT3+"
+},
+{
+"x": 22.818,
+"y": 23.622,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 144)",
+"net": "RST.ES9018"
+},
+{
+"x": 25.019,
+"y": 23.622,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 247)",
+"net": "VOUT5+"
+},
+{
+"x": 26.628,
+"y": 23.622,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 248)",
+"net": "VOUT7+"
+},
+{
+"x": 3.997,
+"y": 23.392,
+"dia": 0.93,
+"drill": 0.4,
+"root": "('B', 174)",
+"net": "3V3.NOHF"
+},
+{
+"x": 5.013,
+"y": 23.392,
+"dia": 0.93,
+"drill": 0.4,
+"root": "('B', 174)",
+"net": "3V3.NOHF"
+},
+{
+"x": 6.029,
+"y": 23.392,
+"dia": 0.93,
+"drill": 0.4,
+"root": "('B', 174)",
+"net": "3V3.NOHF"
+},
+{
+"x": 2.667,
+"y": 23.283,
+"dia": 0.93,
+"drill": 0.5,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"x": 43.138,
+"y": 23.368,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 220)",
+"net": "AGND"
+},
+{
+"x": 14.859,
+"y": 23.029,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 174)",
+"net": "3V3.NOHF"
+},
+{
+"x": 31.095,
+"y": 23.049,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 186)",
+"net": "1V2_DVCC"
+},
+{
+"x": 33.147,
+"y": 23.029,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"x": 51.943,
+"y": 22.86,
+"dia": 0.93,
+"drill": 0.5,
+"root": "('B', 220)",
+"net": "AGND"
+},
+{
+"x": 20.447,
+"y": 22.606,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 253)",
+"net": "VOUT1-"
+},
+{
+"x": 21.463,
+"y": 22.606,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 254)",
+"net": "VOUT3-"
+},
+{
+"x": 25.273,
+"y": 22.606,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 255)",
+"net": "VOUT5-"
+},
+{
+"x": 26.289,
+"y": 22.606,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 256)",
+"net": "VOUT7-"
+},
+{
+"x": 3.997,
+"y": 22.376,
+"dia": 0.93,
+"drill": 0.4,
+"root": "('B', 174)",
+"net": "3V3.NOHF"
+},
+{
+"x": 5.013,
+"y": 22.376,
+"dia": 0.93,
+"drill": 0.4,
+"root": "('B', 174)",
+"net": "3V3.NOHF"
+},
+{
+"x": 6.029,
+"y": 22.376,
+"dia": 0.93,
+"drill": 0.4,
+"root": "('B', 174)",
+"net": "3V3.NOHF"
+},
+{
+"x": 2.667,
+"y": 22.098,
+"dia": 0.93,
+"drill": 0.5,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"x": 31.115,
+"y": 21.759,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 163)",
+"net": "SDA.PIPE.2"
+},
+{
+"x": 46.948,
+"y": 21.59,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 160)",
+"net": "Net-(U203-8)"
+},
+{
+"x": 3.997,
+"y": 21.36,
+"dia": 0.93,
+"drill": 0.4,
+"root": "('B', 174)",
+"net": "3V3.NOHF"
+},
+{
+"x": 5.013,
+"y": 21.36,
+"dia": 0.93,
+"drill": 0.4,
+"root": "('B', 174)",
+"net": "3V3.NOHF"
+},
+{
+"x": 6.029,
+"y": 21.36,
+"dia": 0.93,
+"drill": 0.4,
+"root": "('B', 174)",
+"net": "3V3.NOHF"
+},
+{
+"x": 24.088,
+"y": 21.336,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"x": 2.667,
+"y": 20.997,
+"dia": 0.93,
+"drill": 0.5,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"x": 14.839,
+"y": 21.102,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 186)",
+"net": "1V2_DVCC"
+},
+{
+"x": 37.55,
+"y": 21.082,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 160)",
+"net": "Net-(U203-8)"
+},
+{
+"x": 19.516,
+"y": 20.743,
+"dia": 0.93,
+"drill": 0.5,
+"root": "('B', 220)",
+"net": "AGND"
+},
+{
+"x": 30.946,
+"y": 20.743,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 168)",
+"net": "SCL.PIPE.2"
+},
+{
+"x": 3.997,
+"y": 20.344,
+"dia": 0.93,
+"drill": 0.4,
+"root": "('B', 174)",
+"net": "3V3.NOHF"
+},
+{
+"x": 5.013,
+"y": 20.344,
+"dia": 0.93,
+"drill": 0.4,
+"root": "('B', 174)",
+"net": "3V3.NOHF"
+},
+{
+"x": 6.029,
+"y": 20.344,
+"dia": 0.93,
+"drill": 0.4,
+"root": "('B', 174)",
+"net": "3V3.NOHF"
+},
+{
+"x": 9.496,
+"y": 19.757,
+"dia": 0.93,
+"drill": 0.5,
+"root": "('B', 186)",
+"net": "1V2_DVCC"
+},
+{
+"x": 27.39,
+"y": 19.812,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 172)",
+"net": "MCLK.DA"
+},
+{
+"x": 34.502,
+"y": 19.473,
+"dia": 0.93,
+"drill": 0.5,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"x": 38.566,
+"y": 19.473,
+"dia": 0.93,
+"drill": 0.5,
+"root": "('B', 220)",
+"net": "AGND"
+},
+{
+"x": 31.115,
+"y": 19.473,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 174)",
+"net": "3V3.NOHF"
+},
+{
+"x": 33.147,
+"y": 19.473,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"x": 19.516,
+"y": 18.965,
+"dia": 0.93,
+"drill": 0.5,
+"root": "('B', 220)",
+"net": "AGND"
+},
+{
+"x": 24.088,
+"y": 18.288,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"x": 50.728,
+"y": 18.233,
+"dia": 0.93,
+"drill": 0.5,
+"root": "('B', 240)",
+"net": "Net-(R201-1)"
+},
+{
+"x": 38.82,
+"y": 18.034,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 176)",
+"net": "Net-(U203-2)"
+},
+{
+"x": 31.115,
+"y": 17.78,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 178)",
+"net": "OVF-DA_LOCK"
+},
+{
+"x": 46.948,
+"y": 17.526,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 176)",
+"net": "Net-(U203-2)"
+},
+{
+"x": 13.843,
+"y": 17.272,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"x": 20.447,
+"y": 16.51,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 241)",
+"net": "VOUT2-"
+},
+{
+"x": 21.463,
+"y": 16.51,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 242)",
+"net": "VOUT4-"
+},
+{
+"x": 25.273,
+"y": 16.51,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 243)",
+"net": "VOUT6-"
+},
+{
+"x": 26.289,
+"y": 16.51,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 244)",
+"net": "VOUT8-"
+},
+{
+"x": 51.943,
+"y": 16.256,
+"dia": 0.93,
+"drill": 0.5,
+"root": "('B', 220)",
+"net": "AGND"
+},
+{
+"x": 31.095,
+"y": 16.191,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 186)",
+"net": "1V2_DVCC"
+},
+{
+"x": 33.147,
+"y": 16.171,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"x": 14.097,
+"y": 15.917,
+"dia": 0.93,
+"drill": 0.5,
+"root": "('B', 220)",
+"net": "AGND"
+},
+{
+"x": 23.326,
+"y": 16.002,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 194)",
+"net": "ES_AUTOMUTE"
+},
+{
+"x": 43.138,
+"y": 15.748,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 220)",
+"net": "AGND"
+},
+{
+"x": 20.024,
+"y": 15.494,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 226)",
+"net": "VOUT2+"
+},
+{
+"x": 21.717,
+"y": 15.494,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 227)",
+"net": "VOUT4+"
+},
+{
+"x": 25.019,
+"y": 15.494,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 228)",
+"net": "VOUT6+"
+},
+{
+"x": 26.628,
+"y": 15.494,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 229)",
+"net": "VOUT8+"
+},
+{
+"x": 37.55,
+"y": 15.155,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 235)",
+"net": "I.2-VREF"
+},
+{
+"x": 5.715,
+"y": 14.986,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"x": 14.097,
+"y": 14.732,
+"dia": 0.93,
+"drill": 0.5,
+"root": "('B', 220)",
+"net": "AGND"
+},
+{
+"x": 41.5,
+"y": 14.761,
+"dia": 0.93,
+"drill": 0.5,
+"root": "('B', 204)",
+"net": "3V3_AVCC_R"
+},
+{
+"x": 15.367,
+"y": 14.139,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 220)",
+"net": "AGND"
+},
+{
+"x": 17.379,
+"y": 14.159,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 204)",
+"net": "3V3_AVCC_R"
+},
+{
+"x": 29.317,
+"y": 14.159,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 204)",
+"net": "3V3_AVCC_R"
+},
+{
+"x": 31.369,
+"y": 14.139,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 220)",
+"net": "AGND"
+},
+{
+"x": 14.097,
+"y": 13.631,
+"dia": 0.93,
+"drill": 0.5,
+"root": "('B', 220)",
+"net": "AGND"
+},
+{
+"x": 45.424,
+"y": 13.631,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 220)",
+"net": "AGND"
+},
+{
+"x": 45.424,
+"y": 12.361,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 220)",
+"net": "AGND"
+},
+{
+"x": 15.93,
+"y": 11.883,
+"dia": 0.93,
+"drill": 0.5,
+"root": "('B', 237)",
+"net": "1V2_AVCC"
+},
+{
+"x": 17.399,
+"y": 11.684,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 220)",
+"net": "AGND"
+},
+{
+"x": 19.411,
+"y": 11.704,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 237)",
+"net": "1V2_AVCC"
+},
+{
+"x": 20.701,
+"y": 11.684,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 220)",
+"net": "AGND"
+},
+{
+"x": 23.306,
+"y": 11.704,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 204)",
+"net": "3V3_AVCC_R"
+},
+{
+"x": 26.035,
+"y": 11.684,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 220)",
+"net": "AGND"
+},
+{
+"x": 27.285,
+"y": 11.704,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 237)",
+"net": "1V2_AVCC"
+},
+{
+"x": 29.337,
+"y": 11.684,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 220)",
+"net": "AGND"
+},
+{
+"x": 4.445,
+"y": 11.599,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 179)",
+"net": "GND"
+},
+{
+"x": 51.406,
+"y": 11.459,
+"dia": 0.93,
+"drill": 0.5,
+"root": "('B', 240)",
+"net": "Net-(R201-1)"
+},
+{
+"x": 36.449,
+"y": 11.176,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 235)",
+"net": "I.2-VREF"
+},
+{
+"x": 37.465,
+"y": 11.176,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 252)",
+"net": "I.1-VREF"
+},
+{
+"x": 4.445,
+"y": 10.329,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 220)",
+"net": "AGND"
+},
+{
+"x": 12.045,
+"y": 9.587,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 237)",
+"net": "1V2_AVCC"
+},
+{
+"x": 1.905,
+"y": 9.398,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 220)",
+"net": "AGND"
+},
+{
+"x": 0.127,
+"y": 8.382,
+"dia": 1.27,
+"drill": 0.8,
+"root": "('B', 224)",
+"net": "5V0"
+},
+{
+"x": 21.209,
+"y": 8.297,
+"dia": 0.93,
+"drill": 0.5,
+"root": "('B', 220)",
+"net": "AGND"
+},
+{
+"x": 31.369,
+"y": 8.297,
+"dia": 0.93,
+"drill": 0.5,
+"root": "('B', 220)",
+"net": "AGND"
+},
+{
+"x": 41.529,
+"y": 8.297,
+"dia": 0.93,
+"drill": 0.5,
+"root": "('B', 220)",
+"net": "AGND"
+},
+{
+"x": 27.37,
+"y": 8.317,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 235)",
+"net": "I.2-VREF"
+},
+{
+"x": 37.191,
+"y": 8.317,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 235)",
+"net": "I.2-VREF"
+},
+{
+"x": 15.706,
+"y": 7.366,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 226)",
+"net": "VOUT2+"
+},
+{
+"x": 25.527,
+"y": 7.366,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 227)",
+"net": "VOUT4+"
+},
+{
+"x": 35.687,
+"y": 7.366,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 228)",
+"net": "VOUT6+"
+},
+{
+"x": 45.847,
+"y": 7.366,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 229)",
+"net": "VOUT8+"
+},
+{
+"x": 0.127,
+"y": 6.858,
+"dia": 1.27,
+"drill": 0.8,
+"root": "('B', 224)",
+"net": "5V0"
+},
+{
+"x": 49.488,
+"y": 7.112,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 223)",
+"net": "Net-(U204-2)"
+},
+{
+"x": 27.37,
+"y": 6.793,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 235)",
+"net": "I.2-VREF"
+},
+{
+"x": 37.191,
+"y": 6.793,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 235)",
+"net": "I.2-VREF"
+},
+{
+"x": 8.509,
+"y": 6.265,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 236)",
+"net": "Net-(U201-1)"
+},
+{
+"x": 15.706,
+"y": 6.096,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 235)",
+"net": "I.2-VREF"
+},
+{
+"x": 25.527,
+"y": 6.096,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 235)",
+"net": "I.2-VREF"
+},
+{
+"x": 35.687,
+"y": 6.096,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 235)",
+"net": "I.2-VREF"
+},
+{
+"x": 46.863,
+"y": 6.096,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 235)",
+"net": "I.2-VREF"
+},
+{
+"x": 51.943,
+"y": 6.011,
+"dia": 0.93,
+"drill": 0.5,
+"root": "('B', 220)",
+"net": "AGND"
+},
+{
+"x": 3.683,
+"y": 5.503,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 236)",
+"net": "Net-(U201-1)"
+},
+{
+"x": 0.127,
+"y": 4.826,
+"dia": 1.27,
+"drill": 0.8,
+"root": "('B', 238)",
+"net": "Net-(X100-24)"
+},
+{
+"x": 50.419,
+"y": 4.995,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 240)",
+"net": "Net-(R201-1)"
+},
+{
+"x": 15.367,
+"y": 4.826,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 241)",
+"net": "VOUT2-"
+},
+{
+"x": 25.527,
+"y": 4.826,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 242)",
+"net": "VOUT4-"
+},
+{
+"x": 35.687,
+"y": 4.826,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 243)",
+"net": "VOUT6-"
+},
+{
+"x": 45.847,
+"y": 4.826,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 244)",
+"net": "VOUT8-"
+},
+{
+"x": 53.044,
+"y": 4.318,
+"dia": 1.27,
+"drill": 0.8,
+"root": "('B', 220)",
+"net": "AGND"
+},
+{
+"x": 38.706,
+"y": 4.263,
+"dia": 0.93,
+"drill": 0.5,
+"root": "('B', 224)",
+"net": "5V0"
+},
+{
+"x": 39.976,
+"y": 4.263,
+"dia": 0.93,
+"drill": 0.5,
+"root": "('B', 224)",
+"net": "5V0"
+},
+{
+"x": 4.784,
+"y": 3.81,
+"dia": 1.1,
+"drill": 0.6,
+"root": "('B', 220)",
+"net": "AGND"
+},
+{
+"x": 10.004,
+"y": 3.839,
+"dia": 0.93,
+"drill": 0.5,
+"root": "('B', 237)",
+"net": "1V2_AVCC"
+},
+{
+"x": 0.127,
+"y": 3.302,
+"dia": 1.27,
+"drill": 0.8,
+"root": "('B', 238)",
+"net": "Net-(X100-24)"
+},
+{
+"x": 15.367,
+"y": 3.556,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 245)",
+"net": "VOUT1+"
+},
+{
+"x": 25.527,
+"y": 3.556,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 246)",
+"net": "VOUT3+"
+},
+{
+"x": 35.687,
+"y": 3.556,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 247)",
+"net": "VOUT5+"
+},
+{
+"x": 45.847,
+"y": 3.556,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 248)",
+"net": "VOUT7+"
+},
+{
+"x": 53.044,
+"y": 2.794,
+"dia": 1.27,
+"drill": 0.8,
+"root": "('B', 220)",
+"net": "AGND"
+},
+{
+"x": 15.367,
+"y": 2.286,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 252)",
+"net": "I.1-VREF"
+},
+{
+"x": 25.527,
+"y": 2.286,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 252)",
+"net": "I.1-VREF"
+},
+{
+"x": 35.687,
+"y": 2.286,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 252)",
+"net": "I.1-VREF"
+},
+{
+"x": 45.847,
+"y": 2.286,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 252)",
+"net": "I.1-VREF"
+},
+{
+"x": 11.049,
+"y": 1.016,
+"dia": 0.93,
+"drill": 0.5,
+"root": "('B', 220)",
+"net": "AGND"
+},
+{
+"x": 16.891,
+"y": 1.016,
+"dia": 0.93,
+"drill": 0.5,
+"root": "('B', 220)",
+"net": "AGND"
+},
+{
+"x": 21.209,
+"y": 1.016,
+"dia": 0.93,
+"drill": 0.5,
+"root": "('B', 220)",
+"net": "AGND"
+},
+{
+"x": 26.797,
+"y": 1.016,
+"dia": 0.93,
+"drill": 0.5,
+"root": "('B', 220)",
+"net": "AGND"
+},
+{
+"x": 31.369,
+"y": 1.016,
+"dia": 0.93,
+"drill": 0.5,
+"root": "('B', 220)",
+"net": "AGND"
+},
+{
+"x": 37.211,
+"y": 1.016,
+"dia": 0.93,
+"drill": 0.5,
+"root": "('B', 220)",
+"net": "AGND"
+},
+{
+"x": 41.529,
+"y": 1.016,
+"dia": 0.93,
+"drill": 0.5,
+"root": "('B', 220)",
+"net": "AGND"
+},
+{
+"x": 47.117,
+"y": 1.016,
+"dia": 0.93,
+"drill": 0.5,
+"root": "('B', 220)",
+"net": "AGND"
+},
+{
+"x": 0.127,
+"y": 0.169,
+"dia": 2.46,
+"drill": 2.0,
+"root": "('B', 220)",
+"net": "AGND"
+},
+{
+"x": 15.367,
+"y": 1.016,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 253)",
+"net": "VOUT1-"
+},
+{
+"x": 25.527,
+"y": 1.016,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 254)",
+"net": "VOUT3-"
+},
+{
+"x": 35.687,
+"y": 1.016,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 255)",
+"net": "VOUT5-"
+},
+{
+"x": 45.847,
+"y": 1.016,
+"dia": 0.76,
+"drill": 0.25,
+"root": "('B', 256)",
+"net": "VOUT7-"
+},
+{
+"x": 53.044,
+"y": 0.169,
+"dia": 2.46,
+"drill": 2.0,
+"root": "('B', 220)",
+"net": "AGND"
+},
+{
+"x": 2.752,
+"y": 0.169,
+"dia": 1.27,
+"drill": 0.8,
+"root": "('B', 220)",
+"net": "AGND"
+},
+{
+"x": 4.276,
+"y": 0.169,
+"dia": 1.27,
+"drill": 0.8,
+"root": "('B', 220)",
+"net": "AGND"
+},
+{
+"x": 50.419,
+"y": 0.169,
+"dia": 1.27,
+"drill": 0.8,
+"root": "('B', 220)",
+"net": "AGND"
+}
+],
+"rootmap": {
+"('B', 30)": "('B', 30)",
+"('B', 179)": "('B', 179)",
+"('B', 52)": "('B', 52)",
+"('B', 64)": "('B', 64)",
+"('B', 70)": "('B', 70)",
+"('B', 113)": "('B', 113)",
+"('B', 93)": "('B', 93)",
+"('B', 97)": "('B', 97)",
+"('B', 103)": "('B', 103)",
+"('B', 28)": "('B', 28)",
+"('B', 51)": "('B', 51)",
+"('B', 63)": "('B', 15)",
+"('B', 69)": "('B', 69)",
+"('B', 224)": "('B', 224)",
+"('B', 79)": "('B', 79)",
+"('B', 80)": "('B', 80)",
+"('B', 94)": "('B', 57)",
+"('B', 139)": "('B', 139)",
+"('B', 169)": "('B', 169)",
+"('B', 154)": "('B', 154)",
+"('B', 108)": "('B', 108)",
+"('B', 34)": "('B', 34)",
+"('B', 54)": "('B', 54)",
+"('B', 66)": "('B', 66)",
+"('B', 72)": "('B', 72)",
+"('B', 32)": "('B', 32)",
+"('B', 53)": "('B', 53)",
+"('B', 65)": "('B', 17)",
+"('B', 71)": "('B', 71)",
+"('B', 81)": "('B', 81)",
+"('B', 82)": "('B', 82)",
+"('B', 114)": "('B', 114)",
+"('B', 38)": "('B', 38)",
+"('B', 56)": "('B', 56)",
+"('B', 68)": "('B', 68)",
+"('B', 74)": "('B', 74)",
+"('B', 36)": "('B', 36)",
+"('B', 55)": "('B', 55)",
+"('B', 67)": "('B', 19)",
+"('B', 73)": "('B', 73)",
+"('B', 83)": "('B', 83)",
+"('B', 84)": "('B', 84)",
+"('B', 120)": "('B', 120)",
+"('B', 237)": "('B', 237)",
+"('B', 245)": "('B', 245)",
+"('B', 253)": "('B', 253)",
+"('B', 254)": "('B', 254)",
+"('B', 246)": "('B', 246)",
+"('B', 220)": "('B', 220)",
+"('B', 137)": "('B', 137)",
+"('B', 144)": "('B', 144)",
+"('B', 247)": "('B', 247)",
+"('B', 255)": "('B', 255)",
+"('B', 256)": "('B', 256)",
+"('B', 248)": "('B', 248)",
+"('B', 186)": "('B', 186)",
+"('B', 163)": "('B', 163)",
+"('B', 168)": "('B', 168)",
+"('B', 171)": "('B', 171)",
+"('B', 172)": "('B', 172)",
+"('B', 174)": "('B', 174)",
+"('B', 178)": "('B', 178)",
+"('B', 180)": "('B', 180)",
+"('B', 184)": "('B', 184)",
+"('B', 204)": "('B', 204)",
+"('B', 229)": "('B', 229)",
+"('B', 244)": "('B', 244)",
+"('B', 243)": "('B', 243)",
+"('B', 228)": "('B', 228)",
+"('B', 194)": "('B', 194)",
+"('B', 198)": "('B', 227)",
+"('B', 242)": "('B', 242)",
+"('B', 241)": "('B', 241)",
+"('B', 226)": "('B', 226)",
+"('B', 177)": "('B', 177)",
+"('B', 175)": "('B', 175)",
+"('B', 173)": "('B', 173)",
+"('B', 170)": "('B', 170)",
+"('B', 162)": "('B', 162)",
+"('B', 57)": "('B', 57)",
+"('B', 40)": "('B', 40)",
+"('B', 47)": "('B', 47)",
+"('B', 44)": "('B', 44)",
+"('B', 236)": "('B', 236)",
+"('B', 218)": "('B', 218)",
+"('B', 176)": "('B', 176)",
+"('B', 161)": "('B', 161)",
+"('B', 160)": "('B', 160)",
+"('B', 223)": "('B', 223)",
+"('B', 207)": "('B', 207)",
+"('B', 39)": "('B', 39)",
+"('B', 121)": "('B', 121)",
+"('B', 128)": "('B', 128)",
+"('B', 182)": "('B', 182)",
+"('B', 193)": "('B', 193)",
+"('B', 208)": "('B', 208)",
+"('B', 211)": "('B', 211)",
+"('B', 238)": "('B', 238)",
+"('B', 155)": "('B', 155)",
+"('B', 235)": "('B', 235)",
+"('B', 252)": "('B', 252)",
+"('B', 227)": "('B', 227)",
+"('B', 17)": "('B', 17)",
+"('B', 19)": "('B', 19)",
+"('B', 240)": "('B', 240)",
+"('B', 239)": "('B', 239)",
+"('F', 103)": "('F', 103)",
+"('B', 15)": "('B', 15)",
+"('B', 21)": "('B', 21)"
+},
+"netnames": {
+"('B', 179)": "GND",
+"('B', 220)": "AGND",
+"('B', 113)": "3V3",
+"('B', 224)": "5V0",
+"('B', 237)": "1V2_AVCC",
+"('B', 186)": "1V2_DVCC",
+"('B', 137)": "3V3_AVCC_L",
+"('B', 204)": "3V3_AVCC_R",
+"('B', 174)": "3V3.NOHF",
+"('B', 30)": "VREFL.3",
+"('B', 52)": "VCOML.3",
+"('B', 64)": "VINL+.3",
+"('B', 70)": "VINL-.3",
+"('B', 80)": "CLIPR.3",
+"('B', 79)": "CLIPL.3",
+"('B', 69)": "VINR-.3",
+"('B', 15)": "VINR+.3",
+"('B', 51)": "VCOMR.3",
+"('B', 28)": "VREFR.3",
+"('B', 108)": "AD.OUT.3",
+"('B', 93)": "FS0",
+"('B', 97)": "FS1",
+"('B', 103)": "HPFD",
+"('B', 139)": "MCLK",
+"('B', 169)": "LRCLK",
+"('B', 154)": "BCLK.IN",
+"('B', 57)": "nRST.PCM4202",
+"('B', 34)": "VREFL.2",
+"('B', 54)": "VCOML.2",
+"('B', 66)": "VINL+.2",
+"('B', 72)": "VINL-.2",
+"('B', 82)": "CLIPR.2",
+"('B', 81)": "CLIPL.2",
+"('B', 71)": "VINR-.2",
+"('B', 17)": "VINR+.2",
+"('B', 53)": "VCOMR.2",
+"('B', 32)": "VREFR.2",
+"('B', 114)": "AD.OUT.2",
+"('B', 38)": "VREFL.1",
+"('B', 56)": "VCOML.1",
+"('B', 68)": "VINL+.1",
+"('B', 74)": "VINL-.1",
+"('B', 84)": "CLIPR.1",
+"('B', 83)": "CLIPL.1",
+"('B', 73)": "VINR-.1",
+"('B', 19)": "VINR+.1",
+"('B', 55)": "VCOMR.1",
+"('B', 36)": "VREFR.1",
+"('B', 120)": "AD.OUT.1",
+"('B', 245)": "VOUT1+",
+"('B', 253)": "VOUT1-",
+"('B', 254)": "VOUT3-",
+"('B', 246)": "VOUT3+",
+"('B', 247)": "VOUT5+",
+"('B', 255)": "VOUT5-",
+"('B', 256)": "VOUT7-",
+"('B', 248)": "VOUT7+",
+"('B', 229)": "VOUT8+",
+"('B', 244)": "VOUT8-",
+"('B', 243)": "VOUT6-",
+"('B', 228)": "VOUT6+",
+"('B', 227)": "VOUT4+",
+"('B', 242)": "VOUT4-",
+"('B', 241)": "VOUT2-",
+"('B', 226)": "VOUT2+",
+"('B', 144)": "RST.ES9018",
+"('B', 163)": "SDA.PIPE.2",
+"('B', 168)": "SCL.PIPE.2",
+"('B', 172)": "MCLK.DA",
+"('B', 178)": "OVF-DA_LOCK",
+"('B', 162)": "BCLK.OUT",
+"('B', 170)": "ES_DATA2",
+"('B', 173)": "ES_DATA3",
+"('B', 175)": "ES_DATA4",
+"('B', 177)": "ES_DATA5",
+"('B', 194)": "ES_AUTOMUTE",
+"('B', 171)": "ES_XO",
+"('B', 47)": "SCL.PIPE.1",
+"('B', 44)": "SDA.PIPE.1",
+"('B', 40)": "OVF-AD",
+"('B', 128)": "nRST.2.DEVICES",
+"('B', 235)": "I.2-VREF",
+"('B', 252)": "I.1-VREF",
+"('B', 180)": "Net-(IC105-27)",
+"('B', 184)": "Net-(IC105-28)",
+"('B', 236)": "Net-(U201-1)",
+"('B', 218)": "Net-(U201-5)",
+"('B', 176)": "Net-(U203-2)",
+"('B', 161)": "Net-(U203-5)",
+"('B', 160)": "Net-(U203-8)",
+"('B', 223)": "Net-(U204-2)",
+"('B', 207)": "Net-(U204-3)",
+"('B', 39)": "Net-(X100-2)",
+"('B', 121)": "Net-(X100-10)",
+"('B', 182)": "Net-(X100-17)",
+"('B', 193)": "Net-(X100-18)",
+"('B', 208)": "Net-(X100-19)",
+"('B', 211)": "Net-(X100-20)",
+"('B', 238)": "Net-(X100-24)",
+"('B', 155)": "Net-(X102-1)",
+"('B', 240)": "Net-(R201-1)",
+"('B', 239)": "Net-(C255-1)",
+"('F', 103)": "Net-(C257-1)"
+}
+}
