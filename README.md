@@ -4,7 +4,7 @@ Hardware-Erweiterungen für Forge DSP 96ELN/96ELN-3/96LN und ETON CORE D8, entwo
 
 | Ordner | Inhalt | Issue |
 |---|---|---|
-| [`ExtensionPCB/`](ExtensionPCB) | Aufsatzplatine an Position 1 über X-EXT_AUDIO: Modulsteckplatz als Platinenrandstecker Samtec MEC1-120-02-F-D-EM2 (38 Kontakte, Module als 1,6-mm-Steckkarte), U.FL für S/PDIF, liegende FFC-Buchse für X105 (SPI), Lötpad für 7,5 V | [#1](https://github.com/forge-dsp-community/hardware/issues/1) |
+| [`ExtensionPCB/`](ExtensionPCB) | Aufsatzplatine an Position 1 über X-EXT_AUDIO: Modulsteckplatz als Platinenrandstecker Samtec MEC1-120-02-F-D-EM2 (38 Kontakte, Module als 1,6-mm-Steckkarte), U.FL für S/PDIF, liegende FFC-Buchse für X105 (SPI), Lötpad für 12 V vom Meanwell-Netzteil, über Ferrit und Elko gefiltert als VAUX an Kontakt 39/40 | [#1](https://github.com/forge-dsp-community/hardware/issues/1) |
 | [`UsbAudioPCB/`](UsbAudioPCB) | Nachbau der USB-Audio/COM-Platine V4.0i des Originals: XMOS XU208 (USB-Audio, I²S/S/PDIF an X104), CP2102 (USB-COM), microSD, QSPI-Flash, Stecker X101/X104 zum Mainboard. Neu: Aussparung über X-PDI für einen Dupont-Stecker. Erzeugt aus `tools/` | [#3](https://github.com/forge-dsp-community/hardware/issues/3) |
 | [`forge_es9018_iv_opa_v30/`](forge_es9018_iv_opa_v30) | KiCad-Rekonstruktion der I/V-Ausgangsplatine V3.0 (96ELN) des Originals aus den Eagle-Renderings: LME49740 (I/V-Wandler) und LME49720 (Differenzverstärker), steckt in J1–J4 der AD/DA-Trägerplatine. Netzliste, Platine mit Leiterbahnen, lesbarer Schaltplan | – |
 
